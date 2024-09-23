@@ -7,6 +7,7 @@
 \usepackage{ebgaramond}       % Elegant Garamond font for text
 \usepackage{titlesec}         % Customize section titles
 \usepackage{fancyhdr}         % Custom headers and footers
+\usepackage{wrapfig}
 \setlength{\headheight}{14.5pt}  % Adjust to avoid fancyhdr warning
 \addtolength{\topmargin}{-2.5pt}
 
@@ -50,6 +51,42 @@
 \newcommand{\authorname}{Racek et. al. }
 
 \newcommand{\asp}[1]{\textbf{\textit{#1}}}
+
+
+\newcommand{\prekonani}{%
+  \begin{wrapfigure}{l}{1cm}  
+    \vspace{0pt}  
+    \includegraphics[width=1.5cm]{prekonani-ikona}
+  \end{wrapfigure}
+  \leavevmode\ignorespaces  % To ensure proper alignment with the text
+}
+
+\newcommand{\vytvoreni}{%
+  \begin{wrapfigure}{l}{1cm}  
+    \vspace{0pt}  
+    \includegraphics[width=1.5cm]{vytvoreni-ikona}
+  \end{wrapfigure}
+  \leavevmode\ignorespaces  % To ensure proper alignment with the text
+}
+
+
+\newcommand{\utok}{%
+  \begin{wrapfigure}{l}{1cm}  
+    \vspace{0pt}  
+    \includegraphics[width=1.5cm]{utok-ikona}
+  \end{wrapfigure}
+  \leavevmode\ignorespaces  % To ensure proper alignment with the text
+}
+
+\newcommand{\obrana}{%
+  \begin{wrapfigure}{l}{1cm}  
+    \vspace{0pt}  
+    \includegraphics[width=1.5cm]{obrana-ikona}
+  \end{wrapfigure}
+  \leavevmode\ignorespaces  % To ensure proper alignment with the text
+}
+
+
 \usepackage{subfiles}
 \begin{document}
 
@@ -74,7 +111,6 @@
 %%Protože jsou kapitoly dlouhé, je každá jako jeden TeX dokument
 \chapter{Úvod}
 \label{chap:introduction}
-
 \subfile{chapters/uvod}
 
 \chapter{Aspekty}
@@ -95,7 +131,7 @@
 
 \chapter{Jde se na věc}
 \label{chap:jdesenavec}
-\subfile{chapters/triky}
+\subfile{chapters/jdesenavec}
 
 \chapter{Speciality}
 \label{chap:speciality}
