@@ -1,0 +1,108 @@
+\documentclass[12pt,a4paper,twoside,openany]{book}
+
+% Modern fonts and typographical packages
+\usepackage{fontspec}         % Allows font customization (XeLaTeX/LuaLaTeX)
+\usepackage{microtype}        % Enhances typographical output
+\usepackage{lmodern}          % Latin Modern fonts (fallback for math mode)
+\usepackage{ebgaramond}       % Elegant Garamond font for text
+\usepackage{titlesec}         % Customize section titles
+\usepackage{fancyhdr}         % Custom headers and footers
+\setlength{\headheight}{14.5pt}  % Adjust to avoid fancyhdr warning
+\addtolength{\topmargin}{-2.5pt}
+
+% Page and layout settings
+\usepackage[a4paper,margin=2.5cm]{geometry}   % Adjust margins
+\usepackage{multicol}         % For multiple column layouts
+\usepackage{parskip}          % Space between paragraphs
+\usepackage{setspace}         % Line spacing
+\usepackage{graphicx}         % For including images
+\graphicspath{{graphics/}}
+\usepackage{xcolor}           % Text and background color
+\usepackage{booktabs}         % Professional-quality tables
+\usepackage{hyperref}         % Hyperlinks in the PDF
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+% Custom headers
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[LO]{\nouppercase{\leftmark}}
+\fancyhead[RE]{\nouppercase{\rightmark}}
+
+% Chapter title customization
+\titleformat{\chapter}[hang]
+  {\normalfont\Huge\bfseries}{\thechapter}{2em}{}
+  
+% Section title customization
+\titleformat{\section}[block]{\Large\bfseries}{\thesection}{1em}{}
+
+% Color scheme (adjust for aesthetic)
+\definecolor{fateblue}{HTML}{00539C} % Fate Core blue
+\definecolor{chaptergray}{gray}{0.2}
+
+% Custom title page
+\newcommand{\booktitle}{Fate Core: Asterion}
+\newcommand{\authorname}{Racek et. al. }
+
+\newcommand{\asp}[1]{\textbf{\textit{#1}}}
+\usepackage{subfiles}
+\begin{document}
+
+% Title page
+\begin{titlepage}
+    \centering
+    {\Huge\textbf{\booktitle}}\\[1.5cm]
+    {\Large by \textit{\authorname}}\\[2cm]
+    \includegraphics[width=\textwidth]{logo}\\[2cm]
+    \vfill
+    {\large \today}
+\end{titlepage}
+
+\frontmatter  % Begin numbering in Roman numerals
+
+% Table of Contents
+\tableofcontents
+
+\mainmatter   % Switch to Arabic numerals for the main part of the book
+\setlength{\columnsep}{1cm}  % Space between columns
+
+%%Protože jsou kapitoly dlouhé, je každá jako jeden TeX dokument
+\chapter{Úvod}
+\label{chap:introduction}
+
+\subfile{chapters/uvod}
+
+\chapter{Aspekty}
+\label{chap:aspekty}
+\subfile{chapters/aspekty}
+
+\chapter{Akce}
+\label{chap:akce}
+\subfile{chapters/akce}
+
+\chapter{Dovednosti}
+\label{chap:dovednosti}
+\subfile{chapters/dovednosti}
+
+\chapter{Triky}
+\label{chap:triky}
+\subfile{chapters/triky}
+
+\chapter{Jde se na věc}
+\label{chap:jdesenavec}
+\subfile{chapters/triky}
+
+\chapter{Speciality}
+\label{chap:speciality}
+\subfile{chapters/speciality}
+
+\chapter{Postup}
+\label{chap:postup}
+\subfile{chapters/postup}
+
+\end{document}
