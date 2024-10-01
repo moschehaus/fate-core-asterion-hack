@@ -9,6 +9,7 @@
 \usepackage{titlesec}         % Customize section titles
 \usepackage{fancyhdr}         % Custom headers and footers
 \usepackage{wrapfig}
+\usepackage{tcolorbox}
 \setlength{\headheight}{14.5pt}  % Adjust to avoid fancyhdr warning
 \addtolength{\topmargin}{-2.5pt}
 
@@ -18,10 +19,12 @@
 \usepackage{parskip}          % Space between paragraphs
 \usepackage{setspace}         % Line spacing
 \usepackage{graphicx}         % For including images
+\usepackage{enumitem}
 \graphicspath{{graphics/}}
 \usepackage{xcolor}           % Text and background color
 \usepackage{booktabs}         % Professional-quality tables
 \usepackage{hyperref}         % Hyperlinks in the PDF
+\usepackage{subfiles}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
@@ -88,7 +91,22 @@
 }
 
 
-\usepackage{subfiles}
+\newenvironment{akce}
+{ % Begin definition
+  \begin{itemize}[label={}]
+}
+{ % End definition
+  \end{itemize}
+}
+
+
+\newcommand{\iconitem}[2]{%
+\item \raisebox{-0.5\height}{\includegraphics[width=1.5cm]{#1}} \ #2%
+  
+}
+
+
+
 \begin{document}
 
 % Title page
