@@ -1,7 +1,5 @@
-\documentclass[../main.tex]{subfiles}
-\graphicspath{{\subfix{../graphics/}}}
-\begin{document}
-
+\chapter{Střety, výzvy a konflikty}
+\label{chap:jdesenavec}
 
 \section{Jeden hod nebo peripetie?}
 \label{sec:hod/peripetie}
@@ -116,41 +114,98 @@ Zpět k pravidlům konfliktu. Ještě než se začne zběsile házet kostkami, j
 \item Jaké zóny se ve scéně vyskytují a jak se mezi nimi dá přesouvat?
 \end{itemize}
 
-Jednotlivé body nyní rozebereme podrobněji.
+Jednotlivé body nyní rozeberme podrobněji.
 
 \subsubsection{Určení stran}
 \label{sec:urcenistran}
+Tohle se týká spíše nehráčských postav - postav vypravěče. Bývá výhodné například nějaké postavy shluknout a považovat je mechanicky za jednu postavu (se vším všudy, tedy i s motivací), či družině přiřadit nějakého pomocníka jakožto volných vyvolání aspektů \asp{Posila}.
+
+Taky je dobré si rozmyslet, čeho chtějí postavy v konfliktu dosáhnout. Pobít všechny? Dostat se přes nepřátele k jejich šéfovi? Zastavit plán úhlavního nepřítele? Konflikty, jejímž hlavním cílem není všechny zabít (resp. v každé výměně zabít svého protivníka), se ukazují jako zábavnější. Umožňují lépe pracovat s následky (jež budou brzy představeny), odstoupením a vracejícimi se postavami. Bylo by nuda, kdyby jediný konflikt s hlavním záporákem nastal až na konci scénáře; na druhou stranu by bylo ještě nudnější, kdyby při prvním konfliktu zemřel...
 
 \subsubsection{Aspekty scény}
 \label{sec:aspektysceny}
 
+Vybarvení scény pomocí aspektů skvěle navodí atmosféru konfliktu: jedná se o špinavou bitku \asp{V chudinské čtvrti}, nebo dramatický duel \asp{Na palubě lodi}? Taky výborně vyzdvihují, co je ve scéně podstatného - pokud se celé dobrodružství odehrává na palubě lodi, není zajímavé z tohoto dělat aspekt scény; naopak, pokud ke konfliktu dojde při přistávání, aspekt \asp{Na pevné zemi} je najednou podstatný (byť přítomnost země pod nohama není běžně nijak podstatná).\\
+Nejde jen o navození atmosféry a vyzdvižení důležitých herních prvků. Aspekty scény hrají velmi důležitou roli při vyvolávání a vynucování; umožňují i postavám bez aspektů vhodných k vyvolání během konfliktu být užitečné. Je proto dobré, když před začátkem každého aspoň trochu významného konfliktu hráči společně s vypravěčem obdaří scénu několika aspekty.
+
 \subsubsection{Zóny a pohyb}
 \label{sec:zónyapohyb}
 
-Protože není úplně zábavné počítat, kolik sáhů \footnote{OG název pro metr.} která postava za kolo dokáže překonat, zavádí se pojem zóny. Platí, že postava se během kola 
+Protože není úplně zábavné počítat, kolik sáhů \footnote{OG název pro metr.} která postava za kolo dokáže překonat, zavádí se pojem zóny. Zóna vlastně představuje nejmenší jednotku vzdálenosti - nijak podrobněji se už nerozlišuje, kde přesně v zóně postava stojí. Platí tedy, že postavy v zóně mohou libovlně interagovat (bojovat spolu, předávat si vybavení apod.).\\
+Jak velká zóna není přesně definované. To je dobře, protože velmi záleží, jaké prostředí chcete na zóny dělit; jedna zóna tak může být jedna místnost, její část, nebo třeba celé patro či budova. Při stanovování je dobré zvážit, jak moc je konflikt lokalizovaný: pokud veškerá akce probíhá v jedné místnosti, nabízí se místnost rozdělit na několik zón; pokud konflikt probíhá například v jednom domě, každá místnost může být jedna zóna. Doporučený počet zón je 2 - 4 podle počtu postavu a rozsahu konfliktu.\\
+Pokud není důvod předpokládat něco jiného, není problém se mezi zónami přemisťovat. Pro větší plynulost hry volíme, že přemístění do vedlejší zóny probíhá v nulovém čase - tedy postava může například bojovat a k tomu se přemisťovat. V situaci, kdy se postava chce přemístit o více než jednu zónu či jí v přesunu něco brání, vyžádá si tato snaha hod na akci \texttt{Překonání}, což musí provést ve svém tahu (tj. zabere jí to celé kolo). Jakou opozici musí překonat pak závisí na povaze situace: jestliže se například postava snaží dostat do vedlejší zóny, ale není to samozřejmé, neboť ta je \asp{Dva metry pod vodou}, dává smysl stanovit pasivní opozici a házet na \textit{Mobilitu}. Podobně, chce-li postava překonat velké množství zón rychle v jednom kole, dobré je stanovit pasivní opozici hodu na například +1/+2 za přesun do každé zóny oproti té vedlejší.\\
+Může se též stát, že přesunu do jiné zóny brání jiná postava (viz akce \texttt{Obrana} a \texttt{Překonání}) - v takovém případě je opozice aktivní.
 
 \subsubsection{Průběh kola}
 \label{sec:prubehkola}
 
+Každé kolo probíhá podle stejné šablony:
+
+\begin{enumerate}
+\item Stanoví se pořadí, ve kterém budou postavy jednat (tzv. iniciativa).
+\item Ve svém tahu postavy hrají akce \texttt{Útok}, \texttt{Vytvoření výhody}, \texttt{Překonání} nebo zahlásí \texttt{Plnou obranu}, hází kostkami, přičítají dovednosti a případně vyvolávají/vynucují aspekty. Postava smí zahrát právě jednu akci a k tomu se pohnout do vedlejší zóny (pokud jí v tom něco nebrání).
+\item Mimo svůj tah postavy hrají akce \texttt{Obrana} (reagují na akce postavy, co je na tahu) případně tvoří aktivní opozici hodům na \texttt{Překonání}. Teoreticky může postava zahrát libovolné množství akcí \texttt{Obrana} - tj. bránit se každé nepřátelské akci.
+\end{enumerate}
+
+Ve chvíli, kdy postava ve svém tahu z konfliktu odstoupí, či je z konfliktu vyřazena, už se jej nemůže dále účastnit. Stejně tak, pokud se postava dostane na řadu až poté, co ji někdo způsobil následek, může tento aspekt někdo vyvolat, aby si pomohl při obraně proti akci, jež se zraněná postava snaží vykonat. Tím se prostě myslí, že akce probíhají ve stanoveném pořadí - a nikoli ``naráz'', jako tomu bylo v pravidlech M16.
+
 \subsubsection{Iniciativa}
 \label{sec:iniciativa}
 
+Každé kolo začíná hráč s nejvyšší iniciativou. Co přesně je iniciativa záleží na povaze konfliktu:
+
+\begin{itemize}
+\item ve fyzickém konfliktu je iniciativa rovna \textit{Pozornosti}, v případě remízy pak \textit{Mobilitě} a případně \textit{Kondici}
+\item v duševním konfliktu je iniciativa rovna \textit{Empatii}, v případě remízy \textit{Vztahům} a \textit{Vůli}
+\item v magickém konfliktu JEŠTĚ NEVÍM
+\end{itemize}
+
+Postavy pak přicházejí na řadu podle úrovně svých dovedností (nehází se!) a v případě, že nějaké postavy mají patřičnou dovednost na stejné úrovni, rozhoduje se podle úrovně další zmíněné dovednosti.\\
+Je do jisté míry otázkou, nakolik je výhodné začínat hrát jako první - dá se argumentovat, že hráči na tahu později pak mohou na tah nejiniciativnějšího hráče reagovat. Na druhou stranu, být poslední na tahu vždy znamená, že vaši rozmyšlenou akci vám někdo překazí prostě tím, že změní kontext konfliktu a vy ji musíte celou vymyslet znovu. K tomu taky postava riskuje, že se na tah ani nedostane, protože bude předtím vyřazena...
 
 \subsection{Stres a následky}
 \label{sec:stres-nasledky}
 
-\subsection{Fyzické konflikty}
-\label{sec:fyzicke-konflikty}
+Konflikty jsou o zraňování. Ukazateli, kolik toho postava vydrží, jsou právě stresy a následky.\\
+Po neúspěšné akci \texttt{Obrana} proti nepřátelské akci \texttt{Útok} se musí postava s obdrženým zraněním nějak popasovat. Konkrétněji, musí pomocí svých políček stresů a následků pokrýt (vyrovnat) celkový rozdíl hodů na \texttt{Útok} a \texttt{Obranu} - tzv. posun. Pokud postava není schopna posun pokrýt (či jej nechce pokrýt), je z konfliktu vyřazena; vyřazení \textbf{není} totéž co smrt - viz další sekce.\\
+Na pokrytí posunu po každé neúspěšné obraně může postava využít nejvýše jedno políčko stresu a libovolný počet následků; k tomu platí, že na pokrytí fyzického zranění lze použít pouze políčka fyzického stresu a vice versa pro duševní zranění a stres. Políčka následků jsou sdílené jak pro fyzické, tak i duševní zranění.\\
+Každá postava začíná hru se dvěma políčkami fyzického stresu a se dvěma políčkami duševního stresu; v obou případech je hodnota políček +1 a +2. Kromě stresu má postava k dispozici tři políčka následků: +2 (drobný), +4 (mírný), +6 (vážný) a jeden tzv. extrémní následek o hodnotě +8. Uváděné hodnoty představují, kolik \textbf{nejvýše} posunů je schopno políčko pokrýt. V případě, kdy postava neuspěje na obranu, musí zaškrtnout taková políčka, aby celkový součet jejích hodnot byl roven nebo větší posunu. Může se tedy stát, že v pokročilé fázi konfliktu bude postava nemajíc již žádná políčka stresu nucena zaškrtnout vážný (+6) následek - tomu hovorově říkáme \textbf{Spirála smrti}.\\
 
-\subsection{Duševní a sociální konflikty}
+\subsubsection{Stres}
+\label{sec:stres}
+
+Stres není v pravém slova smyslu zranění - nezpůsobuje postavě žádné přímé postihy. Je lepší jej proto interpretovat jako ``schopnost vyhnout se následkům''; proto se taky po skončení konfliktu, kdy mají postavy chvilku na vydýchání, všechna zaškrtnutá políčka stresu obnoví.\\
+Postavy s vyššími hodnotami dovedností \textit{Kondice} a \textit{Vůle} toho vydrží ve fyzických resp. duševních konfliktech o něco více. Konkrétně, mají-li \textit{Kondici/Vůli} na úrovni alespoň +2, získávají jedno políčko fyzického/dušvního stresu +2 navíc, jestliže mají dovednost na úrovni alespoň +3, dostávají jedno políčko fyzického/duševního stresu +4 navíc a pokud mají dokonce dovednost na úrovni +5, získávají jeden drobný (+2) následek navíc.
+
+\subsubsection{Následky}
+\label{sec:následky}
+
+Následky narozdíl od stresu zranění představují. A ještě o něco více - zranění podstatným způsobem ovlivňují realitu postižené postavy - a tato skutečnost je reprezentována aspektem. Tedy, následky jsou něco jako ``negativní aspekty'' postavy\footnote{Zde jen připomeňme, že v pravém slova smyslu negativní aspekty neexistují, viz sekce \ref{chap:aspekty}. Je ovšem třeba značného rétora, aby pro svůj prospěch využil, že je \asp{Téměř rozčtvrcen.}}, neboli postava s následkem je snadným terčem pro vyvolání tohoto aspektu. Zásadní je, že postava (resp. strana), která postavě následek uštědří, na něj získává volné vyvolání. To je analogie postihu za Otřes/Lehké zranění/Těžké zranění z pravidel M16; zde následek neposkytuje konstantní postih, ale spíše jakousi dynamickou výhodu prezentovanou právě oním volným vyvoláním.\\
+Každá postava může zaškrtnout libovolné množství (volných) následků, aby pokryla potřebný posun. Způsob, jakým se postava z následků zotavuje, je popsán v sekci...
+
+
+\subsubsection{Vyřazení a smrt}
+\label{sec:vyrazeniasmrt}
+
+\subsubsection{Odstoupení}
+\label{sec:odstoupeni}
+
+\subsection{Příklad jedné výměny}
+\label{sec:priklad-vymena}
+
+Pro lepší představu dynamiky zde uvedeme, jak může vypadat typická výměna a jakým způsobem se pracuje s stresem a následky.
+
+
+\section{Duševní a sociální konflikty}
 \label{sec:dusevni-soc-konflikty}
 
-\subsection{Magické konflikty}
+\section{Magické konflikty}
 \label{sec:magicke-konflikty}
 
+\section{Zotavování se z následků}
+\label{sec:zotavovanise}
 
 
-\end{document}
 
 %%% Local Variables:
 %%% mode: LaTeX

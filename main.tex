@@ -129,9 +129,10 @@
 \setlength{\columnsep}{1cm}  % Space between columns
 
 %%Protože jsou kapitoly dlouhé, je každá jako jeden TeX dokument
-\chapter{Úvod}
-\label{chap:introduction}
-\subfile{chapters/uvod}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ÚVOD%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{chapters/uvod}
 
 \begin{figure}[h!]
   \centering
@@ -139,9 +140,9 @@
   \includegraphics[width=\textwidth]{jezero}
 \end{figure}
 
-\chapter{Aspekty a body osudu}
-\label{chap:aspekty}
-\subfile{chapters/aspekty}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ASPEKTY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{chapters/aspekty}
 
 \begin{figure}[h!]
   \centering
@@ -149,9 +150,9 @@
   \includegraphics[width=\textwidth]{jules}
 \end{figure}
 
-\chapter{Akce a výsledky}
-\label{chap:akce}
-\subfile{chapters/akce}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%AKCE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{chapters/akce}
 
 \begin{figure}[h!]
   \centering
@@ -159,9 +160,9 @@
   \includegraphics[width=\textwidth]{swing}
 \end{figure}
 
-\chapter{Základní dovednosti}
-\label{chap:dovednosti}
-\subfile{chapters/dovednosti}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%DOVEDNOSTI%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{chapters/dovednosti}
 
 \begin{figure}[h!]
   \centering
@@ -169,9 +170,9 @@
   \includegraphics[width=0.75\textwidth]{chobotnice}
 \end{figure}
 
-\chapter{Triky}
-\label{chap:triky}
-\subfile{chapters/triky}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%TRIKY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{chapters/triky}
 
 \begin{figure}[h!]
   \centering
@@ -179,10 +180,9 @@
   \includegraphics[width=0.75\textwidth]{ryba}
 \end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%STRETY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Střety, výzvy a konflikty}
-\label{chap:jdesenavec}
-\subfile{chapters/strety}
+\include{chapters/strety}
 
 \begin{figure}[h!]
   \centering
@@ -190,10 +190,9 @@
   \includegraphics[width=0.5\textwidth]{zaba}
 \end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%POVOLÁNÍ%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{``Povolání''}
-\label{chap:speciality}
-\subfile{chapters/povolani}
+\include{chapters/povolani}
 
 \begin{figure}[h!]
   \centering
@@ -201,43 +200,37 @@
   \includegraphics[width=\textwidth]{carodejka}
 \end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%PŘEDMĚTY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Magické a speciální předměty}
-\label{chap:magicke-spec-predmety}
-\subfile{chapters/predmety}
+\include{chapters/predmety}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%POSTUP%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Postup a zlepšování postav}
-\label{chap:postup}
-\subfile{chapters/postup}
+\include{chapters/postup}
 
 \chapter{Dodatky}
 \label{chap:dodatky}
 
-\section{K čemu jsou dodatky}
-\label{sec:kcemudodatky}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%DODATKY - ÚVOD%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subfile{chapters/dodatky/uvod}
+\include{chapters/dodatky/uvod}
 
-\section{Sicco}
-\label{sec:sicco}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%SICCO%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subfile{chapters/dodatky/sicco}
 
-\section{Netvorobijec}
-\label{sec:netvorobijec}
+\include{chapters/dodatky/sicco}
 
-\subfile{chapters/dodatky/netvorobijec}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%NETVOROBIJEC%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Edenův bratr}
-\label{sec:edenuvbratr}
+\include{chapters/dodatky/netvorobijec}
 
-\subfile{chapters/dodatky/edenuvbratr}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%EDENŮV BRATR%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Subotamský mnich}
-\label{sec:subatom}
+\include{chapters/dodatky/edenuvbratr}
 
-\subfile{chapters/dodatky/subotam}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%SUBOTAM%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{chapters/dodatky/subotam}
 
 
 
