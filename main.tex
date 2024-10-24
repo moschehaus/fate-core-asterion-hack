@@ -25,6 +25,7 @@
 \usepackage{xcolor}           % Text and background color
 \usepackage{booktabs}         % Professional-quality tables
 \usepackage{hyperref}         % Hyperlinks in the PDF
+\usepackage{ulem}     % For underline in \trk{}
 \usepackage{subfiles}
 \hypersetup{
     colorlinks=true,
@@ -55,7 +56,11 @@
 \newcommand{\booktitle}{Fate Core: Asterion}
 \newcommand{\authorname}{Racek et. al. }
 
-\newcommand{\asp}[1]{\textbf{\textit{#1}}}
+\newcommand{\asp}[1]{\textbf{\textit{#1}}}   % Bold and italic for \asp{}
+\newcommand{\dov}[1]{\texttt{\textbf{#1}}}   % Monospace and bold for \dov{}
+\newcommand{\trk}[1]{\texttt{\textit{#1}}} % Italic and underlined for \trk{}
+\newcommand{\akc}[1]{\textsc{#1}}            % Small caps for \akc{}
+\newcommand{\per}[1]{\textbf{\fontfamily{phv}\selectfont #1}} % Bold and Helvetica
 
 
 \newcommand{\prekonani}{%
@@ -134,6 +139,7 @@
 
 \include{chapters/uvod}
 
+\asp{Toto je aspekt}, \dov{Mobilita}, \trk{Vsude jsem byl}, \per{Konflikt}, \akc{Obrana}
 \begin{figure}[h!]
   \centering
   \caption{\href{https://davidramos.ca/wp-content/uploads/2021/04/cyn-1024x576.png}{source}}
