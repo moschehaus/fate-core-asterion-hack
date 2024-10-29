@@ -3,27 +3,117 @@
 
 \section{Co a k čemu je trik}
 \label{sec:coakcemu-trik}
+Dovednosti postav jsou pořád poměrně obecné - tak například taková \dov{Mobilita} pokrývá běh, skok, lezení, plavání či uhýbání. Představme si dvě postavy, které mají \dov{Mobilitu} na stejné úrovni dovednosti: jedna z nich je mrštné dítě ulice, co se velmi hbitě dokáže pohybovat v městské zástavě a unikat dostižení; druhá je stepní hevren, který je vycvičen k dlouhým běhům a přelézání skal. Striktně vzato by ale dítě ulice mělo zvládat hevrenovo specilazici na step a skály stejně dobře jako on - a hevren by uměl provozovat parkour stejně dobře jako dítě ulice (třebaže ve městě nikdy nebyl...).\\
+K odlišení, jak která postava používá své dovednosti, slouží triky. Jsou to speciální způsoby či změna způsobů, které přidávají a upravují dosavadní fungování dovedností. Tím velmi konkretizují, co je postava zač: dítě ulice by v našem příkladu mohlo mít například trik \trk{Parkour} \ref{sec:mobilita-parkour} a najednou je zřejmé, že mezí jeho a hevrenovou \dov{Mobilitou} je ve skutečnosti velký rozdíl.\\
+Tedy shrnuto: trik doplňuje, upravuje či rozvádí použití dovedností, a tedy vytváří charakteristický prvek pro každou postavu. Vedle aspektů a dovedností jsou triky to podstatné, co ji definuje.
+
 
 \section{Efekty triků}
 \label{sec:trik-efekty}
+Jak jsme viděli výše, vymezení pojmu trik je poměrně obecné. K popsání pravidel triků je proto dobré (nutné) je nějak kategorizovat. Kategorie popsané níže jsou platné pro \textbf{základní} (nejčastější) triky - rozhodně nejsou vyčerpávající nebo ideální. Naopak, je dobré hráče podporovat v tom, aby se nenechali příliš svazovat těmito pravidly (Zlaté pravidlo!) a vymýšleli si triky vlastní. Kategorie níže pak představují kompromis mezi pravidlovou uchopitelností a volnou fantazií.\\
+Obecně vzato trik může mít prakticky libovolná pravidla. Ty triky, které nespadají do kategorií níže, zde označujeme jako speciální triky a věnujeme si jim v kapitole věnované specialitám \ref{sec:specialni-triky}.\\
+Některé triky jsou mocnější, pokročilejší než jiné, některé zase vyžadují předchozí zvládnutí jiného triku. Tyto vztahy pak popisuje sekce níže věnovaná rodinám triků \ref{sec:trik-rodiny}. 
+
+\subsection{Přidání bonusu k akci}
+\label{sec:trik-bonus}
+Základní efekt triku je přidání bonusu k konkrétní akci za specifických podmínek. Ty by měly být poměrně úzké - hráč by neměl mít možnost použít trik na každou situaci (neměl by nahradit používaní jiných dovedností.)\\
+Nejjednodušší způsob, jak specifikovat podmínky, je následující: postava dostane ``nějaký bonus'', když používá dovednost \dov{Dovednost} při akci \akc{Akce} a je u toho navíc ``něco splněno''. Pro představu uveďme několik příkladů a pak konkretizujme, co znamená ``nějaký bonus'' a ``něco splněno''.
+
+\begin{itemize}
+\item \trk{Kšeftař}:
+  Získáte +2 na \akc{Vytvoření výhody} pomocí \dov{Vztahů}, když se snažíte vyjednat lepší cenu (zboží, služby, odměny).
+\item \trk{Mistr převleků}:
+  Získáte +2 na \akc{Vytvoření výhody} pomocí \dov{Klamu}, když se snažíte vytvořit si kostým či převlek.
+\item \trk{Přivlastnění pasti}:
+  Kdykoliv uspějete se stylem na \akc{Překonání} pomocí \dov{Zlodějiny} ve snaze zneškodnit past či nástrahu, můžete místo toho past předělat, aby sloužila ve váš prospěch, čímž získáte výhodu \asp{Chráněno pastí} s pasivní +2 opozicí na překonání.
+\item \trk{Bytelná konstrukce}:
+  Jakýkoliv výrobek získáný \dov{Řemesly} pomocí \akc{Vytvoření výhody} sloužící k něčemu obranému (zbroj, štít, zátarasa, palisáda apod.) získává automaticky bonus +2 k pasivní opozice, jež je nutné překonat, aby byl zničen.
+\item \trk{Navalení se štítem}:
+  Kdykoliv máte štít a používáte \dov{Mobilitu} s \akc{Překonáním} k přesunu do jiné zóny a uspějete, můžete do protivníka vrazit v rychlosti štítem a způsobit mu tak dvouposunový stres.
+
+\end{itemize}
+``Nějaký bonus'' může být cokoliv, co lze efektivně převést na bonus +2 k hodu:
+
+\begin{itemize}
+\item jednoduše +2 k hodu (viz \trk{Kšeftař}, \trk{Mistr převleků})
+\item vytvoření +2 pasivní opozice (viz \trk{Bytelná konstrukce})
+\item vytvoření výhody (aspektu), jejíž odstranění vyžaduje úspěch proti +2 pasivní opozici (viz \trk{Přivlastnění pasti})
+\item obdoba 2 posunového zásahu (jež je nutné pokrýt stresem či následkem) (viz \trk{Navalení se štítem})
+\end{itemize}
+
+``Něco splněno'' dále specifikuje, v jakých příběhových podmínkách lze trik využít:
+
+\begin{itemize}
+\item když má postava vhodné vybavení (viz štít u \trk{Navalení se štítem})
+\item když postava využívá trik proti určitému protivníkovi (například proti myšlenkovým bytostem)
+\item když se postava účastní nějakého typu \per{Peripetie} (například pouze ve \per{Střetu})
+\item když se před použitím triku něco (ne)přihodilo (postava neobdržela žádné zranění, nepoužila trik v témže sezení apod.)
+\end{itemize}
 
 \subsection{Přidání nové akce k dovednosti}
 \label{sec:trik-pridani}
 
-\subsection{Přidání bonusu k akci}
-\label{sec:trik-bonus}
+Zajímavým efektem triku může být přidání nějaké akce k dovednosti, jež předtím toto použití neumožňovala (vzpomeňte na to množství vět ``Tuto dovednost nelze použít k akci ...'' u popisu dovedností v \ref{sec:seznam-dov}). I zde je ovšem potřeba blíže specifikovat, za jakých podmínek lze trik použít: pořád totiž nechceme, aby trik zcela nahradil nějakou jinou dovednost.  Na začátek opět uveďme pár příkladů:
+
+\begin{itemize}
+\item \trk{Skrytý útok}:
+  Můžete použít dovednost \dov{Skrývání} na provedení \akc{Útoku}, jestliže o vás váš cíl neví.
+\item \trk{Nikdy nejste v bezpečí}:
+  Můžete použít dovednost \dov{Zlodějina} k provádění duševních \akc{Útoků} a \akc{Vytváření výhod}, pokud provedete loupež takovým způsobem, že donutí oběť pochybovat o vlastní bezpečnosti.
+\item \trk{Zbraně vlastní výroby}:
+  Můžete použít dovednost \dov{Řemesla} na akce \akc{Útok, Obrana} namísto \dov{Boj se zbraní} resp. \dov{Boj na dálku}, jestliže k boji používate svépomocí vyrobené zbraně.
+\end{itemize}
+
+Ona dodatečná podmínka ``jestliže o vás váš cíl neví/pokud provedete loupež takovým způsobem, že.../jestliže používate svépomocí vyrobené zbraně...'' zajišťuje, že přidáním nové akci k dovednosti efektivně neodstraníme jinou dovednost ze hry; to je velmi podstatné jednak pro vyváženost, druhak pro zábavu - bylo by nuda, když by postava dokázala všechno vyřešit jedinou dovedností, ke které má mnoho triků.
 
 \subsection{Vytvoření výjimky z pravidel}
 \label{sec:trik-vyjimky}
+Posledním a nejobecnějším způsobem, jak může trik pravidla upravovat, je vytvoření nějaké výjimky. Teoreticky může vytvářet výjimku z libovolného pravidla; platí ale, že čím základnější pravidlo ovlivňuje, tím těžší je dohlédnout, jaký efekt tento trik bude mít na dynamiku celé hry. Uveďme několik typických výjimek, které triky mohou dovolovat:
+
+\begin{itemize}
+\item použít stejnou dovednost vícekrát během jediné \per{Výzvy} (běžně by bylo možné použít jí pouze jedinkrát)
+\item nerozdělovat posuny při akci proti skupině, ale házet proti každému zvlášť
+\item házet si na aktivní opozici, i když by běžně bylo logické použít opozici pasivní
+\item umožnit zahrát více akcí v jednom kole
+\item vynutit přijmutí následku oproti stresu
+\end{itemize}
+
+V žádném případě se nejedná o konečný výčet (jiné efekty jsou mj. popsány v seznamech triků níže); uveďme i přesto několik příkladů
+
+\begin{itemize}
+\item \trk{Stroj na přemýšlení}:
+  Můžete použít dovednost \dov{Učenost} dvakrát během jedné \per{Výzvy}.
+\item \trk{Svazovač}:
+  Kdykoliv na někom vytvoříte výhodu pomocí \dov{Řemesel} tím, že jej nějak spoutáte, smíte proti němu vždy házet na aktivní opozici, když se pokouší osvobodit.
+\item \trk{Riposta}:
+  Když uspějete se stylem při \akc{Útoku} v \dov{Boji se zbraní}, můžete způsobit dvouposunový zásah namísto získání posílení.
+\item \trk{Mnohonásobný výstřel}:
+  Pomocí dovednosti \dov{Boj na dálku} se můžete pokusit zasáhnout více nepřátel v téže zóně za předpokladu, že na každého z nich máte neskrytý výhled (nemusíte se přesouvat i v rámci zóny); na každý další terč kromě prvního má útočník postih -2 k hodu.
+\end{itemize}
 
 \section{Rodiny triků}
 \label{sec:trik-rodiny}
 
-\subsection{Větvení efektů}
-\label{sec:trik-vetveni}
+Jak uvidíme později, ve Fate Core neexistuje nic jako povolání známé nejen z pravidel M16 (čaroděj, bojovník, hraničář, střelec, hrdlořez, theurg, alchymista, zloděj, psionik, kněz atd.) To může být ostatně v mnohém výhoda; bez rigidního rozdělení si každý hráč může vytvořit povolání zcela dle svých potřeb. \\
+I tak je ovšem běžné, že nějaká postava má své triky hodně podobné; to může například vycházet z tréninku či velmi úzkého zaměření (zabiják nestvůr). Způsob, jak se vypořádat s blízkými triky, je právě rodina triků. Všechny triky se společným jmenovatelem se spojí do rodiny (stromu) a ty jsou pak mezi sebou svázané. Podmínkou je, že k získání hlubšího, pokročilejšího triku je vždy potřeba vlastnit nějaký základnější.
 
-\subsection{Skládaní efektů}
+\subsection{Skládaní efektů (``do hloubky'')}
 \label{sec:trik-skladani}
+První možnost je složit efekty a trik tak rozvinout ``do hloubky''. Tím se trik stane ještě silnější v původním efektu:
+
+\begin{itemize}
+\item jestliže trik přidával bonus k akci, ten další může přidávat ještě větší bonus (či nějaký dodatečný efekt odpovídající dvou posunům)
+\item jestliže trik přidával akci k dovednosti, přidejte k dovednosti další akci
+\item jestliže trik umožňoval získat výjimku z pravidel, udělejte výjimku ještě výjimečnější
+\end{itemize}
+
+\textbf{DOPLNIT PŘÍKLADY}
+
+\subsection{Větvení efektů (``do šíře'')}
+\label{sec:trik-vetveni}
+Jinou možností je efekty větvit - trik rozvinout ``do šíře''. To pak znamená, že k jednomu efektu (přidání bonusu, přidání akce, vytvoření výjimky) se přidá nový jiný efekt. Obecně vzato se efekty mohou doplňovat: jestliže například trik umožňuje použít \dov{Zlodějinu} pro \akc{Útok} a větvený trik přídává +2 k \dov{Zlodějině} (za nějakých podmínek) použitou na \akc{Útok}, pak lze použít \dov{Zlodějinu} na \akc{Útok} (díky 1. triku) s bonusem +2 (díky druhému triku).
+
+\textbf{DOPLNIT PŘÍKLADY}
 
 \section{Základní seznam triků}
 \label{sec:trik-zakladni}
@@ -60,7 +150,7 @@
 \label{sec:empatie-terapuet} Jednou za sezení můžete duševně zraněné postavě snížit závažnost jednoho neextrémního následku o jednu úroveň (odstranit Drobný, snížit Mírný na Drobný či snížit Vážný na Mírný). K tomu je potřeba s postavou odehrát rozhovor a uspět na hod na \dov{Empatii}, přičemž pasivní opozice je dle tabulky níže:
 \end{itemize}
 
-\begin{table}  
+\begin{table}[h]  
 \centering
 \begin{tabular}[h]{c|c}
 Následek & Pasivní opozice \\ \hline
@@ -76,7 +166,7 @@ Vážný (+6) -> Mírný (+4) & +4\\
   
 \item\trk{Klíště}:
 \label{sec:jezdectvi-kliste}
-Získáváte bonus +2 kdykoliv během honičky/závody pronásledujete jiného jezdce.
+Získáváte bonus +2 kdykoliv během honičky/závodu pronásledujete jiného jezdce.
 
 \item\trk{Hyjé!}:
 \label{sec:jezdectvi-hyje}
