@@ -7,12 +7,12 @@
                      '(("book" "12pt" "a4paper" "twoside" "openany")))
    (TeX-add-to-alist 'LaTeX-provided-package-options
                      '(("fontspec" "") ("microtype" "") ("lmodern" "") ("ebgaramond" "") ("titlesec" "") ("fancyhdr" "") ("wrapfig" "") ("tcolorbox" "most") ("caption" "") ("geometry" "a4paper" "margin=2.5cm") ("multicol" "") ("parskip" "") ("setspace" "") ("graphicx" "") ("enumitem" "") ("xcolor" "") ("booktabs" "") ("hyperref" "") ("ulem" "") ("subfiles" "")))
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (TeX-run-style-hooks
     "latex2e"
@@ -21,7 +21,7 @@
     "chapters/akce"
     "chapters/dovednosti"
     "chapters/triky"
-    "chapters/strety"
+    "chapters/strety_vyzvy_konflikty"
     "chapters/speciality"
     "chapters/povolani"
     "chapters/predmety"
