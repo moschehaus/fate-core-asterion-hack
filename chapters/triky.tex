@@ -3,7 +3,7 @@
 
 \section{Co a k čemu je trik}
 \label{sec:coakcemu-trik}
-Dovednosti postav jsou pořád poměrně obecné - tak například taková \dov{Mobilita} pokrývá běh, skok, lezení, plavání či uhýbání. Představme si dvě postavy, které mají \dov{Mobilitu} na stejné úrovni dovednosti: jedna z nich je mrštné dítě ulice, co se velmi hbitě dokáže pohybovat v městské zástavě a unikat dostižení; druhá je stepní hevren, který je vycvičen k dlouhým běhům a přelézání skal. Striktně vzato by ale dítě ulice mělo zvládat hevrenovo specilazici na step a skály stejně dobře jako on - a hevren by uměl provozovat parkour stejně dobře jako dítě ulice (třebaže ve městě nikdy nebyl...).\\
+Dovednosti postav jsou pořád poměrně obecné - tak například taková \dov{Mobilita} pokrývá běh, skok, lezení, plavání či uhýbání. Představme si dvě postavy, které mají \dov{Mobilitu} na stejné úrovni dovednosti: jedna z nich je mrštné dítě ulice, co se velmi hbitě dokáže pohybovat v městské zástavě a unikat dostižení; druhá je stepní hevren, který je vycvičen k dlouhým běhům a přelézání skal. Striktně vzato by ale dítě ulice mělo zvládat hevrenovu specilazaci na step a skály stejně dobře jako on - a hevren by uměl provozovat parkour stejně dobře jako dítě ulice (třebaže ve městě nikdy nebyl...).\\
 K odlišení, jak která postava používá své dovednosti, slouží triky. Jsou to speciální způsoby či změna způsobů, které přidávají a upravují dosavadní fungování dovedností. Tím velmi konkretizují, co je postava zač: dítě ulice by v našem příkladu mohlo mít například trik \trk{Parkour} \ref{sec:mobilita-parkour} a najednou je zřejmé, že mezí jeho a hevrenovou \dov{Mobilitou} je ve skutečnosti velký rozdíl.\\
 Tedy shrnuto: trik doplňuje, upravuje či rozvádí použití dovedností, a tedy vytváří charakteristický prvek pro každou postavu. Vedle aspektů a dovedností jsou triky to podstatné, co ji definuje.
 
@@ -85,8 +85,6 @@ V žádném případě se nejedná o konečný výčet (jiné efekty jsou mj. po
   Můžete použít dovednost \dov{Učenost} dvakrát během jedné \per{Výzvy}.
 \item \trk{Svazovač}:
   Kdykoliv na někom vytvoříte výhodu pomocí \dov{Řemesel} tím, že jej nějak spoutáte, smíte proti němu vždy házet na aktivní opozici, když se pokouší osvobodit.
-\item \trk{Riposta}:
-  Když uspějete se stylem při \akc{Útoku} v \dov{Boji se zbraní}, můžete způsobit dvouposunový zásah namísto získání posílení.
 \item \trk{Mnohonásobný výstřel}:
   Pomocí dovednosti \dov{Boj na dálku} se můžete pokusit zasáhnout více nepřátel v téže zóně za předpokladu, že na každého z nich máte neskrytý výhled (nemusíte se přesouvat i v rámci zóny); na každý další terč kromě prvního má útočník postih -2 k hodu.
 \end{itemize}
@@ -121,20 +119,50 @@ Jinou možností je efekty větvit - trik rozvinout ``do šíře''. To pak zname
 \subsection{Boj beze zbraně}
 \label{sec:trik-bbz}
 \begin{itemize}
-  \item
+\item\trk{Jau, to bolí}:
+  \label{sec:bbz-jau}
+  Můžete použít dovednost \dov{Boj beze zbraně}, namísto \dov{Provokace} abyste někoho ``přesvědčili'' pomocí vyhrožování fyzickým násilím (doplněné o naznačení jako chycení za flígr apod.); to lze použít, pokud se vás protivník může fyzicky bát: tedy na drobounkého úředníka \trk{Jau, to bolí} použít lze, byť ho chrání zákon, ale na velezkušeného žoldáka (nebo zkrátka žoldáka doplněného o početnou družinu) toto fungovat nebude.
+\item\trk{Útok na slabiny}:
+  \label{sec:bbz-slabiny}
+  Získáváte bonus +2 na akce \akc{Vytváření výhody} pomocí \dov{Boje beze zbraně} kdykoliv si chcete pomoci efektivními (ale trochu špinavými) útoky na slabá místa nepřátel: šťourání do očí, kopání do rozkroku, přímé kopy na kolena, útoky na ohryzek apod. K tomu je ovšem potřeba slabá místa znát - u humanoidů lze použít např. ta zmiňovná, u jiných bytostí může být situace komplikovanější.
+\item\trk{Férovka}:
+  Jestliže se vám podaří vytvořit na nepříteli používající zbraň výhodu odrážející skutečnost, že jste u něj mnohem blíže než je efektivní vzdálenost pro používání jeho zbraně (aspekty jako \asp{Nalepený, Nabalený, Nevzdálím se o krok}), můžete jej za vyvolání tohoto aspektu donutit, aby na svůj \akc{Útok}/\akc{Obranu} použil \dov{Boj beze zbraně} namísto \dov{Boje se zbraní} (v běžném případě by vám výhoda dávala klasický efekt vyvolání aspektu, ale neumožnila diktovat, jakou dovednost protivník použije).
 \end{itemize}
+
   
 \subsection{Boj na dálku}
 \label{sec:trik-bnd}
 \begin{itemize}
-  \item
+\item\trk{Jeden terč}:
+\label{sec:bnd-odstrelovac}
+Získáváte bonus +2 na \dov{Vytvoření výhody} reprezentující zamíření proti protivníkovi, kterého jste už alespoň jednou úspěšne zasáhli. Takto lze výhodně zaměřovat postupně nanejvýše dva protivníky za konflikt.
+
+\item\trk{Mnohonásobný výstřel}:
+\label{sec:bnd-mnohonasobny}
+Pomocí dovednosti \dov{Boj na dálku} se můžete pokusit zasáhnout více nepřátel v téže zóně za předpokladu, že na každého z nich máte neskrytý výhled (nemusíte se přesouvat i v rámci zóny); na každý další terč kromě prvního má útočník postih -2 k hodu. Toto lze použít pouze se zbraněmi, které nevyžadují 1 kolo nabíjení.
+
+\item \trk{Odstřelovač}:
+\label{sec:bnd-odstrelovac}
+Smíte útočit dovedností \dov{Boj na dálku} i na vzdálenější protivníky. Bez postihu lze střílet na postavy až 2 zóny vzdálené\footnote{Tedy na postavy v téže zóně, vedlejší zóně a ještě zóně o jedna vzdálené od té vedlejší.}, střelba do vzdálenější zón je pak zatížena postihem -2/zóna navíc. 
+
 \end{itemize}
   
 \subsection{Boj se zbraní}
 \label{sec:trik-bsz}
 \begin{itemize}
-  \item
+\item\trk{Odzbrojení}:
+  Získáváte bonus +2 pro pokusy o \akc{Vytvoření výhody} pomocí odzbrojení svého protivníká; k tomu je potřeba, aby protivník měl v ruce nějakou zbraň (tedy takto samozřejmě nelze odzbrojit nestvůru, co útočí svými tesáky). Po úspěšném odzbrojení se může protivník svou zbraň získat zpět: jestliže útočník nevěnuje své kolo snaze tomu zabránit, zbraň získává v rámci téhož kola zpět; útočník se ovšem může rozhodnout mu v tom aktivně bránit: v takovém případě je to jeho akce a používají se relevantní dovednosti jako \dov{Zlodějina, Pozornost, Mobilita, Kondice}.
+
+\item\trk{Úder hruškou}:
+\label{sec:bsz-hruska}
+Jestliže jste v situaci, kdy byste nemohli běžně používat svoji zbraň\footnote{Poznamenejme, že v takové situaci mají jednoruční zbraně postih k hodnocení zbraně -1 a obouruční dokonce -2.} (v mačkanici lidí, v ztísněném prostoru), můžete dvakrát za konflikt zasáhnout svého protivníka hruškou, čímž zvýšíte závažnost zásahu o +2.
+
+\item\trk{Štítař}:
+  \label{sec:bsz-stitar}
+Jestliže používate štít při \akc{Plné obraně} získáváte bonus +4 oproti běžným +2 při obraně proti útokům vedeným zepředu/z boku protivníky, o kterých máte povědomí; tedy takto se nelze bránit útokům z úkrytu či zezad. 
 \end{itemize}
+
+
 
 \subsection{Empatie}
 \label{sec:trik-empatie}
@@ -274,8 +302,15 @@ Můžete použít dovednost \dov{Pozornost} namísto \dov{Empatie} či \dov{Vzta
 
 \item\trk{Střelba od boku}:
 \label{sec:pozornost-strelba}
-Můžete použít \dov{Pozornost} namísto \dov{Boje na dálku} abyste provedli rychlý instinktivní výstřel od boku (pokus nejste např. v situaci, kdy ležíte zamířen na terč).
+Můžete použít \dov{Pozornost} namísto \dov{Boje na dálku} abyste provedli rychlý instinktivní výstřel od boku (nejste např. v situaci, kdy ležíte zamířen na terč).
+
+\item\trk{Šestý smysl}:
+\label{sec:pozornost-smysl}
+Kdykoliv někdo proti postavě s tímto trikem háže proti \dov{Pozornosti} s pasivní opozicí, je tato pasivní opozice zvýšena o +2; to může nastat například v pokusech o krádež, útok ze zálohy apod.
 \end{itemize}
+
+
+
 
 \subsection{Provokace}
 \label{sec:trik-provokace}
@@ -305,7 +340,14 @@ V jakoukoliv situaci máte vhodné nástroje na provedení (rozumné) řemeslné
 \item\trk{Lepší než nový}:
 \label{sec:remesla-lepsi}
 Kdykoliv na akci \akc{Překonání} při opravování nějakého stroje uspějete se stylem, namísto běžného posílení můžete na stroj umístit nový aspekt reprezentující nějaký upgrade.
+
+\item \trk{Zbraně vlastní výroby}:
+\label{sec:remesla-zbrane}
+ Můžete použít dovednost \dov{Řemesla} na akce \akc{Útok, Obrana} namísto \dov{Boj se zbraní} resp. \dov{Boj na dálku}, jestliže k boji používate svépomocí vyrobené zbraně.
+
 \end{itemize}
+
+
 
 \subsection{Skrývání}
 \label{sec:trik-skryvani}
@@ -318,6 +360,14 @@ Získáváte bonus +2 kdykoliv se snažíte zmizet v nějakém zalidněném pros
 \item\trk{Nejasný cíl}:
 \label{sec:skryvani-nejasny}
 Za předpokladu, že jste ve tmě, stínu či jinak těžko spatřitelní, můžete použít \dov{Skrývání} na \akc{Obranu} proti útokům pomocí \dov{Boji na dálku} z jiných zón.
+
+\item\trk{Kam zmizel?!}:
+\label{sec:skryvani-zmizel}
+  Za zaplacení bodu osudu zmízíte z okamžitého povědomí všech postav - ztratíte se z dohledu, jste odstraněni z herní mapy a nikdo neví, jaké bude vaše další počínání. To lze ve většině kontextů, kdy je prostředí alespoň trochu strukturované; například takto nelze zmizet uprostřed prázdné zamknuté malé místnosti nebo široširého oceánu.
+
+\item\trk{Skrytý útok}:
+\label{sec:skryvani-utok}
+ Smíte používat dovednost \dov{Skrývání} na provedení \akc{Útoku}, pokud o vás vaše oběť neví (ve smyslu, že neví o vaší přítomnosti - pokud se mu jen dostanete do zad, nelze v tomto případě \trk{Skrytý útok} použít.)
 \end{itemize}
 
 \subsection{Učenost}
@@ -362,12 +412,20 @@ Ve scéně se můžete rozhodnout ignorovat libovolný následek - ten zůstáv�
 \label{sec:vysetrovani-mikro}
 Můžete použít dovednost \dov{Vyšetřování} namísto \dov{Empatie} či \dov{Vůle}, abyste se bránili dovednosti \dov{Klam} pečlivým čtením řeči těla protivníka.
 
-\item\trk{Fízlování}
+\item\trk{Fízlování}:
 \label{sec:vysetrovani-fizlovani}:
 Po úspěšném \akc{Vytvoření výhody} pomocí \dov{Vyšetřování} při odposlouchávání rozhovoru můžete vytvořit o jeden aspekt navíc; nemáte na něj sice volné vyvolání, ale taky tím získáváte vypravěčskou pravomoc o detailech konverzace.
+
+
+\item\trk{Detektiv}:
+\label{sec:vysetrovani-detektiv}
+Získáváte bonus +2, kdykoliv používáte \dov{Vyšetřování} abyste prošetřili místo činu (potyčka, vražda, krádež, vloupání) za účelem získání nějakého detailu či povědomí, co se na místě dělo.
+
+\item\trk{Stopování}:
+\label{vysetrovani-stopovani}
+Získáváte +2, jestliže používáte \dov{Vyšetřování} k naleznutí či sledování stop (nejen doslova například v bahně) a vodítek.
+
 \end{itemize}
-
-
 \subsection{Vztahy}
 \label{sec:trik-vztahy}
 \begin{itemize}
