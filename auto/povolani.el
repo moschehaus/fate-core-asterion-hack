@@ -3,12 +3,12 @@
 (TeX-add-style-hook
  "povolani"
  (lambda ()
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (LaTeX-add-labels
     "chap:speciality"
@@ -24,6 +24,36 @@
     "sec:pov-alchymista"
     "sec:pov-theurg"
     "sec:pov-knez"
+    "sec:modlitby"
+    "sec:obrady"
+    "sec:bozsky-pomocnik"
+    "sec:alcaril"
+    "sec:aurion"
+    "sec:bongir"
+    "sec:dunril"
+    "sec:estel"
+    "sec:faeron"
+    "sec:finwalur"
+    "sec:gor"
+    "sec:lamius"
+    "sec:mauril"
+    "sec:mern"
+    "sec:mirtal"
+    "sec:rianna"
+    "sec:siaron"
+    "sec:siomen"
+    "sec:sirril"
+    "sec:tarfein"
+    "sec:dreskan"
+    "sec:gwi"
+    "sec:inaka"
+    "sec:meabor"
+    "sec:ndangawa"
+    "sec:sandol-kah"
+    "sec:sarapis"
+    "sec:in"
+    "sec:temna-kap"
+    "sec:ynnar-rut"
     "sec:pov-druid"
     "sec:berserker"
     "sec:pov-netvorobijec"
