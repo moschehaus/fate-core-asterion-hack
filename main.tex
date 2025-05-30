@@ -1,8 +1,10 @@
-
+%! TeX program = xelatex
 
 \documentclass[12pt,a4paper,twoside,openany]{book}
 
 % Modern fonts and typographical packages
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
 \usepackage{fontspec}         % Allows font customization (XeLaTeX/LuaLaTeX)
 \usepackage{microtype}        % Enhances typographical output
 \usepackage{lmodern}          % Latin Modern fonts (fallback for math mode)
@@ -140,7 +142,6 @@
 
 \include{chapters/uvod}
 
-\asp{Toto je aspekt}, \dov{Mobilita}, \trk{Vsude jsem byl}, \per{Konflikt}, \akc{Obrana}
 \begin{figure}[h!]
   \centering
   \caption{\href{https://davidramos.ca/wp-content/uploads/2021/04/cyn-1024x576.png}{source}}
