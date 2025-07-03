@@ -1,121 +1,7 @@
 %! TeX program = xelatex
-
 \documentclass[12pt,a4paper,twoside,openany]{book}
-
-% Modern fonts and typographical packages
-\usepackage[czech]{babel}
-\usepackage[utf8]{inputenc}
-\usepackage{fontspec}         % Allows font customization (XeLaTeX/LuaLaTeX)
-\usepackage{microtype}        % Enhances typographical output
-\usepackage{lmodern}          % Latin Modern fonts (fallback for math mode)
-\usepackage{ebgaramond}       % Elegant Garamond font for text
-\usepackage{titlesec}         % Customize section titles
-\usepackage{fancyhdr}         % Custom headers and footers
-\usepackage{wrapfig}
-\usepackage[most]{tcolorbox}
-\usepackage{caption}
-\setlength{\headheight}{14.5pt}  % Adjust to avoid fancyhdr warning
-\addtolength{\topmargin}{-2.5pt}
-
-% Page and layout settings
-\usepackage[a4paper,margin=2.5cm]{geometry}   % Adjust margins
-\usepackage{multicol}         % For multiple column layouts
-\usepackage{parskip}          % Space between paragraphs
-\usepackage{setspace}         % Line spacing
-\usepackage{graphicx}         % For including images
-\usepackage{enumitem}
-\graphicspath{{graphics/}}
-\usepackage{xcolor}           % Text and background color
-\usepackage{booktabs}         % Professional-quality tables
-\usepackage{hyperref}         % Hyperlinks in the PDF
-\usepackage{ulem}     % For underline in \trk{}
 \usepackage{subfiles}
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=cyan,
-}
-
-% Custom headers
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[LE,RO]{\thepage}
-\fancyhead[LO]{\nouppercase{\leftmark}}
-\fancyhead[RE]{\nouppercase{\rightmark}}
-
-% Chapter title customization
-\titleformat{\chapter}[hang]
-  {\normalfont\Huge\bfseries}{\thechapter}{2em}{}
-  
-% Section title customization
-\titleformat{\section}[block]{\Large\bfseries}{\thesection}{1em}{}
-
-% Color scheme (adjust for aesthetic)
-\definecolor{fateblue}{HTML}{00539C} % Fate Core blue
-\definecolor{chaptergray}{gray}{0.2}
-
-% Custom title page
-\newcommand{\booktitle}{Fate Core: Asterion}
-\newcommand{\authorname}{Racek et. al. }
-
-\newcommand{\asp}[1]{\textbf{\textit{#1}}}   % Bold and italic for \asp{}
-\newcommand{\dov}[1]{\texttt{\textbf{#1}}}   % Monospace and bold for \dov{}
-\newcommand{\trk}[1]{\texttt{\textit{#1}}} % Italic and underlined for \trk{}
-\newcommand{\akc}[1]{\textsc{#1}}            % Small caps for \akc{}
-\newcommand{\per}[1]{\textbf{\fontfamily{phv}\selectfont #1}} % Bold and Helvetica
-
-
-\newcommand{\prekonani}{%
-  \begin{wrapfigure}{l}{1cm}  
-    \vspace{10pt}  
-    \includegraphics[width=1.5cm]{prekonani-ikona}
-  \end{wrapfigure}
-  \leavevmode\ignorespaces  % To ensure proper alignment with the text
-}
-
-\newcommand{\vytvoreni}{%
-  \begin{wrapfigure}{l}{1cm}  
-    \vspace{10pt}  
-    \includegraphics[width=1.5cm]{vytvoreni-ikona}
-  \end{wrapfigure}
-  \leavevmode\ignorespaces  % To ensure proper alignment with the text
-}
-
-
-\newcommand{\utok}{%
-  \begin{wrapfigure}{l}{1cm}  
-    \vspace{10pt}  
-    \includegraphics[width=1.5cm]{utok-ikona}
-  \end{wrapfigure}
-  \leavevmode\ignorespaces  % To ensure proper alignment with the text
-}
-
-\newcommand{\obrana}{%
-  \begin{wrapfigure}{l}{1cm}  
-    \vspace{10pt}  
-    \includegraphics[width=1.5cm]{obrana-ikona}
-  \end{wrapfigure}
-  \leavevmode\ignorespaces  % To ensure proper alignment with the text
-}
-
-
-\newenvironment{akce}
-{ % Begin definition
-  \begin{itemize}[label={}]
-}
-{ % End definition
-  \end{itemize}
-}
-
-
-\newcommand{\iconitem}[2]{%
-\item \raisebox{-0.5\height}{\includegraphics[width=1.5cm]{#1}} \ #2%
-  
-}
-
-
-
+\input{preamble}
 \begin{document}
 
 % Title page
@@ -128,19 +14,20 @@
     {\large \today}
 \end{titlepage}
 
-\frontmatter  % Begin numbering in Roman numerals
+\frontmatter  
 
 % Table of Contents
 \tableofcontents
+\newpage
 
-\mainmatter   % Switch to Arabic numerals for the main part of the book
+\mainmatter   
 \setlength{\columnsep}{1cm}  % Space between columns
 
 %%Protože jsou kapitoly dlouhé, je každá jako jeden TeX dokument
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ÚVOD%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{chapters/uvod}
+\subfile{chapters/uvod}
 
 \begin{figure}[h!]
   \centering
@@ -150,7 +37,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ASPEKTY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{chapters/aspekty}
+\subfile{chapters/aspekty}
 
 \begin{figure}[h!]
   \centering
@@ -160,7 +47,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%AKCE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{chapters/akce}
+\subfile{chapters/akce}
 
 \begin{figure}[h!]
   \centering
@@ -170,7 +57,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%DOVEDNOSTI%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{chapters/dovednosti}
+\subfile{chapters/dovednosti}
 
 \begin{figure}[h!]
   \centering
@@ -180,7 +67,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%TRIKY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{chapters/triky}
+\subfile{chapters/triky}
 
 \begin{figure}[h!]
   \centering
@@ -190,7 +77,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%STRETY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{chapters/strety_vyzvy_konflikty}
+\subfile{chapters/strety_vyzvy_konflikty}
 
 \begin{figure}[h!]
   \centering
@@ -199,7 +86,7 @@
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%SPECIALITY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\include{chapters/speciality}
+\subfile{chapters/speciality}
 
 \begin{figure}[h!]
   \centering
@@ -209,7 +96,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% POVOLÁNÍ%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{chapters/povolani}
+\subfile{chapters/povolani}
 
 \begin{figure}[h!]
   \centering
@@ -219,37 +106,39 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%PŘEDMĚTY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{chapters/predmety}
+\subfile{chapters/predmety}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%POSTUP%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{chapters/postup}
+\subfile{chapters/postup}
 
 \chapter{Dodatky}
 \label{chap:dodatky}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%DODATKY - ÚVOD%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{chapters/dodatky/uvod}
+\subfile{chapters/dodatky/uvod}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%SICCO%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\include{chapters/dodatky/sicco}
+\subfile{chapters/dodatky/sicco}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%NETVOROBIJEC%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{chapters/dodatky/netvorobijec}
+\subfile{chapters/dodatky/netvorobijec}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%EDENŮV BRATR%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{chapters/dodatky/edenuvbratr}
+\subfile{chapters/dodatky/edenuvbratr}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%SUBOTAM%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{chapters/dodatky/subotam}
+\subfile{chapters/dodatky/subotam}
 
 
 
+\newpage
+\printbibliography
 
 \end{document}

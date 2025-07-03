@@ -1,0 +1,73 @@
+% —— Color theme & typography enhancements ——
+\usepackage{fontspec}              % Xe/LuaLaTeX fonts
+\usepackage{ebgaramond}            % elegant text face
+\usepackage{lmodern}               % Latin Modern for math fallback
+\usepackage{microtype}             % subtle typographic refinements
+
+\usepackage{xcolor}
+  \definecolor{fateblue}{HTML}{00539C}     % Fate Core accent
+  \definecolor{chaptergray}{gray}{0.2}     % dark gray for chapter numbers
+
+% —— Section & chapter styling via titlesec ——  
+\usepackage{titlesec}           
+  % display-style chapter headings with colored number
+  \titleformat{\chapter}[display]
+    {\bfseries\huge\filcenter}
+    {%
+      \color{chaptergray}\Large\scshape Chapter \thechapter
+    }{1ex}{%
+      \color{fateblue}\LARGE\bfseries
+    }
+  \titlespacing*{\chapter}{0pt}{-1.5em}{2.5em}  % tighten above, add below
+
+  % run-in sections with small caps label
+  \titleformat{\section}[runin]
+    {\bfseries\large}{\thesection}{1em}{}
+
+% —— Custom theorem/definition boxes like in the thesis ——  
+\usepackage[most]{tcolorbox}
+  \newtcbtheorem[auto counter, number within=chapter]
+    {definition}{Definition}%
+    {colback=white,colframe=fateblue,fonttitle=\bfseries}{def}
+
+  \newtcbtheorem[auto counter, number within=chapter]
+    {remark}{Remark}%
+    {colback=chaptergray!10,colframe=chaptergray,fonttitle=\itshape}{rem}
+
+% —— Fancy headers & footers ——  
+\usepackage{fancyhdr}
+  \pagestyle{fancy}
+  \fancyhf{}
+  \fancyhead[LE,RO]{\thepage}
+  \fancyhead[LO]{\nouppercase{\rightmark}}
+  \fancyhead[RE]{\nouppercase{\leftmark}}
+  \renewcommand{\headrulewidth}{0.4pt}
+
+% —— Table and figure styling ——  
+\usepackage{booktabs}             % professional tables
+\usepackage{caption}              
+  \captionsetup{font=small,labelfont=bf}
+
+% —— Wrap figures for inline icons ——  
+\usepackage{wrapfig}
+
+% —— Hyperlinks in a matching scheme ——  
+\usepackage{hyperref}
+  \hypersetup{
+    colorlinks,
+    linkcolor=fateblue,
+    urlcolor=cyan,
+    citecolor=magenta
+  }
+
+% —— Page layout ——  
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\setlength{\headheight}{14.5pt}    % for fancyhdr
+
+% —— Your existing macros still fit smoothly ——  
+\newcommand{\asp}[1]{\textbf{\textit{#1}}}
+\newcommand{\dov}[1]{\texttt{\textbf{#1}}}
+\newcommand{\trk}[1]{\uline{\texttt{#1}}}
+\newcommand{\akc}[1]{\textsc{#1}}
+\newcommand{\per}[1]{\textbf{\fontfamily{phv}\selectfont #1}}
+
