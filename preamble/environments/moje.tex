@@ -1,0 +1,13 @@
+%% Define new environments with custom styles
+\NewTodoLike{Pravidlo}{gray!15}       % Light gray background
+\NewTodoLike{Predmet}{blue!10}        % Light blue background
+
+\definecolor{bloodred}{RGB}{150, 0, 0}  
+
+% Step 2: Create a standalone environment  
+\NewTColorBox{Real}{o}{  
+    todolike,  
+    colback=bloodred!10,            % Lighter blood-red  
+    colframe=bloodred!70!black,     % Darker border  
+    title={Realistické hraní\IfValueT{#1}{ \textmd{(#1)}}.}  
+}

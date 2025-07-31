@@ -1,0 +1,15 @@
+\usepackage{graphicx}  % For including images
+\usepackage{enumitem}  % For customizing itemize/enumerate environments
+
+% Custom environment with 4 specific icons for each item
+\newenvironment{akce}
+{ % Begin definition
+  \begin{itemize}[label={}]
+}
+{ % End definition
+  \end{itemize}
+}
+
+\newcommand{\iconitem}[2]{%
+    \item \raisebox{-0.5\height}{\includegraphics[width=1.5cm]{#1}} \ #2%
+}

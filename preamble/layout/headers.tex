@@ -1,0 +1,47 @@
+\usepackage{fancyhdr}
+%%% Chapter without number, but included in header and TOC
+\NewDocumentCommand{\chapternotnumbered}{m}{
+    \chapter*{#1}
+    \markboth{#1}{#1}                   
+    \addcontentsline{toc}{chapter}{#1}
+}
+
+%%% Chapter and section formatting (unchanged for sections)
+\usepackage[newparttoc, clearempty]{titlesec}
+\titleformat{\section}   {\MakeLinkTarget[section]{}\Large\sffamily\bfseries}{\thesection}   {0.8em}{}
+\titleformat{\subsection}{\MakeLinkTarget[subsection]{}\large\sffamily\bfseries}{\thesubsection}{0.8em}{}
+\titleformat{\paragraph}[runin]{\MakeLinkTarget[paragraph]{}\normalsize\sffamily\bfseries}{\theparagraph}{0em}{}
+
+%%% Part title formatting (unchanged)
+\titleformat{\part}[display]
+{\thispagestyle{empty}\sffamily}
+{\LARGE \partname~\Romanbar{\thepart}}
+{0.2em}{\fontsize{30pt}{36pt}\selectfont\bfseries}
+
+%%% Chapter title formatting - Fate Core style
+%% Big colored number in a box on the left, bold title aligned
+\usepackage{xcolor}
+\definecolor{FateBlue}{RGB}{0,102,204} % Fate Core blue (you can tweak)
+
+\NewDocumentCommand{\chaphead}{s O{} m}{
+    \vspace*{-20pt}% adjust vertical space before title
+    \noindent
+    \begin{tikzpicture}[baseline=(title.base)]
+        % Box with chapter number
+        \node[fill=FateBlue,text=white,rounded corners=3pt,
+              minimum width=1.5cm,minimum height=1.5cm,
+              align=center,font=\sffamily\bfseries\fontsize{28pt}{28pt}\selectfont] (num)
+              at (0,0) {\IfBooleanTF{#1}{}{#2}};
+        % Chapter title
+        \node[anchor=west,xshift=2cm,font=\sffamily\bfseries\fontsize{20pt}{22pt}\selectfont,text=FateBlue] (title)
+              at (num.east) {\MakeUppercase{#3}};
+    \end{tikzpicture}
+    \par\vspace{25pt}
+}
+
+%% Hook into report.cls
+\makeatletter
+\def\@makechapterhead#1{\chaphead[\thechapter]{#1}}
+\def\@makeschapterhead#1{\chaphead*[]{#1}}
+\makeatother
+

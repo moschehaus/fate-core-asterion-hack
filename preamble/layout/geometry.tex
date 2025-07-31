@@ -1,0 +1,69 @@
+%%% === Core page setup ===
+
+\usepackage{geometry}
+\usepackage{mparhack}
+\usepackage{marginfix}
+\usepackage{pict2e}
+\usepackage{sidenotes}
+\usepackage{multicol}
+%%% Force sidenotes to wrap exactly at marginparwidth
+
+%%% Handle binding offset for twoside
+\makeatletter
+\if@twoside
+	\setlength\Gm@bindingoffset{15mm}
+\fi
+\makeatother
+
+%%% Base geometry (normal mode)
+\geometry{
+	textwidth=145mm,
+	textheight=250mm,
+	hmarginratio=1:1,
+	vmarginratio=3:4,
+	includehead,
+	headheight=2.5em,
+	headsep=0mm,
+	marginparwidth=45mm, % default note width
+	marginparsep=5mm     % space between text and note
+}
+
+%%% === Extra margin mode (clean placement) ===
+\ifWIP\ifEXTRAMARGIN
+
+  \geometry{
+    paperwidth=260mm,
+    paperheight=297mm,
+    textwidth=145mm,
+    textheight=250mm,
+    layoutoffset=0mm,
+    marginparsep=10mm,
+    marginparwidth=60mm,
+    includemp
+  }
+
+
+  \renewcommand*{\marginfont}{\footnotesize\color{gray}\RaggedRight}
+
+
+  % Patch marginpar placement to shift notes into extra margin:
+  \makeatletter
+  \let\orig@marginparreset\@marginparreset
+  \def\@marginparreset{%
+    \orig@marginparreset
+    \setlength\@tempdima{210mm}%
+    \addtolength\@tempdima{-\textwidth}%
+    \addtolength\@tempdima{-\marginparsep}%
+    \hskip\@tempdima%
+  }
+  \makeatother
+
+%  \AddToHook{shipout/background}{%
+    %\color{black!10}\linethickness{0.4pt}%
+    %\put(210mm,0){\line(0,-1){297mm}}%
+%  }
+
+\fi\fi
+
+  
+\flushbottom

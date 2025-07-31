@@ -13,6 +13,7 @@ Klíčem k univerzálnosti Fate Core je klasifikace veškerých činností (resp
 
 Popišme nyní, jak vypadá základní mechanika akcí. Jestliže postava dělá něco, co je samozřejmé nebo u čehož není (ne)úspěch zajímavý, prostě se to stane - jezení, chození, spánek. Pokud postava dělá něco, co není samozřejmé či jí v tom někdo brání, je průběh následující
 
+\begin{Pravidlo}[Jak používat akce]
 \begin{enumerate}
 \item Hráč popíše, čeho chce svojí akcí dosáhnout.
 \item Vypravěč s hráčem stanoví jednu ze čtyř akcí popsaných níže, která záměr nejlépe vystihuje.
@@ -22,6 +23,7 @@ Popišme nyní, jak vypadá základní mechanika akcí. Jestliže postava dělá
 \item V případě, že nějaká ze stran chce, vyvolá či vynutí aspekty.
 \item Podle celkového výsledku hráče se vyhodnotí, jakého výsledku jeho postava dosáhla, přičemž čtyři možné výsledky jsou vypsané níže.
 \end{enumerate}
+\end{Pravidlo}
 
 Tento postup je univerzální a používá se ve všech případech, kdy je potřeba činnosti ošetřit mechanicky (hodit si kostkami). Zmiňovaný seznam akcí:
 
@@ -29,15 +31,24 @@ Tento postup je univerzální a používá se ve všech případech, kdy je pot�
   \iconitem{prekonani-ikona}{\akc{Překonání:} Jakákoliv činnost s hlavním cílem něco překonat je akce \akc{Překonání}. Může se jednat o přeskočení propasti, vylezení na strmou skálu, rozražení či vypáčení dveří či třeba rozlousknutí šifry. V širším smyslu slova překonání je pak uvěřitelné, že sem spadají i činnosti jako vyhledávání (překonávání ``neznámého''), přesvědčování apod. Většina hodů mimo výzvu, střet nebo konflikt jsou de facto hody na překonání: pokus najít informátora na ulici, uplatit strážného, vyhandlovat lepší cenu, to všechno spadá pod \akc{Překonání}.
 
   Pomocí akce \akc{Překonání} se lze zbavovat existujících aspektů - vymanit se z \asp{Zalehnutí}, dostat se z \asp{V řetězech}, spřátelit se a odstranit tak aspekt \asp{Nedůvěřivý} a další.}
-  \iconitem{vytvoreni-ikona}{\akc{Vytvoření výhody:}\footnote{Pravidlové postihnutí vytváření výhody je velký posun oproti pravidlům M16.} Akce \akc{Vytvoření výhody} je základní způsob, jak zvýšit své šance na úspěch při všech ostatních akcích. Pomocí této akce se buď dají vytvořit nové aspekty (pronést plamennou řeč a stát se \asp{Miláčkem davu}, hodit písek do očí protivníkovi a dočasně ho \asp{Oslepit}, vylepšit povoz a učinit ho tak \asp{Opancéřovaným}), objevit již existující aspekty (po chvíli zkoumání získat \asp{Usvědčující důkaz}, rozhovorem zjistit, že strážnému \asp{Jde hlavně o peníze} atd.), nebo získat volná vyvolání na již existující aspekty (připravit si nečekaný útok v místnosti, kde je \asp{Všude tma}, trochu někoho vyprovokovat a využít, že se \asp{Lehko naštve} a další). }
+  \iconitem{vytvoreni-ikona}{\akc{Vytvoření výhody:}\sidenote{Pravidlové postihnutí vytváření výhody je velký posun oproti pravidlům M16.} Akce \akc{Vytvoření výhody} je základní způsob, jak zvýšit své šance na úspěch při všech ostatních akcích. Pomocí této akce se buď dají vytvořit nové aspekty (pronést plamennou řeč a stát se \asp{Miláčkem davu}, hodit písek do očí protivníkovi a dočasně ho \asp{Oslepit}, vylepšit povoz a učinit ho tak \asp{Opancéřovaným}), objevit již existující aspekty (po chvíli zkoumání získat \asp{Usvědčující důkaz}, rozhovorem zjistit, že strážnému \asp{Jde hlavně o peníze} atd.), nebo získat volná vyvolání na již existující aspekty (připravit si nečekaný útok v místnosti, kde je \asp{Všude tma}, trochu někoho vyprovokovat a využít, že se \asp{Lehko naštve} a další). }
   \iconitem{utok-ikona}{\akc{Útok:} Akce \akc{Útok} je přímočará - způsobit nepříteli zranění, fyzické či duševní. Může se jednat o seky mečem, údery a kopy, střelbu, nebo např. pokus někoho urazit, rozlítostnit, deprimovat, rozhodit. }
-  \iconitem{obrana-ikona}{\akc{Obrana:} Po akci \akc{Obrana} sáhne hráč vždy, když chce jiným postavám ztěžovat pokusy vykonávat svoje akce \akc{Vytvoření výhody i Útok}. Všimněte si, že bránit se akci \akc{Překonání} technicky není možné; možné je ale tvořit aktivní opozici, jež musí ``útočník'' přehodit. \akc{Obrana} jediná akce, kterou může postava zahrát mimo své kolo a to v libovolném množství. \footnote{Může se jevit, že je velmi silné, aby se postava mohla bránit kolikrát chce. Ve skutečnosti toto ale velmi urychluje a usnadňuje konflikty, neboť nedává prostor diskuzím o tom, zda-li dává smysl, aby se postava mohla bránit.}} 
+  \iconitem{obrana-ikona}{\akc{Obrana:} Po akci \akc{Obrana} sáhne hráč vždy, když chce jiným postavám ztěžovat pokusy vykonávat svoje akce \akc{Vytvoření výhody i Útok}. Všimněte si, že bránit se akci \akc{Překonání} technicky není možné; možné je ale tvořit aktivní opozici, jež musí ``útočník'' přehodit. \akc{Obrana} jediná akce, kterou může postava zahrát mimo své kolo a to v libovolném množství. \sidenote{Může se jevit, že je velmi silné, aby se postava mohla bránit kolikrát chce. Ve skutečnosti toto ale velmi urychluje a usnadňuje konflikty, neboť nedává prostor diskuzím o tom, zda-li dává smysl, aby se postava mohla bránit.}} 
 \end{akce}
 
 \section{Čtyři výsledky}
 \label{sec:4-vysledky}
 
-Podle toho, jak veliký je součet hod + úroveň dovednosti, nastane právě jedna z akcí níže:
+Podle toho, jak veliký je součet hod + úroveň dovednosti, nastane právě jedna z akcí:
+
+\begin{Pravidlo}[Možné výsledky \akc{Akcí}]
+  \begin{itemize}
+	  \item neúspěch,
+	  \item remíza,
+	  \item úspěch,
+	  \item úspěch se stylem.
+  \end{itemize}
+\end{Pravidlo}
 
 \subsection{Úspěch}
 \label{sec:uspech}
@@ -70,7 +81,7 @@ Jestliže je celkový výsledek postavy stejný jako opozice, znamená to remíz
 \begin{akce}
   \iconitem{prekonani-ikona}{Překonání se podaří, ale za nějakou drobnou cenu - může se jednat o příběhový detail, např. jiná postava uvidí co se stalo, efekt nastane i pro někoho jiného atd.,  či nějakou drobnou komplikaci pro postavu - poškodí se ji vybavení, o nějaké přijde a další.}
   \iconitem{vytvoreni-ikona}{V případě, kdy se postava pokouší vytvořit nový aspekt či objevit stávající, získá místo aspektu jen posílení. Alternativně se může rozhodnout, že aspekt vytvoří (objeví), ale za drobnou cenu. Nicméně, pokud postava vytváří volná vyvolání na již existující aspekt,\textit{remíza znamená totéž co úspěch - získá volné vyvolání.}}
-  \iconitem{utok-ikona}{Postavě se nepodaří způsobit žádné zranění, ale získává posílení.}\footnote{Díky tomuto jsou konflikty svižnější i v případě vyrovnaných nepřátel.}
+  \iconitem{utok-ikona}{Postavě se nepodaří způsobit žádné zranění, ale získává posílení.}\sidenote{Díky tomuto jsou konflikty svižnější i v případě vyrovnaných nepřátel.}
   \iconitem{obrana-ikona}{Nastává efekt remízy akce útočníka, před kterým se postava brání.}
 \end{akce}
 
@@ -91,3 +102,4 @@ Za povšimnutí stojí, že výsledky akce \akc{Obrana} zrcadlí výsledky akcí
 %%% mode: LaTeX
 %%% TeX-master: "../main"
 %%% End:
+

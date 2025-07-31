@@ -1,35 +1,47 @@
-%! TeX program = xelatex
-\documentclass[12pt,a4paper,twoside,openany]{book}
+%%! TeX program = pdflatex
+\newcommand*{\TeXturedVERSION}{1.4.0} %% TeXtured 2025-06-17
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% NOTE: If you find any issues or have any suggestions, please open %%
+%%       an Issue on GitHub: https://github.com/jdujava/TeXtured     %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Enable built-in LaTeX support for PDF/A compliance (must be before `\documentclass`)
+%\DocumentMetadata{lang=en, pdfversion=1.7, pdfstandard=A-2u}
+%\input{preamble/pdfA-compliance/glyphtounicode}
+
+%% NOTE: Choose the desirable page layout version (electronic vs print)
+
+
+\documentclass[12pt,a4paper]{report}                      % single-side (electronic)
 \usepackage{subfiles}
-\input{preamble}
+% \documentclass[12pt,a4paper,openright,twoside]{report}  % two-sided (for printing)
+
+%% Set some toggle flags to control some of the document properties
+\input{preamble/toggles}
+% \FANCYfalse % disable some of the more fancy stylistic choices
+%% NOTE: Comment out the following lines for the final version
+\WIPtrue            % THIS IS A WORK-IN-PROGRESS VERSION
+\EXTRAMARGINtrue  % add extra right margin in WIP version (for notes/corrections)
+% \LINKBOXESfalse   % disable reference/link boxes for faster compilations
+\CENSORtrue         % THIS IS A CENSORED VERSION
+
+%% Preamble - data, packages, macros, and more
+\input{preamble/main}
+
+\usepackage{float}
 \begin{document}
 
-% Title page
-\begin{titlepage}
-    \centering
-    {\Huge\textbf{\booktitle}}\\[1.5cm]
-    {\Large by \textit{\authorname}}\\[2cm]
-    \includegraphics[width=\textwidth]{logo}\\[2cm]
-    \vfill
-    {\large \today}
-\end{titlepage}
+\frontmatter
+\include{frontmatter/title}
+\contentsandlists
 
-\frontmatter  
-
-% Table of Contents
-\tableofcontents
-\newpage
-
-\mainmatter   
-\setlength{\columnsep}{1cm}  % Space between columns
-
+\mainmatter
 %%Protože jsou kapitoly dlouhé, je každá jako jeden TeX dokument
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ÚVOD%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subfile{chapters/uvod}
-
-\begin{figure}[h!]
+\begin{figure}[H]
   \centering
   \caption{\href{https://davidramos.ca/wp-content/uploads/2021/04/cyn-1024x576.png}{source}}
   \includegraphics[width=\textwidth]{jezero}
@@ -39,7 +51,7 @@
 
 \subfile{chapters/aspekty}
 
-\begin{figure}[h!]
+\begin{figure}[H]
   \centering
   \caption{\href{https://aukceaukci.s3.amazonaws.com/aukceaukci/production/files/2024/02/06/10/15/12/906b839a-538e-4f31-bbcc-131d423cb646/1.webp}{source}}
   \includegraphics[width=\textwidth]{jules}
@@ -49,7 +61,7 @@
 
 \subfile{chapters/akce}
 
-\begin{figure}[h!]
+\begin{figure}[H]
   \centering
   \caption{\href{https://pbs.twimg.com/media/EGcmJ2vU0AIqTU9?format=jpg&name=large}{source}}
   \includegraphics[width=\textwidth]{swing}
@@ -59,7 +71,7 @@
 
 \subfile{chapters/dovednosti}
 
-\begin{figure}[h!]
+\begin{figure}[H]
   \centering
   \caption{\href{https://www.humanart.cz/user/2527/art/st/2527-1324900216-2.jpg}{source}}
   \includegraphics[width=0.75\textwidth]{chobotnice}
@@ -69,7 +81,7 @@
 
 \subfile{chapters/triky}
 
-\begin{figure}[h!]
+\begin{figure}[H]
   \centering
   \caption{\href{https://cz.pinterest.com/pin/750623462885443700/}{source}}
   \includegraphics[width=0.75\textwidth]{ryba}
@@ -79,7 +91,7 @@
 
 \subfile{chapters/strety_vyzvy_konflikty}
 
-\begin{figure}[h!]
+\begin{figure}[H]
   \centering
   \caption{\href{https://www.pinterest.com/pin/484418503638647556/}{source}}
   \includegraphics[width=0.5\textwidth]{zaba}
@@ -88,7 +100,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%SPECIALITY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subfile{chapters/speciality}
 
-\begin{figure}[h!]
+\begin{figure}[H]
   \centering
   \caption{\href{https://petrakubaskova.cz/wp-content/uploads/2024/07/elixir-cze.png}{source}}
   \includegraphics[width=\textwidth]{carodejka}
@@ -98,7 +110,7 @@
 
 \subfile{chapters/povolani}
 
-\begin{figure}[h!]
+\begin{figure}[H]
   \centering
   \caption{\href{https://petrakubaskova.cz/wp-content/uploads/2024/07/elixir-cze.png}{source}}
   \includegraphics[width=\textwidth]{carodejka}
@@ -111,6 +123,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%POSTUP%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subfile{chapters/postup}
+
+\appendix
 
 \chapter{Dodatky}
 \label{chap:dodatky}
@@ -136,9 +150,6 @@
 
 \subfile{chapters/dodatky/subotam}
 
-
-
-\newpage
-\printbibliography
+\references
 
 \end{document}
