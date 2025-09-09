@@ -1,15 +1,19 @@
-\usepackage{graphicx}  % For including images
 \usepackage{enumitem}  % For customizing itemize/enumerate environments
 
-% Custom environment with 4 specific icons for each item
+% Custom environment for akce (icons as bullets)
 \newenvironment{akce}
-{ % Begin definition
-  \begin{itemize}[label={}]
-}
-{ % End definition
-  \end{itemize}
+  {\begin{itemize}[
+      label={},                % no default bullet
+      align=parleft,           % align wrapped lines with text, not icon
+      labelwidth=2cm,          % reserve space for the icon
+      labelsep=0.5em,          % space between icon and text
+      leftmargin=!,            % calculate total margin automatically
+      itemsep=0.5em            % optional: spacing between items
+    ]}
+  {\end{itemize}}
+
+% Icon + text item
+\newcommand{\iconitem}[2]{%
+    \item[\raisebox{-0.5\height}{\includegraphics[width=1.5cm]{#1}}] #2
 }
 
-\newcommand{\iconitem}[2]{%
-    \item \raisebox{-0.5\height}{\includegraphics[width=1.5cm]{#1}} \ #2%
-}

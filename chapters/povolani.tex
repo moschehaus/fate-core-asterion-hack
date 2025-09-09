@@ -1,4 +1,3 @@
-% !TEX root = main.tex
 
 
 \documentclass[../main.tex]{subfiles}
@@ -32,24 +31,59 @@
 \section{Povolání se svolením}
 \label{sec:pov-se-svolenim}
 
-\begin{tcolorbox}
+\begin{Povolani}{Carodej}
 \subsection{Čaroděj}
 \label{sec:pov-carodej}
 \textbf{Svolení}: Vhodný aspekt na kartě postavy (\asp{Magické nadání}, \asp{Bílý kouzelník}, \asp{Čarodějný akolyta}, \asp{Učeň Alwarina Bílého})\\
-\textbf{Cena}: Jeden bod obnovy za každý speciální trik (jako běžné triky). První styl magie získává čaroděj zdarma, všechny další pak jako běžný trik za bod obnovy.\\
+\textbf{Cena}: Jeden bod obnovy za každý speciální trik (jako běžné triky). \\
 \textbf{Popis}: Čarodějník je schopen používat magii k různým účelům. Získává možnost naučit se některé speciální triky:
 \begin{itemize}
 \item \trk{Styly magie}: sesílání kouzel určitého stylu (oboru, zaměření) magie
+\item \trk{Efektivní meditace}: čerpání vyššího množství magenergie
 \item \trk{Magický pomocník}: přivolání magického pomocníka ze Stínového světa
 \item \trk{Mentální souboj}: ovládnutí techniky mentálního souboje, vhodné zejména k zneškodnění magicky aktivních protivníků
 \end{itemize}
 Kromě výběru triků čaroděj ke svému řemeslu potřebuje tzv. \dov{Sesílací dovednost}, na kterou si hází vždy, když neexistuje žádná vhodnější (podrobněji viz dále). \dov{Sesílací dovednost} je nějaká z existujících dovedností, například \dov{Empatie, Učenost, Vůle} apod. 
-\end{tcolorbox}
+\end{Povolani}
+Jak bylo popsáno v \Cref{sec:magie}, magie se v této sadě pravidel značně liší od nastavení M16. Hlavní motivací je jednoduchost a vyváženost: nemít griomáry ušetří jejich sepisování, vyhýbáme se složitým ad hoc mechanikám, není třeba promýšlet férovost každého kouzla zvlášť. K tomu podněcuje v hráčích kreativitu a činí magii mnohem univerzálnější. Na druhou stranu, takto interpretovaná magie se může jevit jako slabší (např. neexistují kouzla jako Magomegamix), méně blyštivá či epická a taky nemusí hráčům vždy vyhovovat, že si všechna kouzla vymýšlejí sami. Tyto neduhy částečně řeší styly magie. Než ale zmíníme je, uveďme, jak vypadá mechanika magie z nadhledu.\\
+Na Asterionu existuje řada způsobů, jak dosáhnout určitého výsledky: vlastním (např. fyzickým) úsilím, použitím vhodného nástroje (technologie), prosbou k božstvu, či za pomocí magie. Z hlediska dosaženého výsledku jsou všechny způsoby ekvivalentní; liší se pouze vhodností využití. V našich pravidlech je tento fakt odražen v ekvivalenci všech dovedností a též \emph{by měl} být odražen v ekvivalenci všech povolání; žádné by nemělo být významným způsobem mocnější než ta zbylá. \sidenote{K zdolání skalního štítu je možné použít lezeckých dovedností (fyzická síla), vhodného vybavení jako skob, lezacích želez apod. (technologie), poprosit Pána vichru Siarona o schopnost létat (božský zásah), či použít kouzlo teleportace (magie). Každý z těchto způsobů dosáhne stejného výsledku - vrcholu.} \emph{Pak ovšem není magie nijak výjimečná - všechno \emph{běžné}, co lze vyřešit magii, by mělo být možné vyřešit i \emph{nějakým jiným nemagickým způsobem}}. Výjimkou jsou samosebou věci již z podstay magické, např. odrhnout Stříbrný závoj a vstoupit do Stínového světa prostě nějakou nadpřirozenou moc vyžaduje, svaly nestačí. Toto uvědomění je stěžejní pro další hraní: v \emph{běžných} situacích je magie pouze příběhový detail, zajímavost, jež vyprávění obohacuje.
+Dojde-li během hraní k situaci, kdy je třeba výsledek ověřit hodem na nějakou dovednost, háže si i čarodějník používající magii na onu relevantní dovednost (tedy například při pokusu o teleportaci si hází na \dov{Mobilitu}, při seslání ohnivé koule na \dov{Boj na dálku}); magie zde hraje pouze roli příběhové detailu: někdo odvypráví, jak skalní štít překonal nacvičenou lezeckou technikou, čaroděj zase popíše, jak zformoval vzdušnou hmotu, aby se mohl vznést.  \emph{Výsledky jsou ekvivalentní.} Pakliže není zřejmé, na jakou dovednost si házet (např. zmiňované odhrnování Stříbrného závoje), háže si čaroděj na svoji \dov{Sesílací dovednost}.
 
 \subsubsection*{Styly magie}
-\label{stylymagie}
+\label{sec:stylymagie}
 
-Jak bylo popsáno v \Cref{sec:magie}, magie se v této sadě pravidel značně liší od nastavení M16. Hlavní motivací je jednoduchost a vyváženost: nemít griomáry ušetří jejich sepisování, vyhýbáme se složitým ad hoc mechanikám, není třeba promýšlet férovost každého kouzla zvlášť. K tomu podněcuje v hráčích kreativitu a činí magii mnohem univerzálnější. Na druhou stranu, takto interpretovaná magie se může jevit jako slabší (např. neexistují kouzla jako Magomegamix), méně blyštivá či epická a taky nemusí hráčům vždy vyhovovat, že si všechna kouzla vymýšlejí sami. Tyto neduhy částečně řeší styly magie. Než ale zmíníme je, uveďme, jak vypadá mechanika magie z nadhledu.\\
+Jak bylo popsáno výše, v \emph{běžných situacích} není rozdíl mezi použitím magie a jiného druhu moci. Velikou výhodou magie je však její univerzálnost: i drobounký čaroděj s nízkou \dov{Kondicí} dokáže překonat bytelné dveře hradící vstup do podzemí, jestliže k tomu použije vhodné výbušné zaklínadlo; zde na řadu přichází pro čaroděje zásádní trik \trk{Styly magie}. Ten čaroději přidá aspekt nazvaný dle osvojeného stylu magie - takže např. \asp{Magie ohně}\\
+Jestliže se mág ocitne v situaci, ze kterého mu nepomůže žádná jeho jiná dovednost, může si pomoci svým oborem magie. Trik \trk{Styly magie} umožňuje vyvoláním svého oborového nahradit hod na libovolnou dovednost hodem na \dov{Sesílací dovednost}; samozřejmě, to musí být doplněno vhodným popisem zahrnující použití svých magických schopností. Zdůrazněme, že k hodu \emph{nemá} čaroděj bonus +2 - aspekt využil pro možnost použít svojí \dov{Sesílací dovednost}. V situacích, kdy si čaroděj nehází na svoji sesílací dovednost, ale používá, jako ostatní hráči, dovednost právě relevantní, nestojí ho to sammosebou vyvolání aspektu; magie zde pak představuje skutečně jakýsi příběhový detail. V těchto případech pak může čaroděj využít svůj aspekt prostě pro posílení svého kouzla.\\
+
+\begin{example}{Použítí magie}
+	Jestliže hráč ovládá patřičný styl magie, může používat například takto:
+  \begin{itemize}
+	  \item seslání ohnivé koule na sesmažení protivníka: čaroděj si háže na \dov{Boj na dálku}, vyvoláním svého čarovného aspektu si např. může přidat +2,
+	  \item teleportace sebe sama do zad nepřítele: čaroděj si háže na \dov{Mobilitu}, \emph{detto},
+	  \item mentální úder na protivníka: čaroděj si háže na \dov{Provokaci}, \emph{detto},
+	  \item vytvoření magické zbroje: čaroděj si háže na \dov{Řemesla}, \emph{detto}.
+  \end{itemize}
+  Ve všech zmiňvaných případech čaroděj neplatí žádným použitím aspektu - používat magii tímto způsobem je pro něj natolik přirozené (a z hlediska výsledku ekvivalentní), jako je pro lukostřelce pálit z luku; magie zde představuje pouze příběhový detail. Představme si ovšem nyní časoprostorového čaroděje specializujícího se na teleportační a obrannou magii (řekněme, že má vysokou úroveň své \dov{Sesílací dovednosti} a k tomu dovedností \dov{Mobilita} a \dov{Řemesla}) v situaci, kdy by si skutečně přál telekineticky urychlit kámen, co drží v ruce, a proměnit ho tak v smrtící projektil. To by standardně byl hod na  \dov{Boj na dálku}, nicméně, za vyvolání svého aspektu může toto zaklínadlo seslat i pomocí své \dov{Sesílací dovednosti}. 
+\end{example}
+
+Na každou situaci se samosebou hodí jiný druh magie: roztavit ocelový zámek půjde těžko se znalostmi \asp{Vitální magie}, teleportovat družinu není snadné s pomocí \asp{Mentálních kouzel}. \sidenote{Byť podporujeme hráče v jejich kreativitě.} Každý trik označený jako \trk{Styly magie} tak pak značí zvládnutí tohoto magického odvětví; níže dáváme několik příkladů. 
+
+\subsubsection*{Meditace}
+\label{sec:meditace}
+
+Jako se bojovník před soubojem rozcvičuje a brousí své zbraně, jako si střelec hledá dokonalou polohu a dává si práci se zamířením, i čaroděj se před lámáním chleba může připravit - zaostřit a zklidnit svoji mysl, načerpat sílu ze svého symbolu či prosit svého pána o víc moci. Tento styl přípravy budeme dále nazývat jako \emph{meditace}. \\
+Meditace je, řečeno jazykem našich pravidel, akce \akc{Vytvoření výhody} s použitím \dov{Sesílací dovednosti} (či jiné relevantní) s cílem získat volná vyvolání na svůj oborový aspekt. Platí zde pravidla akce \akc{Vytvoření výhody} \Cref{sec:4-akce} pro případ vytváření výhody na již existující aspekt:
+
+\begin{itemize}
+	\item neúspěch znamená buď neúspěch, či úspěch za velkou cenu,
+	\item úspěch či remíza znamená získání volného vyvolání,
+	\item úspěch se stylem znamená získání dvou volných vyvolání.
+\end{itemize}
+
+Opozice je v základu pasivní a rovna nule. Vnější podmínky jako stres, vyčerpání, ruch atp. mohou opozici dále zvyšovat, stejně tak jako tvořit opozici aktivní. Naopak, meditace s cílem načerpání volného vyvolání \asp{Magie vzduchu} bude zajisté snazší ve velehorském terénu. Tento fakt je možné zachytit např. snížením opozice, či poskytnutí volného vyvolání navíc. \\
+Jestliže ovládá čaroděj vícero \trk{Stylů magie}, smí se pokusit vytvořit volná vyvolání na každý ze svých oborových aspektů.\\
+
+S trikem \trk{Efektivní meditace} získává čaroděj s úspěchem či remízou na \akc{Vytvoření výhody} rovnou dvě volná vyvolání a v případě úspěchu se stylem získává tři volná vyvolání.
 
 \todo{Nasledujici}
 \subsubsection*{Magický pomocník}
@@ -59,50 +93,45 @@ Jak bylo popsáno v \Cref{sec:magie}, magie se v této sadě pravidel značně l
 \label{sec:mentalnisouboj}
 
 
-
-\begin{tcolorbox}
+\begin{Povolani}
 \subsection{Alchymista}
 \label{sec:pov-alchymista}
 \textbf{Svolení}:\\
 \textbf{Cena}:\\
 \textbf{Popis}:\\
 
-\end{tcolorbox}
+\end{Povolani}
 
-\begin{tcolorbox}
+\begin{Povolani}
 \subsection{Theurg}
 \label{sec:pov-theurg}
 \textbf{Svolení}:\\
 \textbf{Cena}:\\
 \textbf{Popis}:\\
 
-\end{tcolorbox}
+\end{Povolani}
 
-\begin{tcolorbox}  
+\begin{Povolani}  
 \subsection{Kněz}
 \label{sec:pov-knez}
 \textbf{Svolení}: Vhodný aspekt na kartě postavy (\asp{Rytíř Gorův}, \asp{Mnich Paní země}, \asp{Aurion, můj dokonalý pán}) + vhodný roleplay \\
 \textbf{Cena}: Bod obnovy za každý speciální trik (resp. stejně jako u bězných triků) \\
 \textbf{Popis}: Kněz má přístup k několika speciálním trikům \\
 \begin{itemize}
-    \item \trk{Zázraky}: Knez umi silu sveho boha pouzit k sesilani zazraku. Ty se deli na \trk{Modlitby} a \trk{Ritualy}, pricemz jeden z techto dvou druhu ziskava knez zadarmo, za zbyly plati bodem obnovy (resp. jako u beznych triku).
-\item \trk{Božský pomocník}: Knez ziskava moznost privolat si ze Stinoveho sveta bozskeho pomocnika.
-\item \trk{Mentální souboj}
+	\item \trk{Zázraky}: Knez umi silu sveho boha pouzit k sesilani zazraku. 
+	\item \trk{Božský pomocník}: Knez ziskava moznost privolat si ze Stinoveho sveta bozskeho pomocnika.
+	\item \trk{Mentální souboj}
 \end{itemize}
-\end{tcolorbox}
+\end{Povolani}
 
 
 
-\subsubsection*{Modlitby}
-\label{sec:modlitby}
-Modlitby jsou \trk{Zazraky} cilene na kneze samotneho. Muze se jednat o ruzna posileni, uzdraveni, pridani specialniho efektu a jine. 
-
-\subsubsection*{Obřady}
-\label{sec:obrady}
-Obrady jsou druhym zpusobem, jak knez muze pouzivat silu sveho boha. Narozdil od Modliteb jsou tercem Obradu skupiny.\\
-
-Budou existovat situace, kdy nepujde zcela dobre rozlisit, kdo je tercem Zazraku, tj. zda-li se jedna o Modlitbu ci Obrad. \sidenote{Knez chce pomoci zazraku seslaneho na skupinu zjistit, kdo z nich ma hledany predmet; vysledkem je sice knezova vedomost, ale na druhou stranu se zazrak jiste tyka cele skupiny.} V takovem pripade je ale vlastne jedno, o jaky Zazrak se jedna (pokud ma knez naucene oba triky).
-
+\subsubsection{Zázraky}
+\label{sec:zazraky}
+Kněžzské zázraky jsou na Asterionu jedním ze základních způsobů projevu božské moci. Důležitým rozdílem oproti jiným druhům moci (jako je například magie) je fakt, že kněz sám "kouzla" nesesílá; v mysli se obrátí ke svému pánu, požádá jej, a \emph{on} sešle zázrak. Síla kněze tedy nespočívá přímo v jeho dovednostech, jako spíš v jeho významu pro boha samotného, jež je mu natolik nakloněn, že jeho přání (zázrak) splní. 
+\begin{example}
+	Příkladem budiž seslání blesku na nepřítele: čaroděj sám zaměří svou mysl, usměrní tok magenergie a z \emph{jeho rukou} vyšlehne blesk, kdežto kněz se v myšlenkách uchýlí ke svému pánu a ten \emph{z čistajasna z nebe} sešle blesk. Tedy, v prvním případě je strůjcem blesku čaroděj, v druhém bůh - a ne kněz.
+\end{example}
 \subsubsection*{Božský pomocník}
 \label{sec:bozsky-pomocnik}
 
@@ -127,57 +156,61 @@ Budou existovat situace, kdy nepujde zcela dobre rozlisit, kdo je tercem Zazraku
 \subsubsection{Finwalur}
 \label{sec:finwalur}
 
-\textbf{Modlitby}
+\subsubsection*{Modlitby}
+\label{sec:finwalur_modlitby}
 
-\begin{itemize}
+\begin{multicols}{2}
+	\begin{itemize}
+		\item Odstranění únavy I
+		\item Odolnost proti počasí [sám]
+		\item Uzdrav lehké zranění
+		\item Záblesk
+		\item Odstranění únavy II
+		\item Vidění v podzemí
+		\item Intuice I
+		\item Let 
+		\item Autorita
+		\item Intuice II
+		\item Odolnost proti počasí
+		\item Levitace
+		\item Malé ošetření
+		\item Neslyšitelnost
+		\item Dobré spaní
+		\item Orlí oči
+		\item Superrychlý pochod
+		\item Posílení vlastnosti
+		\item Průchod přirozenou hmotou
+		\item Poslání
+	\end{itemize}
+\end{multicols}
 
-\item Odstranění únavy I
-\item Odolnost proti počasí [sám]
-\item Uzdrav lehké zranění
-\item Záblesk
-\item Odstranění únavy II
-\item Vidění v podzemí
-\item Intuice I
-\item Let 
-\item Autorita
-\item Intuice II
-\item Odolnost proti počasí
-\item Levitace
-\item Malé ošetření
-\item Neslyšitelnost
-\item Dobré spaní
-\item Orlí oči
-\item Superrychlý pochod
-\item Posílení vlastnosti
-\item Průchod přirozenou hmotou
-\item Poslání
+\subsubsection{Obřady}
+\label{sec:finwalur_obrady}
 
-\end{itemize}
-
-\textbf{Obrady}
-\begin{itemize}
-
-    \item Rychlý pochod
-    \item Sugesce I [odvaha, odhodlání]
-    \item Orientace
-    \item Hlídka
-    \item Iluzorní převlek
-    \item Blahodárný spánek
-    \item Améba
-\item Uzdrav těžká zranění
-\item Vnukni myšlenku
-\item Znecitlivění
-\item Rozdělej oheň
-\item Cesta ke světlu
-\item Chození po hladině
-\item Najdi bytost
-\item Přivolej druida
-\item Ochranná ruka 
-\item Cestář
-\item Neviditelnost
-    \item Rozdělený poutník
-    \item Pohyb mimo čas
-\end{itemize}
+\begin{multicols}{2}
+	\begin{itemize}
+		\item Rychlý pochod
+		\item Sugesce I [odvaha, odhodlání]
+		\item Orientace
+		\item Hlídka
+		\item Iluzorní převlek
+		\item Blahodárný spánek
+		\item Améba
+		\item Uzdrav těžká zranění
+		\item Vnukni myšlenku
+		\item Znecitlivění
+		\item Rozdělej oheň
+		\item Cesta ke světlu
+		\item Chození po hladině
+		\item Najdi bytost
+		\item Přivolej druida
+		\item Ochranná ruka 
+		\item Cestář
+		\item Neviditelnost
+		\item Rozdělený poutník
+		\item Pohyb mimo čas
+	\end{itemize}
+\end{multicols}
 
 \subsubsection{Gor}
 \label{sec:gor}
@@ -272,6 +305,7 @@ Budou existovat situace, kdy nepujde zcela dobre rozlisit, kdo je tercem Zazraku
 \end{itemize}
 \end{tcolorbox}
 
+\todo{Berserkerovi se maze tabulka dus. stresu pri vstupu do bojoveho silenstvi. Dalsi trik: Uz je mrtvej: pri zabiti nepritele se berserkeovi maze dusevni zraneni.}
 \begin{tcolorbox}
 \subsection{Netvorobijec}
 \label{sec:pov-netvorobijec}

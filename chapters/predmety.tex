@@ -1,11 +1,55 @@
+
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+
+
 \chapter{Předměty jako speciality}
 \label{chap:magicke-spec-predmety}
+
+Mechanika Fateového fraktálu \Cref{sec:spec-fraktal} umožňuje elegantním a jednotným způsobem nakládat s (příběhově významnými) předměty jako s specialitami, resp. jako s postavami, a přiřadit jim aspekty, stresy/následky, dovednosti či triky. Sic elegantní, je takovéto nakládání s předměty poněkud komplikované, a proto jej v běžném hraní aplikujeme pouze na předměty významnější - typicky \emph{magické} \Cref{sec:magicke-vybaveni}. V dalším rozebereme mechaniku týkající se několika běžných skupin předmětů: zbraně a zbroje, alchymistické výrobky (lektvary, amulety, pasti a jedy) a magické předměty (dočasné předměty, artefakty). Nebude překvapením, že v \emph{Realistickém hraní} jsou předměty nezanedbatelně podstatnější, než v hraním příběhovém; v rámci tohoto přístupu se proto dočkáme rozsáhlejšího popisu.
 
 \section{Zbraně a zbroje}
 \label{sec:zbrane-zbroje}
 
+Při fyzickém konfliktu \Cref{sec:obecna-pravidla} velmi často hraje důležitou roli vybavení. Šermíř s \asp{Jiskřící čepelí} \sidenote{Dlouhý jednoruční lintirový meč, jež Rangwathovi umožňuje provést \emph{3 útoky během jediné výměny}.} \emph{Rangwatha, Černého hraničáře} bude mít proti sokovi s klackem v ruce nespornou výhodu. Jak postihnout kvalitu a vlastnosti zbraní a zbrojí rozebíráme v další kapitole. Poznamenejme s předstihem, že v případě \emph{Příběhového hraní} budou zbraně a zbroje představovat jen prostou opravu k celkovému výsledku hodu v rámci \per{Konfliktu}. Při  \emph{Realistickém hraní} bude situace mnohem komplikovanější.
+
+\begin{Real}[Zbraně a zbroje]
+	V případě \emph{Realistického hraní} bereme v potaz i následující faktory:
+	\begin{itemize}
+		\item výdrž vybavení,
+		\item náročnost opravy vybavení,
+		\item peníze nutné k nákupu/opravě,
+		\item další vlastnosti (typicky výhody) zbraní.
+	\end{itemize}
+	Poškození zbraní/zbrojí je popsáno v sekcích \Cref{sec:zbrane}, \Cref{sec:zbroje}.
+\end{Real}
+
+
 \subsection{Zbraně}
 \label{sec:zbraně}
+
+V případě \emph{Příběhového hraní} se postupuje dle standardních pravidel \per{Konfliktu}, jak popsáno v \Cref{sec:obecna-pravidla}, přičemž hodnocení zbraní je dáno následovně.
+
+
+\begin{table}[h]  
+\centering
+\begin{tabular}[h]{c|c}
+Hodnocení zbraně & Zbraň \\ \hline
++1 & dýka, nůž, obušek \\
++2 & tesák, meč, sekera, palcát, řemdih \\
++3 & obouruční meč/sekera/palcát/kladivo, kopí, biják\\
+\end{tabular}
+\end{table}
+
+\begin{Real}[Zbraně]
+	Každá zbraň má svojí výdrž reprezentovanou \emph{následky}; jestliže to ovšem není příběhově podstatné, následky explicitně nepopisujeme a též na ně útočník nezískává volná vyvolání. Počet dostupných následků a stejně tak jejich velikost je různá pro různé zbraně. Jakmile výdrž zbraně klesne pod jednu polovinu svého maxima, snižuje se hodnocení zbraně o jedna; zbraně s hodnocením +1 jsou výjimkou, jejich hodnocení se nikdy nesnižuje. Zbraň se poškozuje při výsledcích akcí následovně:
+	\begin{itemize}
+		\item při neúspěšném \akc{Útoku} se útočníkova zbraň obecně nepoškozuje. Jestliže ovšem obránce uspěje se stylem na \akc{Obranu}, může se rozhodnout namísto získání posílení poškodit útočníkovu zbraň za tolik posunů, kolik činila jeho míra úspěchu. \leavevmode\sidenote{Při blokování úderů útočníka se útočníkova zbraň jistě poškozuje; jestliže se obránce ubránil s grácií, dokáže se kromě vyhnutí se zranění vyhnout i poškození svoji zbraně (či zbroje).}.
+		\item při remíze jsou zbraně obou útočníku poškozeny za výsledek jejich hodu,
+		\item při úspěchu je zbraň útočníka poškozena za jeho míru úspěchu (\emph{bez} započítání zbraní a zbrojí!),
+		\item při úspěchu se stylem může útočník snížit svoji míru úspěchu o jedna a rozhodnout se svoji zbraň vůbec nepoškodit. \leavevmode\sidenote{To lze kombinovat s klasickým snížení o jedna výměnou za \asp{Posílení.}}
+	\end{itemize}
+\end{Real}
 
 \todo{
 \begin{itemize}
@@ -22,119 +66,189 @@
 \end{itemize}
 }
 
-Vsechny zbrane maji durabilitu danou stresovymi policky, pricemz hodnota stresu je dana hodnocenim zbrane. Nektere zbrane maji dalsi vyhody.
-
-Zraneni do zbrane je dano jako
-
-\begin{itemize}
-	\item v pripade neuspechu ve kterem se navic obrance ubrani se stylem, muze se obrance rozhodnout namisto Posileni poskodit utocnikovu zbran v hodnote dane uspechu, se kterym se ubranil
-	\item hod na \akc{Utok} v pripade remizy
-	\item MU v pripade vyhry na \akc{Utok}
-	\item v pripade Uspechu se stylem lze snizit uspech o jedna a ponechat si zbran neposkozenou \marginnote{Toto lze kombinovat s klasickym vzitim posileni.}
-\end{itemize}
-
-\subsubsection{Hodnoceni zbrane 1}
+\subsubsection{Jednoruční krátké zbraně}
 \label{sec:zbrane_jedna}
 
-\begin{Predmet}[Dyka]
+\begin{Predmet}[Dýka]
 \begin{itemize}
-	\item vydrzi 12x1
+	\item \textbf{Popis:} Nejběžnější dobrodruhova zbraň.
+	\item \textbf{Výdrž:} (\emph{následky}): \policko{+1}{12}
+	\item \textbf{Vlastnosti:} Hodnocení zbraně +1. 
 \end{itemize}
 \end{Predmet}
 
-\begin{Predmet}[Obusek]
+\begin{Predmet}[Obušek]
 \begin{itemize}
-	\item vydrzi 12x1
-	\item \trk{Omraceni}: V pripade uspechu se stylem na \akc{Utok} lze pripadne Posileni vyuzit na omraceni nepritele. Ten musi prehodit svoji \dov{Kondici} MU utocnika; pokud selze, je omracen na 3 kola.
+	\item \textbf{Popis:} Kus tvrdého dřeva, hodí se k omračování.
+	\item \textbf{Výdrž:} (\emph{následky}): \policko{+1}{12} 
+	\item \textbf{Vlastnosti:} Hodnocení zbraně +1. \trk{Omráčení}: V případě úspěchu se stylem na akci \akc{Útok} lze případné \asp{Posílení} využít na omráčení nepřítele. Ten musí přehodit svojí \dov{Kondicí} míru úspěchu útočníka; pokud selže, je omráčen na 3 kola.
 \end{itemize}
 \end{Predmet}
 
-\subsubsection{Hodnoceni zbrane 2}
+\subsubsection{Jednoruční dlouhé zbraně}
 \label{sec:zbrane_dva}
 
 \begin{Predmet}[Sekera]
 \begin{itemize}
-  \item
-  \item vydrzi 6x2
+	\item \textbf{Popis:} Dřevěné toporo s ocelovou hlavicí.
+	\item \textbf{Výdrž:} (\emph{následky}): \policko{+2}{6}
+	\item \textbf{Vlastnosti:} Hodnocení zbraně: +2. Snadno se opravuje, je levná.
 \end{itemize}
 \end{Predmet}
 
 \begin{Predmet}[Palcát]
 \begin{itemize}
-	\item vydrzi 12x2
-	\item proti zbrojim krome s hodnocenim +1 ma hodnoceni zbrane 3
+	\item \textbf{Popis:} Dřevěné toporo s ocelovou tupou hlavicí.
+	\item \textbf{Výdrž:} (\emph{následky}): \policko{+2}{12}
+	\item \textbf{Vlastnosti:} Hodnocení zbraně: +2. Hodí se pro boj proti protivníkům s těžšími zbrojemi: palcát má hodnocení zbraně +3, jestliže má protivník zbroj s hodnocením alespoň +2.
 \end{itemize}
 \end{Predmet}
 
 \begin{Predmet}[Meč]
 \begin{itemize}
-	\item vydrzi 9x2
-	\item proti zbrojim s hodnocenim +1 ci beze zbroje ma hondnoceni zbrane 3, \emph{jestlize} ma vice nez 3/4 sve vydrze
-\end{itemize}
-\end{Predmet}
+		\item \textbf{Popis:} Klasický ocelový meč. \leavevmode\sidenote{Je-li třeba, lze rozlišovat kordy, rapíry, flerety, tesáky, dlouhé a krátké meče, šavle, široké meče apod.}
+		\item \textbf{Výdrž:} (\emph{následky}): \policko{+2}{9}
+		\item \textbf{Vlastnosti:} Hodnocení zbraně: +2. Hodí se pro boj proti protivníkům s lehkou či žádnou zbrojí: meč má hodnocení zbraně +3, jestliže má více než 3/4 své výdrže a protivník má zbroj s hodnocením nanejvýš +1. \leavevmode\sidenote{Situace beze zbroje odpovídá hodnocení zbroje +0}. 
+	\end{itemize}
+	\end{Predmet}
 
-\subsubsection{Hodnoceni zbrane 3}
-\label{sec:zbrane_treti}
+	\subsubsection{Obouruční zbraně}
+	\label{sec:zbrane_treti}
 
-\begin{Predmet}[Sekera]
-\begin{itemize}
-  \item vydrzi 6x3
-\end{itemize}
-\end{Predmet}
+	\begin{Predmet}[Obouruční sekera]
+	\begin{itemize}
+		\item \textbf{Popis:} Dřevěné toporo s ocelovou hlavicí.
+		\item \textbf{Výdrž:} (\emph{následky}): \policko{+3}{6}
+		\item \textbf{Vlastnosti:} Hodnocení zbraně: +3. Snadno se opravuje, je levná.
+	\end{itemize}
+	\end{Predmet}
 
-\begin{Predmet}[Palcát]
-\begin{itemize}
-	\item vydrzi 12x3
-	\item proti zbrojim krome s hodnocenim +1 ma hodnoceni zbrane 3
-\end{itemize}
-\end{Predmet}
+	\begin{Predmet}[Obouruční palcát (kladivo, kyj)]
+	\begin{itemize}
+		\item \textbf{Popis:} Dřevěné toporo s ocelovou tupou hlavicí.
+		\item \textbf{Výdrž:} (\emph{následky}): \policko{+3}{12}
+		\item \textbf{Vlastnosti:} Hodnocení zbraně: +3. Hodí se pro boj proti protivníkům s těžšími zbrojemi: palcát má hodnocení zbraně +4, jestliže má protivník zbroj s hodnocením alespoň +2.
+	\end{itemize}
+	\end{Predmet}
 
-\begin{Predmet}[Meč]
-\begin{itemize}
-	\item vydrzi 9x3
-	\item proti zbrojim s hodnocenim +1 ci beze zbroje ma hondnoceni zbrane 3, \emph{jestlize} ma vice nez 3/4 sve vydrze
-\end{itemize}
-\end{Predmet}
-
+	\begin{Predmet}[Obouruční meč]
+	\begin{itemize}
+		\item \textbf{Popis:} Klasický ocelový meč. \leavevmode\sidenote{Je-li třeba, lze rozlišovat kordy, rapíry, flerety, tesáky, dlouhé a krátké meče, šavle, široké meče apod.}
+		\item \textbf{Výdrž:} (\emph{následky}): \policko{+3}{9}
+		\item \textbf{Vlastnosti:} Hodnocení zbraně: +3. Hodí se pro boj proti protivníkům s lehkou či žádnou zbrojí: meč má hodnocení zbraně +4, jestliže má více než 3/4 své výdrže a protivník má zbroj s hodnocením nanejvýš +1. \leavevmode\sidenote{Situace beze zbroje odpovídá hodnocení zbroje +0}. 
+	\end{itemize}
+	\end{Predmet}
 
 \begin{Predmet}[Kopí]
 \begin{itemize}
-	\item vydrzi 6x2
-	\item \trk{Ostrej klacek}: Pri \akc{Vytvareni vyhody} s kopim v uzkych prostorech predstavujici \asp{Drzim si ho od tela} ziskava utocnik bonus +2.
+	\item \textbf{Popis:} Dřevěné ratiště s ocelovou hlavicí.
+	\item \textbf{Výdrž:} (\emph{následky}): \policko{+3}{6}
+	\item \textbf{Vlastnosti:} Hodnocení zbraně: +3. \trk{Dlouhá špičatá věc:} Při \akc{Vytváření výhody} s kopím v úzkých prostorech představující \asp{Držím si ho od těla} a podobné získává útočník bonus +2.
 \end{itemize}
 \end{Predmet}
+
 \subsection{Zbroje}
 \label{sec:zbroje}
 
-Vsechny zbroje krome +1 davaji o jedna mensi kryti pokud jejich durabilita klesne pod pulku.
+V případě \emph{Příběhového hraní} pouze zbroj obránci přidává bonus pro jeho hody na \akc{Obranu} dle hodnocení zbrojí uvedného v tabulce níže.
 
-\begin{Predmet}[Hodnoceni zbroje +1]
+
+\begin{table}[h]  
+\centering
+\begin{tabular}[h]{c|c}
+Hodnocení zbroje & Zbraň \\ \hline
++1 & vycpávaná, prošívaná, kožená \\
++2 & kroužková, destičková, šupinová + helma \\
++3 & kroužková, destičková, šupinová + helma, nátepníky, ramena, kolena, stehna\\
++4 & celoplátová\\
+\end{tabular}
+\end{table}
+
+\begin{Real}[Zbraně]
+	Každá zbroj má svojí výdrž reprezentovanou \emph{stresy}; lze tedy zaškrtnout vždy nanejvýš jeden při každé výměně. Počet dostupných stresů a stejně tak jejich velikost je různá pro různé zbroje. Jakmile výdrž zbroje klesne pod jednu polovinu svého maxima, snižuje se hodnocení zbroje o jedna; zbroje s hodnocením +1 jsou výjimkou, jejich hodnocení se nikdy nesnižuje. 
+	Zbroj funguje de facto jako zásobník bonusových políček stresů. Uspěje-li tedy útočník na \akc{Útok}, může obránce použít políčka stresů zbroje, aby se pokryl utržené posuny, čímž uchrání zranění svého těla výměnou za poškození zbroje. \sidenote{Obránce se též může rozhodnout nechat se zranit ihned do těla}. Připomeňme, že z povahy stresů lze vždy použít nanejvýš jedno políčko stresu zbroje, nicméně to lze kombinovat s fyzickými stresy postavy.
+\end{Real}
+
+\begin{Predmet}[Vycpávaná zbroj]
 \begin{itemize}
-	\item prosivanice - 2/3 hity,
-	\item vycpavana - 2/3 hity,
-	\item kozena - 4/5 hity
+	\item \textbf{Popis:} 
+	\item \textbf{Výdrž:} (\emph{stresy}:) \policko{+1}{2}
+	\item \textbf{Vlastnosti:} 
 \end{itemize}
 \end{Predmet}
 
-\begin{Predmet}[Hodnoceni zbroje +2]
+
+\begin{Predmet}[Prošívaná zbroj]
 \begin{itemize}
-	\item krouzkova - 6 hitu ,
-	\item supinova - 7 hitu ,
-	\item destickova - 8 hitu ,
+	\item \textbf{Popis:} 
+	\item \textbf{Výdrž:} (\emph{stresy}:) \policko{+1}{3}
+	\item \textbf{Vlastnosti:} 
 \end{itemize}
 \end{Predmet}
 
-\begin{Predmet}[Hodnoceni zbroje +3]
+\begin{Predmet}[Kožená zbroj]
 \begin{itemize}
-	\item krouzkova + doplnky - 9 hitu,
-	\item supinova + doplnky 10 hitu, 
-	\item destickova + doplnky 11 hitu, 
+	\item \textbf{Popis:} 
+	\item \textbf{Výdrž:} (\emph{stresy}:) \policko{+1}{4}
+	\item \textbf{Vlastnosti:} 
 \end{itemize}
 \end{Predmet}
 
-\begin{Predmet}[Hodnoceni zbroje +4]
+
+\begin{Predmet}[Kroužková zbroj s helmou]
 \begin{itemize}
-	\item celoplatova zbroj - 12 hitu
+	\item \textbf{Popis:} 
+	\item \textbf{Výdrž:} (\emph{stresy}:) \policko{+2}{6}
+	\item \textbf{Vlastnosti:} 
+\end{itemize}
+\end{Predmet}
+
+\begin{Predmet}[Šupinová zbroj s helmou]
+\begin{itemize}
+	\item \textbf{Popis:} 
+	\item \textbf{Výdrž:} (\emph{stresy}:) \policko{+2}{7}
+	\item \textbf{Vlastnosti:} 
+\end{itemize}
+\end{Predmet}
+
+\begin{Predmet}[Destičková zbroj s helmou]
+\begin{itemize}
+	\item \textbf{Popis:} 
+	\item \textbf{Výdrž:} (\emph{stresy}:) \policko{+2}{8}
+	\item \textbf{Vlastnosti:} 
+\end{itemize}
+\end{Predmet}
+
+\begin{Predmet}[Kroužková zbroj s helmou a doplňky]
+\begin{itemize}
+	\item \textbf{Popis:} 
+	\item \textbf{Výdrž:} (\emph{stresy}:) \policko{+3}{9}
+	\item \textbf{Vlastnosti:} 
+\end{itemize}
+\end{Predmet}
+
+\begin{Predmet}[Šupinová zbroj s helmou a doplňky]
+\begin{itemize}
+	\item \textbf{Popis:} 
+	\item \textbf{Výdrž:} (\emph{stresy}:) \policko{+3}{10}
+	\item \textbf{Vlastnosti:} 
+\end{itemize}
+\end{Predmet}
+
+\begin{Predmet}[Destičková zbroj s helmou a doplňky]
+\begin{itemize}
+	\item \textbf{Popis:} 
+	\item \textbf{Výdrž:} (\emph{stresy}:) \policko{+3}{11}
+	\item \textbf{Vlastnosti:} 
+\end{itemize}
+\end{Predmet}
+
+
+\begin{Predmet}[Plátová zbroj]
+\begin{itemize}
+	\item \textbf{Popis:} Plechovka
+	\item \textbf{Výdrž:} (\emph{stresy}:) \policko{+4}{12}
+	\item \textbf{Vlastnosti:} 
 \end{itemize}
 \end{Predmet}
 
@@ -145,6 +259,7 @@ Vsechny zbroje krome +1 davaji o jedna mensi kryti pokud jejich durabilita klesn
 \label{sec:magicke-vybaveni}
 
 
+\end{document}
 
 
 

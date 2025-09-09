@@ -1,29 +1,42 @@
 %%% Typesetting, figures, tables, etc.
 
-\usepackage[utf8]{inputenc} % If not already present
-\usepackage[T1]{fontenc} % better support for accented characters
-\usepackage{anyfontsize}  % Resolves font size substitution warnings
-\usepackage{textcomp}     % Fixes small caps warnings (OT1/cmss/m/sc)
+\usepackage[czech,english]{babel}
+\usepackage[utf8]{inputenc} % Ensure UTF-8 encoding
+\usepackage[T1]{fontenc}    % Support for accented characters
+\usepackage{anyfontsize}    % Resolves font size substitution warnings
+\usepackage{textcomp}       % Fixes small caps warnings
 \usepackage{hyphenat}
-\usepackage{lmodern}  % Latin Modern fonts
-\usepackage{romanbar} % Roman numerals with bars, provides `\Romanbar{...}`
 
-%% slightly more breathing space between lines
+%% --- EB Garamond font setup ---
+%% Requires lualatex or xelatex
+\usepackage{ebgaramond} % Main text font
+
+%% If you want old-style numerals:
+%\renewcommand{\rmdefault}{EBGaramond-LF} % Lining figures (default)
+%\renewcommand{\rmdefault}{EBGaramond-OsF} % Old-style figures
+
+\usepackage{romanbar}  % Roman numerals with bars
+
+%% Slightly more breathing space between lines
 \linespread{1.05}\selectfont
 
-%% Commands for accessing extra Latin Modern fonts
-%%     - `sbc` - sans bold condensed
-%%     - `sfe` - sans serif extended (font family `lmssq` for "Latin Modern Sans Serif Quotation")
-%% https://www.tug.org/pracjourn/2006-1/robertson/robertson.pdf
-\newcommand*{\sbcseries}{\sffamily\fontseries{sbc}\selectfont}
-\newcommand*{\sfefamily}{\fontfamily{lmssq}\selectfont}
+%% EB Garamond doesn't have the same sans families as LM,
+%% so we set fallback sans fonts for \sbcseries and \sfefamily
+\usepackage{sourcesanspro} % clean sans for headings
+
+\newcommand*{\sbcseries}{\sffamily\bfseries\fontseries{sb}\selectfont}
+\newcommand*{\sfefamily}{\sffamily\fontseries{m}\selectfont}
 \DeclareTextFontCommand{\textsbc}{\sbcseries}
 \DeclareTextFontCommand{\textsfe}{\sfefamily}
 
-%% use slanted shape for emphasis `\emph{...}`, and for nested emphasis use italics
+%% Use slanted shape for emphasis, italics for nested emphasis
 \DeclareEmphSequence{\slshape,\itshape}
 
+%% Microtype settings
 \usepackage[protrusion=true, expansion=true]{microtype}
+\emergencystretch=2em
+\tolerance=2000
+\hbadness=10000
 \SetProtrusion
    {encoding = T1}
    {
@@ -31,6 +44,7 @@
      \textquotedblright = {1000,1000}
    }
 \DisableLigatures[-]{family=tt*} % disable ligatures in typewriter font
+
 \usepackage{parskip}             % no paragraph indentation
 \usepackage{csquotes}            % context-sensitive quotation facilities
 
@@ -39,3 +53,4 @@
 \setdefaultleftmargin{1.87em}{1.7em}{1.5em}{1em}{1em}{1em}
 \setdefaultitem{$\bullet$}{\textbullet}{\textasteriskcentered}{\textperiodcentered}
 \setdefaultenum{\bfseries (1)}{\bfseries (a)}{\bfseries (i)}{A.}
+

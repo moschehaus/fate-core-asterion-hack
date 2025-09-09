@@ -1,0 +1,4175 @@
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.7.29)  19 AUG 2025 21:31
+ system commands enabled.
+ file:line:error style messages enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-19>
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended collection.
+luaotfload | conf : Root cache directory is "/home/moschehaus/.texlive2025/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-resolved path "/usr/local/texlive/2025/texmf-dist/tex/luatex/luaotfload/fontloader-2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/moschehaus/.texlive2025/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (/usr/local/texlive/2025/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from /home/moschehaus/.texlive2025/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count273
+\c@chapter=\count274
+\c@section=\count275
+\c@subsection=\count276
+\c@subsubsection=\count277
+\c@paragraph=\count278
+\c@subparagraph=\count279
+\c@figure=\count280
+\c@table=\count281
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen147
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/subfiles/subfiles.sty
+Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
+)) (./preamble/toggles.tex) (./preamble/main.tex (./preamble/data.tex) (./preamble/debug/commands.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/censor/censor.sty
+Package: censor 2025/03/30\ 4.5\ Provides capability for redaction of sensitive information
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/pbox/pbox.sty
+Package: pbox 2011/12/07 v1.2 Dynamic parboxes
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count282
+\calc@Bcount=\count283
+\calc@Adimen=\dimen148
+\calc@Bdimen=\dimen149
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count284
+\calc@Cskip=\skip53
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\pb@xlen=\skip54
+)
+\censorruledepth=\skip55
+\censorruleheight=\skip56
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/tokcycle/tokcycle.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/tokcycle/tokcycle.tex
+\tc@tok=\toks17
+\tcdepth=\count285
+\cytoks=\toks18
+)
+Package: tokcycle 2025/04/02 V1.5 Cycle through and transform a stream of tokens
+))) (./preamble/debug/line-numbers.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2025/05/13 line numbers on paragraphs v5.5
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count286
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+\linenopenalty=\count287
+\output=\toks20
+\linenoprevgraf=\count288
+\linenumbersep=\dimen150
+\linenumberwidth=\dimen151
+\c@linenumber=\count289
+\c@pagewiselinenumber=\count290
+\c@LN@truepage=\count291
+\c@internallinenumber=\count292
+\c@internallinenumbers=\count293
+\quotelinenumbersep=\dimen152
+\bframerule=\dimen153
+\bframesep=\dimen154
+\bframebox=\box53
+)) (./preamble/debug/silence.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/silence/silence.sty
+Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error messages
+\sl@Save=\count294
+\sl@StateNumber=\count295
+\sl@MessageCount=\count296
+\sl@Casualties=\count297
+\sl@Filter=\toks21
+\sl@Message=\toks22
+\sl@UnexpandedMessage=\toks23
+\sl@Mess@ge=\toks24
+\sl@WarningCount=\count298
+\sl@WarningNumber=\count299
+\sl@WarningCasualties=\count300
+\sl@TempBOW=\toks25
+\sl@BankOfWarnings=\toks26
+LaTeX Info: Redefining \GenericWarning on input line 433.
+\sl@ErrorCount=\count301
+\sl@ErrorNumber=\count302
+\sl@ErrorCasualties=\count303
+\sl@TempBOE=\toks27
+\sl@BankOfErrors=\toks28
+LaTeX Info: Redefining \GenericError on input line 601.
+)) (./preamble/general/colors.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2024/04/13 v1.2e Graphics/color driver for luatex
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+\col@sep=\dimen155
+\ar@mcellbox=\box54
+\extrarowheight=\dimen156
+\NC@list=\toks29
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box55
+)
+\everycr=\toks30
+\minrowclearance=\skip59
+\rownum=\count304
+)) (./preamble/general/floats.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 106.
+)
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks31
+\XKV@tempa@toks=\toks32
+)
+\XKV@depth=\count305
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box56
+)
+\tc@llx=\dimen159
+\tc@lly=\dimen160
+\tc@urx=\dimen161
+\tc@ury=\dimen162
+Package trimclip Info: Using driver 'tc-luatex.def'.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-luatex.def
+File: tc-luatex.def 2025/02/26 v1.1 Clipping driver for luatex
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
+)))
+\adjbox@Width=\dimen163
+\adjbox@Height=\dimen164
+\adjbox@Depth=\dimen165
+\adjbox@Totalheight=\dimen166
+\adjbox@pwidth=\dimen167
+\adjbox@pheight=\dimen168
+\adjbox@pdepth=\dimen169
+\adjbox@ptotalheight=\dimen170
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count306
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box57
+\sift@deathcycles=\count307
+\@vwid@loff=\dimen171
+\@vwid@roff=\dimen172
+)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen173
+\lightrulewidth=\dimen174
+\cmidrulewidth=\dimen175
+\belowrulesep=\dimen176
+\belowbottomsep=\dimen177
+\aboverulesep=\dimen178
+\abovetopsep=\dimen179
+\cmidrulesep=\dimen180
+\cmidrulekern=\dimen181
+\defaultaddspace=\dimen182
+\@cmidla=\count308
+\@cmidlb=\count309
+\@aboverulesep=\dimen183
+\@belowrulesep=\dimen184
+\@thisruleclass=\count310
+\@lastruleclass=\count311
+\@thisrulewidth=\dimen185
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tabularray/tabularray.sty
+Package: tabularray 2025-03-11 v2025A Typeset tabulars and arrays with LaTeX3
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/ninecolors/ninecolors.sty
+Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-07-19 L3 programming layer (loader) 
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2025-06-09 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count312
+Inserting `l3color' in `luaotfload.parse_color'.))
+Package: xparse 2024-08-16 L3 Experimental document command parser
+))
+\l__tblr_a_int=\count313
+\l__tblr_c_int=\count314
+\l__tblr_r_int=\count315
+\l__tblr_d_dim=\dimen186
+\l__tblr_h_dim=\dimen187
+\l__tblr_o_dim=\dimen188
+\l__tblr_p_dim=\dimen189
+\l__tblr_q_dim=\dimen190
+\l__tblr_r_dim=\dimen191
+\l__tblr_s_dim=\dimen192
+\l__tblr_t_dim=\dimen193
+\l__tblr_v_dim=\dimen194
+\l__tblr_w_dim=\dimen195
+\l__tblr_a_box=\box58
+\l__tblr_b_box=\box59
+\l__tblr_c_box=\box60
+\l__tblr_d_box=\box61
+\c@tblrcount=\count316
+\c@colnum=\count317
+\c@rowcount=\count318
+\c@colcount=\count319
+\abovesep=\dimen196
+\belowsep=\dimen197
+\leftsep=\dimen198
+\rightsep=\dimen199
+\gTblrLevelInt=\count320
+\g__tblr_data_row_key_count_int=\count321
+\g__tblr_data_column_key_count_int=\count322
+\g__tblr_data_cell_key_count_int=\count323
+\g__tblr_array_int=\count324
+\l__tblr_key_count_int=\count325
+\l__tblr_key_quotient_int=\count326
+\l__tblr_key_quotient_two_int=\count327
+\l__tblr_key_remainder_int=\count328
+\g__tblr_data_str_value_count_int=\count329
+\lTblrChildTotalInt=\count330
+\lTblrChildHtotalInt=\count331
+\lTblrChildVtotalInt=\count332
+\l__child_diff_h_int=\count333
+\l__child_diff_v_int=\count334
+\l__child_sign_h_int=\count335
+\l__child_sign_v_int=\count336
+\l__child_step_int=\count337
+\lTblrDefaultHruleWidthDim=\dimen256
+\lTblrDefaultVruleWidthDim=\dimen257
+\l__tblr_split_balance_int=\count338
+\l__tblr_strut_dp_dim=\dimen258
+\l__tblr_strut_ht_dim=\dimen259
+\g__tblr_cell_wd_dim=\dimen260
+\g__tblr_cell_ht_dim=\dimen261
+\g__tblr_cell_head_dim=\dimen262
+\g__tblr_cell_foot_dim=\dimen263
+\l__tblr_measured_cell_box=\box62
+\g__tblr_last_box=\box63
+\l__tblr_temp_box=\box64
+\l__tblr_column_target_dim=\dimen264
+\l__tblr_hfuzz_dim=\dimen265
+\l__tblr_caption_box=\box65
+\l__tblr_caption_left_box=\box66
+\lTblrRowHeadInt=\count339
+\lTblrRowFootInt=\count340
+\l__tblr_row_head_box=\box67
+\l__tblr_row_foot_box=\box68
+\l__tblr_row_head_foot_dim=\dimen266
+\lTblrTableWidthDim=\dimen267
+\l__tblr_table_firsthead_box=\box69
+\l__tblr_table_middlehead_box=\box70
+\l__tblr_table_lasthead_box=\box71
+\l__tblr_table_firstfoot_box=\box72
+\l__tblr_table_middlefoot_box=\box73
+\l__tblr_table_lastfoot_box=\box74
+\l__tblr_remain_height_dim=\dimen268
+\l__tblr_long_from_int=\count341
+\l__tblr_long_to_int=\count342
+\l__tblr_curr_i_int=\count343
+\l__tblr_prev_i_int=\count344
+\lTblrTablePageInt=\count345
+\l__tblr_table_head_box=\box75
+\l__tblr_table_foot_box=\box76
+\l__tblr_table_head_foot_dim=\dimen269
+\l__tblr_table_head_body_foot_dim=\dimen270
+\l__tblr_table_box=\box77
+\lTblrRowFirstInt=\count346
+\lTblrRowLastInt=\count347
+\l__tblr_table_hlines_box=\box78
+\l__tblr_hline_box=\box79
+\l__tblr_row_box=\box80
+\l__tblr_col_o_wd_dim=\dimen271
+\l__tblr_col_b_wd_dim=\dimen272
+\l__tblr_hline_leftskip_dim=\dimen273
+\l__tblr_hline_rightskip_dim=\dimen274
+\l__tblr_row_ht_dim=\dimen275
+\l__tblr_row_dp_dim=\dimen276
+\l__tblr_row_abovesep_dim=\dimen277
+\l__tblr_row_belowsep_dim=\dimen278
+\l__tblr_row_vlines_box=\box81
+\l__tblr_vline_box=\box82
+\l__tblr_cell_box=\box83
+\l__tblr_row_upper_dim=\dimen279
+\l__tblr_row_lower_dim=\dimen280
+\l__tblr_row_vpace_dim=\dimen281
+\l__tblr_vline_aboveskip_dim=\dimen282
+\l__tblr_vline_belowskip_dim=\dimen283
+\lTblrCellRowSpanInt=\count348
+\lTblrCellColSpanInt=\count349
+\l__tblr_cell_wd_dim=\dimen284
+\l__tblr_cell_ht_dim=\dimen285
+\lTblrCellAboveBorderWidthDim=\dimen286
+\lTblrCellBelowBorderWidthDim=\dimen287
+\lTblrCellLeftBorderWidthDim=\dimen288
+\lTblrCellRightBorderWidthDim=\dimen289
+\l__tblr_diag_box=\box84
+\l__tblr_cell_inner_wd_dim=\dimen290
+\l__tblr_cell_inner_dp_dim=\dimen291
+\l__tblr_cell_hanchor_dim=\dimen292
+\l__tblr_last_cell_table_ht_dim=\dimen293
+\l__tblr_last_cell_table_dp_dim=\dimen294
+\l__tblr_last_vline_wd_dim=\dimen295
+\l__tblr_tikz_node_box=\box85
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/codehigh/codehigh.sty
+Package: codehigh 2025-02-21 v2025C Highlight codes and demos with l3regex and lpeg
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (/usr/local/texlive/2025/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+ (/usr/local/texlive/2025/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count350
+)
+\CatcodeTableOther=\catcodetable14
+\CatcodeTableExpl=\catcodetable15
+)
+\l__cdhh_a_int=\count351
+\l__cdhh_b_int=\count352
+\l__cdhh_main_boxsep_dim=\dimen296
+\g__cdhh_code_box=\box86
+\g__cdhh_demo_box=\box87
+\l__cdhh_latex_rule_count_int=\count353
+\l__cdhh_latex/math_rule_count_int=\count354
+\l__cdhh_latex/table_rule_count_int=\count355
+\l__cdhh_latex/latex2_rule_count_int=\count356
+\l__cdhh_latex/latex3_rule_count_int=\count357
+\l__cdhh_item_count_int=\count358
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/06/16 v2.17y AMS math features
+\@mathmargin=\skip60
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks33
+\ex@=\dimen297
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen298
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count359
+LaTeX Info: Redefining \frac on input line 235.
+\uproot@=\count360
+\leftroot@=\count361
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count362
+\DOTSCASE@=\count363
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box88
+\strutbox@=\box89
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen299
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count364
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count365
+\dotsspace@=\muskip17
+\c@parentequation=\count366
+\dspbrk@lvl=\count367
+\tag@help=\toks34
+\row@=\count368
+\column@=\count369
+\maxfields@=\count370
+\andhelp@=\toks35
+\eqnshift@=\dimen300
+\alignsep@=\dimen301
+\tagshift@=\dimen302
+\tagwidth@=\dimen303
+\totwidth@=\dimen304
+\lineht@=\dimen305
+\@envbody=\toks36
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks37
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
+)
+\@LN@amsmath@ams@eqpen=\count371
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count372
+\l__siunitx_number_exponent_fixed_int=\count373
+\l__siunitx_number_min_decimal_int=\count374
+\l__siunitx_number_min_integer_int=\count375
+\l__siunitx_number_round_precision_int=\count376
+\l__siunitx_number_lower_threshold_int=\count377
+\l__siunitx_number_upper_threshold_int=\count378
+\l__siunitx_number_group_first_int=\count379
+\l__siunitx_number_group_size_int=\count380
+\l__siunitx_number_group_minimum_int=\count381
+\l__siunitx_angle_tmp_dim=\dimen306
+\l__siunitx_angle_marker_box=\box90
+\l__siunitx_angle_unit_box=\box91
+\l__siunitx_compound_count_int=\count382
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks38
+))
+\l__siunitx_table_tmp_box=\box92
+\l__siunitx_table_tmp_dim=\dimen307
+\l__siunitx_table_column_width_dim=\dimen308
+\l__siunitx_table_integer_box=\box93
+\l__siunitx_table_decimal_box=\box94
+\l__siunitx_table_uncert_box=\box95
+\l__siunitx_table_before_box=\box96
+\l__siunitx_table_after_box=\box97
+\l__siunitx_table_before_dim=\dimen309
+\l__siunitx_table_carry_dim=\dimen310
+\l__siunitx_unit_tmp_int=\count383
+\l__siunitx_unit_position_int=\count384
+\l__siunitx_unit_total_int=\count385
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/floatrow/floatrow.sty
+Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen311
+\captionmargin=\dimen312
+\caption@leftmargin=\dimen313
+\caption@rightmargin=\dimen314
+\caption@width=\dimen315
+\caption@indent=\dimen316
+\caption@parindent=\dimen317
+\caption@hangindent=\dimen318
+Package caption Info: Standard document class detected.
+)
+\c@float@type=\count386
+\float@exts=\toks39
+\float@box=\box98
+\@floatcapt=\box99
+Package floatrow Info: Modified float package code loaded on input line 455.
+Package floatrow Info: Modified rotfloat package code loaded on input line 473.
+\FR@everyfloat=\toks40
+\flrow@foot=\insert252
+\FB@wd=\dimen319
+\FBo@wd=\dimen320
+\FBc@wd=\dimen321
+\FBo@ht=\skip63
+\FBc@ht=\skip64
+\FBf@ht=\skip65
+\FBo@max=\skip66
+\FBc@max=\skip67
+\FBf@max=\skip68
+\c@FBl@b=\count387
+\floatbox@depth=\count388
+\c@FRobj=\count389
+\c@FRsobj=\count390
+\Xhsize=\skip69
+\sXhsize=\skip70
+\Zhsize=\skip71
+\sZhsize=\skip72
+\flrow@rowbox=\box100
+\FR@Zunitlength=\dimen322
+\c@FBcnt=\count391
+\FPOScnt=\count392
+\LTleft=\skip73
+\LTright=\skip74
+\LTleft=\skip75
+\LTright=\skip76
+\flrow@types=\toks41
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+\c@caption@flags=\count393
+\c@continuedfloat=\count394
+Package caption Info: float package is loaded.
+Package caption Info: floatrow package is loaded.
+Package caption Info: floatrow package is loaded.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count395
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count396
+)
+\floatfootruleindent=\skip77
+) (./preamble/general/hyperref.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count397
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen323
+\Hy@linkcounter=\count398
+\Hy@pagecounter=\count399
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count400
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count401
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen324
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count402
+\Field@Width=\dimen325
+\Fld@charsize=\dimen326
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count403
+\c@Item=\count404
+\c@Hfootnote=\count405
+)
+Package hyperref Info: Driver (autodetected): hluatex.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2025-07-12 v7.01o Hyperref driver for luaTeX
+\Fld@listcount=\count406
+\c@bookmark@seq@number=\count407
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+)
+\Hy@SectionHShift=\skip78
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
+\BKM@id=\count408
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/zref/zref-titleref.sty
+Package: zref-titleref 2025-06-08 v2.36 Module titleref for zref (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2025-06-08 v2.36 Module base for zref (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+Package zref Info: New property: title on input line 58.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/zref-clever/zref-clever.sty
+Package: zref-clever 2024-11-28 v0.5.1 Clever LaTeX cross-references based on zref
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/zref/zref-user.sty
+Package: zref-user 2025-06-08 v2.36 Module user for zref (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2025-06-08 v2.36 Module abspage for zref (HO)
+\c@abspage=\count409
+Package zref Info: New property: abspage on input line 67.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+)
+Package zref Info: New property: zc@counter on input line 61.
+Package zref Info: New property: thecounter on input line 63.
+Package zref Info: New property: zc@type on input line 73.
+Package zref Info: New property: zc@cntval on input line 88.
+Package zref Info: New property: zc@pgval on input line 103.
+Package zref Info: New property: zc@enclval on input line 151.
+Package zref Info: New property: zc@enclcnt on input line 157.
+\g__zrefclever_page_format_int=\count410
+Package zref Info: New property: zc@pgfmt on input line 169.
+\l__zrefclever_tmpa_int=\count411
+\l__zrefclever_sort_prior_a_int=\count412
+\l__zrefclever_sort_prior_b_int=\count413
+\l__zrefclever_type_count_int=\count414
+\l__zrefclever_label_count_int=\count415
+\l__zrefclever_ref_count_int=\count416
+\l__zrefclever_range_count_int=\count417
+\l__zrefclever_range_same_count_int=\count418
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 25.
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 25.
+) (./preamble/misc/macros.tex) (./preamble/misc/packages-macros.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2025/07/08 version 6.7.1 text color boxes
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks42
+\pgfutil@tempdima=\dimen327
+\pgfutil@tempdimb=\dimen328
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box101
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks43
+\pgfkeys@temptoks=\toks44
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks45
+))
+\pgf@x=\dimen329
+\pgf@y=\dimen330
+\pgf@xa=\dimen331
+\pgf@ya=\dimen332
+\pgf@xb=\dimen333
+\pgf@yb=\dimen334
+\pgf@xc=\dimen335
+\pgf@yc=\dimen336
+\pgf@xd=\dimen337
+\pgf@yd=\dimen338
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count419
+\c@pgf@countb=\count420
+\c@pgf@countc=\count421
+\c@pgf@countd=\count422
+\t@pgf@toka=\toks46
+\t@pgf@tokb=\toks47
+\t@pgf@tokc=\toks48
+\pgf@sys@id@count=\count423
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-luatex.def
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
+File: pgfsys-luatex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count424
+\pgfsyssoftpath@bigbuffer@items=\count425
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen339
+\pgfmath@count=\count426
+\pgfmath@box=\box102
+\pgfmath@toks=\toks49
+\pgfmath@stack@operand=\toks50
+\pgfmath@stack@operation=\toks51
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count427
+)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen340
+\pgf@picmaxx=\dimen341
+\pgf@picminy=\dimen342
+\pgf@picmaxy=\dimen343
+\pgf@pathminx=\dimen344
+\pgf@pathmaxx=\dimen345
+\pgf@pathminy=\dimen346
+\pgf@pathmaxy=\dimen347
+\pgf@xx=\dimen348
+\pgf@xy=\dimen349
+\pgf@yx=\dimen350
+\pgf@yy=\dimen351
+\pgf@zx=\dimen352
+\pgf@zy=\dimen353
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen354
+\pgf@path@lasty=\dimen355
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen356
+\pgf@shorten@start@additional=\dimen357
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box103
+\pgf@hbox=\box104
+\pgf@layerbox@main=\box105
+\pgf@picture@serial@count=\count428
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen358
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen359
+\pgf@pt@y=\dimen360
+\pgf@pt@temp=\dimen361
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen362
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen363
+\pgf@sys@shading@range@num=\count429
+\pgf@shadingcount=\count430
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box106
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box107
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen364
+\pgf@nodesepend=\dimen365
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen366
+\pgffor@skip=\dimen367
+\pgffor@stack=\toks52
+\pgffor@toks=\toks53
+)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count431
+\pgfplotmarksize=\dimen368
+)
+\tikz@lastx=\dimen369
+\tikz@lasty=\dimen370
+\tikz@lastxsaved=\dimen371
+\tikz@lastysaved=\dimen372
+\tikz@lastmovetox=\dimen373
+\tikz@lastmovetoy=\dimen374
+\tikzleveldistance=\dimen375
+\tikzsiblingdistance=\dimen376
+\tikz@figbox=\box108
+\tikz@figbox@bg=\box109
+\tikz@tempbox=\box110
+\tikz@tempbox@bg=\box111
+\tikztreelevel=\count432
+\tikznumberofchildren=\count433
+\tikznumberofcurrentchild=\count434
+\tikz@fig@count=\count435
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count436
+\pgfmatrixcurrentcolumn=\count437
+\pgf@matrix@numberofcolumns=\count438
+)
+\tikz@expandcount=\count439
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks54
+\verbatim@line=\toks55
+\verbatim@in@stream=\read3
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box112
+\tcb@upperbox=\box113
+\tcb@lowerbox=\box114
+\tcb@phantombox=\box115
+\c@tcbbreakpart=\count440
+\c@tcblayer=\count441
+\c@tcolorbox@number=\count442
+\l__tcobox_tmpa_box=\box116
+\l__tcobox_tmpa_dim=\dimen377
+\tcb@temp=\box117
+\tcb@temp=\box118
+\tcb@temp=\box119
+\tcb@temp=\box120
+)) (./preamble/misc/tikz.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen378
+\pgfarrowlength=\dimen379
+\pgfarrowwidth=\dimen380
+\pgfarrowlinewidth=\dimen381
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/tikz-cd/tikzlibrarycd.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen382
+\pgfdecoratedremainingdistance=\dimen383
+\pgfdecoratedinputsegmentcompleteddistance=\dimen384
+\pgfdecoratedinputsegmentremainingdistance=\dimen385
+\pgf@decorate@distancetomove=\dimen386
+\pgf@decorate@repeatstate=\count443
+\pgfdecorationsegmentamplitude=\dimen387
+\pgfdecorationsegmentlength=\dimen388
+)
+\tikz@lib@dec@box=\box121
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (./preamble/misc/inkscape.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/filemod/filemod.sty
+Package: filemod 2011/09/19 v1.2 Get and compare file modification times
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/filemod/filemod-expmin.sty
+Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times (expandable; minimal)
+))) (./preamble/layout/geometry.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count444
+\Gm@cntv=\count445
+\c@Gm@tempcnt=\count446
+\Gm@bindingoffset=\dimen389
+\Gm@wd@mp=\dimen390
+\Gm@odd@mp=\dimen391
+\Gm@even@mp=\dimen392
+\Gm@layoutwidth=\dimen393
+\Gm@layoutheight=\dimen394
+\Gm@layouthoffset=\dimen395
+\Gm@layoutvoffset=\dimen396
+\Gm@dimlist=\toks56
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/mparhack/mparhack.sty
+Package: mparhack 2021-05-02 v1.5 (T. Sgouros and S. Ulrich)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/marginfix/marginfix.sty
+Package: marginfix 2020/05/06 v1.2 Fix Margin Paragraphs
+\Mfx@inject@insert=\insert251
+\Mfx@marginbox=\box122
+\Mfx@marginpos@min=\dimen397
+\Mfx@marginpos@max=\dimen398
+\Mfx@marginspace=\dimen399
+\Mfx@marginheight=\dimen400
+\Mfx@piece@content=\box123
+\Mfx@piece@count=\count447
+\Mfx@mparshift=\dimen401
+\marginheightadjustment=\dimen402
+\marginposadjustment=\dimen403
+\Mfx@strutheight=\dimen404
+)
+==> First Aid for marginfix.sty applied!
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: luatex.def on input line 112.
+Package pict2e Info: Driver file for pict2e: p2e-luatex.def on input line 114.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/pict2e/p2e-luatex.def
+File: p2e-luatex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks57
+\@arclen=\dimen405
+\@arcrad=\dimen406
+\pIIe@tempdima=\dimen407
+\pIIe@tempdimb=\dimen408
+\pIIe@tempdimc=\dimen409
+\pIIe@tempdimd=\dimen410
+\pIIe@tempdime=\dimen411
+\pIIe@tempdimf=\dimen412
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/sidenotes/sidenotes.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+)
+Package: sidenotes 2024/09/12 v1.20 Rich text in the margin for LaTeX
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/marginnote/marginnote.sty
+Package: marginnote 2018/08/09 1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count448
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count449
+\cp@tempcnt=\count450
+LaTeX Info: Redefining \checkoddpage on input line 59.
+)
+\c@sidenote=\count451
+\@sidenotes@marginfigurebox=\box124
+\@sidenotes@margintablebox=\box125
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
+\c@tracingmulticols=\count452
+\mult@box=\box126
+\multicol@leftmargin=\dimen413
+\c@unbalance=\count453
+\c@collectmore=\count454
+\doublecol@number=\count455
+\multicoltolerance=\count456
+\multicolpretolerance=\count457
+\full@width=\dimen414
+\page@free=\dimen415
+\premulticols=\dimen416
+\postmulticols=\dimen417
+\multicolsep=\skip79
+\multicolbaselineskip=\skip80
+\partial@page=\box127
+\last@line=\box128
+\mc@boxedresult=\box129
+\maxbalancingoverflow=\dimen418
+\mult@rightbox=\box130
+\mult@grightbox=\box131
+\mult@firstbox=\box132
+\mult@gfirstbox=\box133
+\@tempa=\box134
+\@tempa=\box135
+\@tempa=\box136
+\@tempa=\box137
+\@tempa=\box138
+\@tempa=\box139
+\@tempa=\box140
+\@tempa=\box141
+\@tempa=\box142
+\@tempa=\box143
+\@tempa=\box144
+\@tempa=\box145
+\@tempa=\box146
+\@tempa=\box147
+\@tempa=\box148
+\@tempa=\box149
+\@tempa=\box150
+\@tempa=\box151
+\@tempa=\box152
+\@tempa=\box153
+\@tempa=\box154
+\@tempa=\box155
+\@tempa=\box156
+\@tempa=\box157
+\@tempa=\box158
+\@tempa=\box159
+\@tempa=\box160
+\@tempa=\box161
+\@tempa=\box162
+\@tempa=\box163
+\@tempa=\box164
+\@tempa=\box165
+\@tempa=\box166
+\@tempa=\box167
+\@tempa=\box168
+\@tempa=\box169
+\c@minrows=\count458
+\c@columnbadness=\count459
+\c@finalcolumnbadness=\count460
+\last@try=\dimen419
+\multicolovershoot=\dimen420
+\multicolundershoot=\dimen421
+\mult@nat@firstbox=\box170
+\colbreak@box=\box171
+\mc@col@check@num=\count461
+\g__mc_curr_col_int=\count462
+)) (./preamble/layout/numbering.tex) (./preamble/layout/headers.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+\f@nch@headwidth=\skip81
+\f@nch@offset@elh=\skip82
+\f@nch@offset@erh=\skip83
+\f@nch@offset@olh=\skip84
+\f@nch@offset@orh=\skip85
+\f@nch@offset@elf=\skip86
+\f@nch@offset@erf=\skip87
+\f@nch@offset@olf=\skip88
+\f@nch@offset@orf=\skip89
+\f@nch@height=\skip90
+\f@nch@footalignment=\skip91
+\f@nch@widthL=\skip92
+\f@nch@widthC=\skip93
+\f@nch@widthR=\skip94
+\@temptokenb=\toks58
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box172
+\beforetitleunit=\skip95
+\aftertitleunit=\skip96
+\ttl@plus=\dimen422
+\ttl@minus=\dimen423
+\ttl@toksa=\toks59
+\titlewidth=\dimen424
+\titlewidthlast=\dimen425
+\titlewidthfirst=\dimen426
+)) (./preamble/layout/titles.tex
+
+./preamble/layout/titles.tex:6: LaTeX cmd Error: Command '\chapternotnumbered' already defined.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.6 }
+     
+
+You have used \NewDocumentCommand with a command that already has a
+definition.
+
+The existing definition of '\chapternotnumbered' will not be altered.
+
+
+
+./preamble/layout/titles.tex:39: LaTeX cmd Error: Command '\chaphead' already defined.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.39 }
+      
+
+You have used \NewDocumentCommand with a command that already has a
+definition.
+
+The existing definition of '\chaphead' will not be altered.
+
+
+) (./preamble/layout/toc.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2025/01/04 v2.17 TOC entries
+\ttl@leftsep=\dimen427
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+)) (./preamble/references/biblatex.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count463
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count464
+\c@listtotal=\count465
+\c@listcount=\count466
+\c@liststart=\count467
+\c@liststop=\count468
+\c@citecount=\count469
+\c@citetotal=\count470
+\c@multicitecount=\count471
+\c@multicitetotal=\count472
+\c@instcount=\count473
+\c@maxnames=\count474
+\c@minnames=\count475
+\c@maxitems=\count476
+\c@minitems=\count477
+\c@citecounter=\count478
+\c@maxcitecounter=\count479
+\c@savedcitecounter=\count480
+\c@uniquelist=\count481
+\c@uniquename=\count482
+\c@refsection=\count483
+\c@refsegment=\count484
+\c@maxextratitle=\count485
+\c@maxextratitleyear=\count486
+\c@maxextraname=\count487
+\c@maxextradate=\count488
+\c@maxextraalpha=\count489
+\c@abbrvpenalty=\count490
+\c@highnamepenalty=\count491
+\c@lownamepenalty=\count492
+\c@maxparens=\count493
+\c@parenlevel=\count494
+\blx@tempcnta=\count495
+\blx@tempcntb=\count496
+\blx@tempcntc=\count497
+\c@blx@maxsection=\count498
+\blx@maxsegment@0=\count499
+\blx@notetype=\count500
+\blx@parenlevel@text=\count501
+\blx@parenlevel@foot=\count502
+\blx@sectionciteorder@0=\count503
+\blx@sectionciteorderinternal@0=\count504
+\blx@entrysetcounter=\count505
+\blx@biblioinstance=\count506
+\labelnumberwidth=\skip97
+\labelalphawidth=\skip98
+\biblabelsep=\skip99
+\bibitemsep=\skip100
+\bibnamesep=\skip101
+\bibinitsep=\skip102
+\bibparsep=\skip103
+\bibhang=\skip104
+\blx@bcfin=\read4
+\blx@bcfout=\write4
+\blx@langwohyphens=\language2
+\c@mincomprange=\count507
+\c@maxcomprange=\count508
+\c@mincompwidth=\count509
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'preamble/references/biblatex-extra-fields.dbx' found.
+ (./preamble/references/biblatex-extra-fields.dbx)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count510
+\c@savedafterword=\count511
+\c@annotator=\count512
+\c@savedannotator=\count513
+\c@author=\count514
+\c@savedauthor=\count515
+\c@bookauthor=\count516
+\c@savedbookauthor=\count517
+\c@commentator=\count518
+\c@savedcommentator=\count519
+\c@editor=\count520
+\c@savededitor=\count521
+\c@editora=\count522
+\c@savededitora=\count523
+\c@editorb=\count524
+\c@savededitorb=\count525
+\c@editorc=\count526
+\c@savededitorc=\count527
+\c@foreword=\count528
+\c@savedforeword=\count529
+\c@holder=\count530
+\c@savedholder=\count531
+\c@introduction=\count532
+\c@savedintroduction=\count533
+\c@namea=\count534
+\c@savednamea=\count535
+\c@nameb=\count536
+\c@savednameb=\count537
+\c@namec=\count538
+\c@savednamec=\count539
+\c@translator=\count540
+\c@savedtranslator=\count541
+\c@shortauthor=\count542
+\c@savedshortauthor=\count543
+\c@shorteditor=\count544
+\c@savedshorteditor=\count545
+\c@labelname=\count546
+\c@savedlabelname=\count547
+\c@institution=\count548
+\c@savedinstitution=\count549
+\c@lista=\count550
+\c@savedlista=\count551
+\c@listb=\count552
+\c@savedlistb=\count553
+\c@listc=\count554
+\c@savedlistc=\count555
+\c@listd=\count556
+\c@savedlistd=\count557
+\c@liste=\count558
+\c@savedliste=\count559
+\c@listf=\count560
+\c@savedlistf=\count561
+\c@location=\count562
+\c@savedlocation=\count563
+\c@organization=\count564
+\c@savedorganization=\count565
+\c@origlocation=\count566
+\c@savedoriglocation=\count567
+\c@origpublisher=\count568
+\c@savedorigpublisher=\count569
+\c@publisher=\count570
+\c@savedpublisher=\count571
+\c@language=\count572
+\c@savedlanguage=\count573
+\c@origlanguage=\count574
+\c@savedoriglanguage=\count575
+\c@pageref=\count576
+\c@savedpageref=\count577
+\shorthandwidth=\skip105
+\shortjournalwidth=\skip106
+\shortserieswidth=\skip107
+\shorttitlewidth=\skip108
+\shortauthorwidth=\skip109
+\shorteditorwidth=\skip110
+\locallabelnumberwidth=\skip111
+\locallabelalphawidth=\skip112
+\localshorthandwidth=\skip113
+\localshortjournalwidth=\skip114
+\localshortserieswidth=\skip115
+\localshorttitlewidth=\skip116
+\localshortauthorwidth=\skip117
+\localshorteditorwidth=\skip118
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count578
+\c@textcitetotal=\count579
+\c@textcitemaxnames=\count580
+\c@biburlbigbreakpenalty=\count581
+\c@biburlbreakpenalty=\count582
+\c@biburlnumpenalty=\count583
+\c@biburlucpenalty=\count584
+\c@biburllcpenalty=\count585
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count586
+)
+Package biblatex Info: Trying to load bibliography style 'ext-numeric-verb'...
+Package biblatex Info: ... file 'ext-numeric-verb.bbx' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-ext/ext-numeric-verb.bbx
+File: ext-numeric-verb.bbx 2025/06/24 v0.20 extended biblatex numeric-verb bibliography style (MW)
+Package biblatex Info: Trying to load bibliography style 'ext-standard'...
+Package biblatex Info: ... file 'ext-standard.bbx' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-ext/ext-standard.bbx
+File: ext-standard.bbx 2025/06/24 v0.20 extended biblatex standard style (MW)
+Package biblatex Info: Trying to load auxiliary code for ext-biblatex...
+Package biblatex Info: ... file 'ext-biblatex-aux.def' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-ext/ext-biblatex-aux.def
+File: ext-biblatex-aux.def 2025/06/24 v0.20 auxiliaries for extended biblatex citation style (MW)
+)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count587
+\c@bbx:relatedtotal=\count588
+)
+\extbl@this@introcitewidth=\skip119
+\introcitewidth=\skip120
+\introcitesep=\skip121
+Package biblatex Info: Delimiter 'innametitledelim' in context 'bib' already defined, overwriting.
+Package biblatex Info: Delimiter 'innametitledelim' in context 'biblist' already defined, overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'numeric-verb'...
+Package biblatex Info: ... file 'numeric-verb.bbx' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/numeric-verb.bbx
+File: numeric-verb.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+)))
+Package biblatex Info: Trying to load citation style 'ext-numeric-verb'...
+Package biblatex Info: ... file 'ext-numeric-verb.cbx' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-ext/ext-numeric-verb.cbx
+File: ext-numeric-verb.cbx 2025/06/24 v0.20 extended biblatex numeric-verb citation style (MW)
+Package biblatex Info: Trying to load citation style 'numeric-verb'...
+Package biblatex Info: ... file 'numeric-verb.cbx' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/cbx/numeric-verb.cbx
+File: numeric-verb.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2025-07-19 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+)) (./preamble/references/fields.tex) (./preamble/references/cite.tex) (./preamble/references/style.tex
+Package biblatex Info: Delimiter 'editortypedelim' in context '' already defined, overwriting on input line 24.
+) (./preamble/references/doi-eprint-url.tex) (./preamble/references/backref.tex)) (./preamble/math/packages.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count589
+\l_MT_multwidth_dim=\dimen428
+\origjot=\skip122
+\l_MT_shortvdotswithinadjustabove_dim=\dimen429
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen430
+\l_MT_above_intertext_sep=\dimen431
+\l_MT_below_intertext_sep=\dimen432
+\l_MT_above_shortintertext_sep=\dimen433
+\l_MT_below_shortintertext_sep=\dimen434
+\xmathstrut@box=\box173
+\xmathstrut@dim=\dimen435
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/scalerel/scalerel.sty
+Package: scalerel 2016/12/29 v1.8 Routines for constrained scaling and stretching of objects, relative to a reference object or in absolute terms
+\thesrwidth=\skip123
+\thesrheight=\skip124
+\srblobheight=\skip125
+\srblobdepth=\skip126
+\mnxsrwidth=\skip127
+\LMex=\skip128
+\LMpt=\skip129
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/physics/physics.sty
+Package: physics 
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tensind/tensind.sty
+Package: tensind 1998/05/01 v1.1 Tensorial Indexes
+\tsi@dimen=\dimen436
+\primes=\dimen437
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/mathfixs/mathfixs.sty
+Package: mathfixs 2025/03/25 v1.1.3 various fixes for math mode
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/delimset/delimset.sty
+Package: delimset 2025/03/27 v2.2.2 convenient size control for delimiter sets
+\dlm@size=\skip130
+\delimsize=\skip131
+\dlm@reg@lvl=\count590
+)) (./preamble/math/fonts.tex
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> T1/lmss/sbc/n on input line 5.
+LaTeX Font Info:    Overwriting math alphabet `\mathsfit' in version `bold'
+(Font)                  T1/lmss/m/sl --> T1/lmss/b/sl on input line 10.
+\c@mv@sans=\count591
+LaTeX Font Info:    Overwriting symbol font `operators' in version `sans'
+(Font)                  OT1/cmr/m/n --> OT1/cmbr/m/n on input line 18.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `sans'
+(Font)                  OML/cmm/m/it --> OML/cmbrm/m/it on input line 19.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `sans'
+(Font)                  OMS/cmsy/m/n --> OMS/cmbrs/m/n on input line 20.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `sans'
+(Font)                  OMX/cmex/m/n --> OMX/iwona/m/n on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `sans'
+(Font)                  OT1/cmr/m/it --> OT1/cmbr/m/sl on input line 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `sans'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 23.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `sans'
+(Font)                  OT1/cmr/bx/n --> OT1/cmbr/bx/n on input line 24.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `sans'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtl/m/n on input line 25.
+\c@mv@boldsans=\count592
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldsans'
+(Font)                  OT1/cmr/m/n --> OT1/cmbr/b/n on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldsans'
+(Font)                  OML/cmm/m/it --> OML/cmbrm/b/it on input line 30.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `boldsans'
+(Font)                  OMX/cmex/m/n --> OMX/iwona/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldsans'
+(Font)                  OT1/cmr/m/it --> OT1/cmbr/b/sl on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldsans'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/sbc/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldsans'
+(Font)                  > OT1/cmbr/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldsans'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtl/b/n on input line 35.
+\symsfletters=\mathgroup9
+\symsflettersbold=\mathgroup10
+\symstmry=\mathgroup11
+) (./preamble/math/macros.tex
+LaTeX Font Info:    Redeclaring math symbol \setminus on input line 204.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/ytableau/ytableau.sty
+Package: ytableau 2021/06/12 v1.4 Many-featured Young tableaux and Young diagrams
+\tableaux@YT=\box174
+\thistableau@YT=\box175
+\refhtdp@YT=\box176
+\toks@YT=\toks60
+\opttoksa@YT=\toks61
+\opttoksb@YT=\toks62
+\boxdim@YT=\dimen438
+\tableauwd@YT=\dimen439
+\count@YT=\count593
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks63
+\pgfopts@list@add@b@toks=\toks64
+))
+\argumentbox=\box177
+) (./preamble/math/spacing.tex
+\halfhphantomlength=\skip132
+) (./preamble/environments/init.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/keytheorems/keytheorems.sty
+Package: keytheorems 2025-07-16 v0.3.1 l3keys interface to amsthm
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/oberdiek/aliascnt.sty
+Package: aliascnt 2018/09/07 v1.5 Alias counters (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks65
+\thm@bodyfont=\toks66
+\thm@headfont=\toks67
+\thm@notefont=\toks68
+\thm@headpunct=\toks69
+\thm@preskip=\skip133
+\thm@postskip=\skip134
+\thm@headsep=\skip135
+\dth@everypar=\toks70
+)
+\l__keythms_tmpa_dim=\dimen440
+\l__keythms_thm_currparindent_dim=\dimen441
+\l__keythms_thm_currparskip_dim=\dimen442
+\l__keythms_thm_tcbstate_int=\count594
+\c@keythms_restate_dummyctr=\count595
+\c@keythms_continues_dummyctr=\count596
+\c@keythms_unnumbered_dummyctr=\count597
+\c@keythms_manualnum_dummyctr=\count598
+\l__keythms_thm_leftmargin_dim=\dimen443
+\l__keythms_thm_rightmargin_dim=\dimen444
+\keythms@listof@chaptervspace@dim=\dimen445
+\l__keythms_listof_indent_dim=\dimen446
+\l__keythms_listof_numwidth_dim=\dimen447
+\g_keythms_listof_prevchapter_int=\count599
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.7.1'
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box178
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.7.1'
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.7.1'
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box179
+\tcb@totalupperbox=\box180
+\tcb@totallowerbox=\box181
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.7.1'
+)
+\depthofj=\skip136
+) (./preamble/environments/theorem-like.tex) (./preamble/environments/remark-like.tex
+\proofsmallsquare=\box182
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/cmbright/omlcmbrm.fd
+File: omlcmbrm.fd 2005/04/13 v8.1 (WaS)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)) (./preamble/environments/todo-like.tex) (./preamble/environments/akce.tex (/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip137
+\enit@outerparindent=\dimen448
+\enit@toks=\toks71
+\enit@inbox=\box183
+\enit@count@id=\count600
+\enitdp@description=\count601
+)) (./preamble/environments/moje.tex) (./preamble/hacks/custom-reference-boxes.tex) (./preamble/hacks/fix-qed.tex) (./preamble/hacks/fix-hyperref.tex) (./preamble/hacks/floatrow-parskip.tex) (./preamble/user/main.tex (./preamble/user/macros.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/hologo/hologo.sty
+Package: hologo 2021-11-16 v1.15 A logo collection with bookmark support (HO)
+)) (./preamble/user/math.tex)))
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 25.
+\@quotelevel=\count602
+\@quotereset=\count603
+ (./build/main.aux (./build/frontmatter/title.aux))
+\openout1 = main.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
+ (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count604
+\scratchdimen=\dimen449
+\scratchbox=\box184
+\nofMPsegments=\count605
+\nofMParguments=\count606
+\everyMPshowfont=\toks72
+\MPscratchCnt=\count607
+\MPscratchDim=\dimen450
+\MPnumerator=\count608
+\makeMPintoPDFobject=\count609
+\everyMPtoPDFconversion=\toks73
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 25.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen451
+\caption@adjustwidth@linewidth=\dimen452
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 25.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/zref/zref-hyperref.sty
+Package: zref-hyperref 2025-06-08 v2.36 Module hyperref for zref (HO)
+Package zref Info: New property: anchor on input line 56.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/zref-clever/zref-clever-english.lang)
+
+Package zref-clever Info: Loaded 'english' language file.
+
+\c@zc@appendix=\count610
+Package zref Info: New property: subeq on input line 25.
+
+Package zref-clever Info: Loaded support for 'amsmath' package.
+
+
+Package zref-clever Info: Loaded support for 'mathtools' package.
+
+Package zref Info: New property: subref on input line 25.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* hratio: 1:1
+* vratio: 3:4
+* modes: includehead includemp 
+* h-part:(L,W,R)=(42.67915pt, 654.41335pt, 42.67915pt)
+* v-part:(T,H,B)=(44.4548pt, 741.3189pt, 59.27315pt)
+* \paperwidth=739.77165pt
+* \paperheight=845.04684pt
+* \textwidth=455.24408pt
+* \textheight=711.3189pt
+* \oddsidemargin=-29.59084pt
+* \evensidemargin=-29.59084pt
+* \topmargin=-27.81519pt
+* \headheight=30.0pt
+* \headsep=0.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=170.71652pt
+* \marginparsep=28.45274pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\@sidenotes@extrawidth=\skip138
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+\openout4 = main.bcf
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (./build/main.bbl)
+Package biblatex Info: Reference section=0 on input line 25.
+Package biblatex Info: Reference segment=0 on input line 25.
+
+\openout2 = frontmatter/title.aux
+ (./frontmatter/title.tex
+<./figures/logo.png, id=31, 885.3075pt x 296.307pt>
+File: ./figures/logo.png Graphic file (type png)
+<use ./figures/logo.png>
+Package luatex.def Info: ./figures/logo.png  used on input line 12.
+(luatex.def)             Requested size: 455.24408pt x 152.37148pt.
+
+
+[1
+
+
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./figures/logo.png>]) (./build/main.toc
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.i'
+[1
+
+
+
+]
+Package marginnote Info: Using workaround for absolute page number on input line 46.
+
+
+[2])
+\tf@toc=\write5
+
+\openout5 = main.toc
+
+
+[3] (./chapters/uvod.tex
+Chapter 1.
+
+Underfull \hbox (badness 1448) in paragraph at lines 22--22
+[] $[][]$ \TU/lmr/m/n/12 As-te-r-ion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+\TU/lmr/m/n/12 žádný priv-i-le-go-v-aný sys-tém
+ []
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 22--22
+\TU/lmr/m/n/12 hrát. Nicméně, au-toři pod-
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 36--36
+[] $[][]$ \TU/lmr/m/n/12 Pravidla
+ []
+
+
+
+[1
+
+
+]
+Package marginnote Info: Using workaround for absolute page number on input line 47.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/cmbright/ot1cmbr.fd
+File: ot1cmbr.fd 2005/04/13 v8.1 (WaS)
+)
+LaTeX Font Info:    Font shape `OT1/cmbr/b/n' in size <12> not available
+(Font)              Font shape `OT1/cmbr/bx/n' tried instead on input line 48.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/iwona/omxiwona.fd
+File: omxiwona.fd 2008/07/22 v0.995 font definition file for OMX/iwona (MW)
+)
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+) (./chapters/aspekty.tex
+
+[2]
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+
+Underfull \hbox (badness 3396) in paragraph at lines 26--26
+[] $[][]$ \TU/lmr/m/n/12 A taky
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 26--26
+\TU/lmr/m/n/12 je to zábavnější (a o to nám
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 26--26
+\TU/lmr/m/n/12 bilo. Je proto na zod-pověd-
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 26--26
+\TU/lmr/m/n/12 nosti každého hráče, aby po-
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 26--26
+\TU/lmr/m/n/12 vytvořil příběh, který pro něj
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+
+[3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[] $[][]$ \TU/lmr/m/n/12 Ve
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 35--35
+\TU/lmr/m/n/12 a poz-i-tivní'' as-pekt. As-pekt
+ []
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 37--37
+[] $[][]$ \TU/lmr/m/n/12 Zde by
+ []
+
+
+Underfull \hbox (badness 7081) in paragraph at lines 37--37
+\TU/lmr/m/n/12 šlo navrhnout, že speci-fikací
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 37--37
+\TU/lmr/m/n/12 postavu hledal někdo jiný, tj.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+
+[4]
+Underfull \hbox (badness 4726) in paragraph at lines 55--55
+[] $[][]$ \TU/lmr/m/n/12 Je zře-
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 55--55
+\TU/lmr/m/n/12 jmé, že ve většině pří-padů se
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+[] $[][]$ \TU/lmr/m/n/12 Napřík-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+[] $[][]$ \TU/lmr/m/n/12 To se
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 83--83
+\TU/lmr/m/n/12 ale takto nikdy nelze pře-točit
+ []
+
+
+Underfull \hbox (badness 6876) in paragraph at lines 83--83
+\TU/lmr/m/n/12 kostky, není za-počten žádný
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 83--83
+\TU/lmr/m/n/12 si nemůžete vy-brat, na jakou
+ []
+
+
+Underfull \hbox (badness 6428) in paragraph at lines 83--83
+\TU/lmr/m/n/12 budete házet. Samozře-jmě,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+\TU/lmr/m/n/12 pokud se rozhodne 5 členů
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+\TU/lmr/m/n/12 družiny vyšikanovat jed-noho
+ []
+
+
+Underfull \hbox (badness 7740) in paragraph at lines 83--83
+\TU/lmr/m/n/12 nepřítele, každý zaplatí bod
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 83--83
+\TU/lmr/m/n/12 lze před-cházet např. tím, že
+ []
+
+
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
+[] $[][]$
+ []
+
+
+Underfull \hbox (badness 5388) in paragraph at lines 106--106
+\TU/lmr/m/n/12 Vypravěč má pro vynu-cov-ání
+ []
+
+) (./chapters/akce.tex
+
+[6]
+
+./chapters/akce.tex:4: LaTeX Error: Float(s) lost.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \chapter
+            {Akce a výsledky}
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Chapter 3.
+<./figures/prekonani-ikona.png, id=679, 144.54pt x 144.54pt>
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 31.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Overfull \hbox (26.38156pt too wide) in paragraph at lines 31--31
+[]\TU/lmr/m/sc/12 Překonání: \TU/lmr/m/n/12 Jakáko-liv čin-nost s hlavním cílem něco překonat je akce \TU/lmr/m/sc/12 Překonání\TU/lmr/m/n/12 .|
+ []
+
+<./figures/vytvoreni-ikona.png, id=680, 144.54pt x 144.54pt>
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 32.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+[] $[][]$
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 32--32
+\TU/lmr/m/n/12 Pravidlové posti-h-nutí vytváření
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 32--32
+\TU/lmr/m/n/12 výhody je velký po-sun oproti
+ []
+
+
+
+[7
+
+<./figures/prekonani-ikona.png>]
+<./figures/utok-ikona.png, id=695, 144.54pt x 144.54pt>
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 33.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+<./figures/obrana-ikona.png, id=696, 144.54pt x 144.54pt>
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 34.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 3128) in paragraph at lines 34--34
+\TU/lmr/m/n/12 je-vit, že je velmi silné, aby
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 34--34
+\TU/lmr/m/n/12 se postava mohla bránit ko-
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 34--34
+\TU/lmr/m/n/12 likrát chce. Ve skutečnosti
+ []
+
+
+LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <12> not available
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 42.
+
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 56.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 57.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 58.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 59.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+
+[8<./figures/vytvoreni-ikona.png><./figures/utok-ikona.png><./figures/obrana-ikona.png>]
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 68.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 69.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 70.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 71.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 80.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 81.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 82.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 83.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 89.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 90.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Overfull \hbox (23.15569pt too wide) in paragraph at lines 90--91
+[]\TU/lmr/m/n/12 Žádný as-pekt nebyl vytvořen/ob-jeven. Al-ter-na-tivně, je možné as-pekt vytvořit/ob-|
+ []
+
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 91.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 92.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+
+[9]) (./chapters/dovednosti.tex
+
+[10]
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[] $[][]$ \TU/lmr/m/n/12 I v
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 8--8
+\TU/lmr/m/n/12 témže set-tingu je samozře-jmě
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 8--8
+\TU/lmr/m/n/12 nosti. Jedná-li se napřík-lad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\TU/lmr/m/n/12 o do-bro-družství odehrá-va-jící
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 8--8
+\TU/lmr/m/n/12 se ve škole šermu, je vhodné
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\TU/lmr/m/n/12 posti-h-nout oblast boje více
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+\TU/lmr/m/n/12 mo-hou před-stavo-vat odd-ělené
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[] $[][]$ \TU/lmr/m/n/12 V
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 10--10
+\TU/lmr/m/n/12 porovnání se so-ciál-ními doved-
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 10--10
+\TU/lmr/m/it/12 po-zornosti \TU/lmr/m/n/12 zahrnovala \TU/lmr/m/it/12 Em-patii,
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 10--10
+\TU/lmr/m/it/12 Kon-takty, Pro-vokaci i Vz-tahy\TU/lmr/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 3108) in paragraph at lines 10--10
+\TU/lmr/m/n/12 je tento krok spíše obrovský.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[] $[][]$ \TU/lmr/m/n/12 Toto
+ []
+
+
+Overfull \hbox (8.38148pt too wide) in paragraph at lines 10--11
+\TU/lmr/m/n/12 pravidlům M16 se změny dočkaly ze-jména so-ciální a jiné ``soft'' doved-nosti a boj. Konkrétně,|
+ []
+
+
+Overfull \hbox (30.66414pt too wide) in paragraph at lines 10--11
+\TU/lmr/m/n/12 v sys-tému M16 je boj rozdělen na velké množství stylů: \TU/lmtt/b/n/12 Rváč, Šermíř, Pirát, Těžkooděnec,|
+ []
+
+
+
+
+
+
+
+
+
+[11
+
+]
+Overfull \hbox (4.04489pt too wide) in paragraph at lines 58--59
+\TU/lmr/m/n/12 Doved-nost \TU/lmtt/b/n/12 Boj beze zbraně \TU/lmr/m/n/12 pokrývá formy boje, při kterém není útočník jakko-liv vyzbro-|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 63.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+[] $[][]$ \TU/lmr/m/n/12 Hody
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 63--63
+\TU/lmr/m/n/12 na \TU/lmr/m/sc/12 Překonání \TU/lmr/m/n/12 jsou totiž ne-
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 63--63
+\TU/lmr/m/n/12 jčastější ve střetech, viz sekce
+ []
+
+
+Overfull \hbox (0.36153pt too wide) in paragraph at lines 63--64
+[]\TU/lmr/m/sc/12 Překonání:\TU/lmtt/b/n/12 Boj beze zbraně \TU/lmr/m/n/12 se mimo fyz-ický kon-flikt prak-ticky nevyužívá,|
+ []
+
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 65.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 67.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 69.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 80.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 81.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+
+[12]
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 83.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 85.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 97.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[] $[][]$ \TU/lmr/m/n/12 Hody
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 97--97
+\TU/lmr/m/n/12 na \TU/lmr/m/sc/12 Překonání \TU/lmr/m/n/12 jsou totiž ne-
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 97--97
+\TU/lmr/m/n/12 jčastější ve střetech, viz sekce
+ []
+
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 99.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 101.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 102.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Overfull \hbox (13.77847pt too wide) in paragraph at lines 102--103
+\TU/lmr/m/n/12 postava tvoří ak-tivní opozici nepříteli proti akci, při které pro-tivníkovi nepomáhá|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+
+[13]
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 112.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Overfull \hbox (4.77359pt too wide) in paragraph at lines 112--115
+\TU/lmr/m/n/12 půdu pro použití jiných so-ciál-ních doved-ností jako jsou \TU/lmtt/b/n/12 Vztahy \TU/lmr/m/n/12 či \TU/lmtt/b/n/12 Klam \TU/lmr/m/n/12 (napřík-|
+ []
+
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 115.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 117.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 119.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 128.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 129.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 130.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+
+[14]
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 131.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Overfull \hbox (7.69357pt too wide) in paragraph at lines 131--132
+[]\TU/lmr/m/sc/12 Obrana:\TU/lmr/m/n/12 Tato doved-nost je zák-ladní pro obranu před pokusy os-tat-ních vytvořit|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 140.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Overfull \hbox (8.19354pt too wide) in paragraph at lines 140--143
+\TU/lmr/m/n/12 jně tak lze \TU/lmtt/b/n/12 Klamem \TU/lmr/m/n/12 odstraňo-vat as-pekty vytvořené pro-tivníkovým \TU/lmr/m/sc/12 Vytvářením|
+ []
+
+
+Overfull \hbox (1.69356pt too wide) in paragraph at lines 140--143
+\TU/lmr/m/sc/12 výhod\TU/lmr/m/n/12 mařit vyšetřování: (odstraňo-vat tak as-pekty jako \TU/lmr/bx/it/12 Jsou mi na stopě\TU/lmr/m/n/12 ),|
+ []
+
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 143.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 144.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 145.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 154.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 156.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 157.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 158.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 167.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 170.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Overfull \hbox (8.80557pt too wide) in paragraph at lines 170--171
+[]\TU/lmr/m/sc/12 Vytvoření výhody: \TU/lmr/m/n/12 Znalost lidí a schop-nost je vyh-le-dat beze-s-poru umožňuje|
+ []
+
+
+
+[16]
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 171.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 172.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 182.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 184.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Overfull \hbox (4.90366pt too wide) in paragraph at lines 184--185
+\TU/lmr/m/n/12 zabezpečení \TU/lmr/bx/it/12 Do-brého odpočinku\TU/lmr/m/n/12 , \TU/lmr/bx/it/12 Sval-ové masáže \TU/lmr/m/n/12 apod. Druhou možností|
+ []
+
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 185.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 186.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 197.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+
+[17]
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 198.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 199.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 200.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Overfull \hbox (22.03482pt too wide) in paragraph at lines 200--201
+\TU/lmr/m/sc/12 Vytvoření výhody \TU/lmr/m/n/12 - např. když postavu chce někdo skop-nout z \TU/lmr/bx/it/12 Rozviklaného|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+
+ []
+
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 212.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Overfull \hbox (19.40167pt too wide) in paragraph at lines 212--212
+\TU/lmr/m/n/12 sivní opozici (proti pasti) a je též do-bré neza-měňo-vat \TU/lmtt/b/n/12 Pozornost \TU/lmr/m/n/12 za \TU/lmtt/b/n/12 Vyšetřování\TU/lmr/m/n/12 .|
+ []
+
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 213.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+[] $[][]$ \TU/lmr/m/n/12 Ve
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+\TU/lmr/m/n/12 skutečnosti by i takto šlo
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 213--213
+\TU/lmr/m/n/12 vytvořit výhodu, pouze by se
+ []
+
+
+Underfull \hbox (badness 2913) in paragraph at lines 213--213
+\TU/lmr/m/n/12 ale jed-nalo o získání vol-ných
+ []
+
+
+
+[18]
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 214.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 215.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+[] $[][]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+\TU/lmr/m/n/12 Odhalení as-pektu větši-nou
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+\TU/lmr/m/n/12 spadá pod akci \TU/lmr/m/sc/12 Vytvoření
+ []
+
+
+Underfull \hbox (badness 6094) in paragraph at lines 215--215
+\TU/lmr/m/n/12 myšlena jako ak-tivní opoz-ice
+ []
+
+
+Overfull \hbox (12.56961pt too wide) in paragraph at lines 215--216
+[]\TU/lmr/m/sc/12 Obrana:\TU/lmr/m/n/12 Bránit se \TU/lmtt/b/n/12 Pozorností \TU/lmr/m/n/12 lze proti pokusům o akce s doved-ností \TU/lmtt/b/n/12 Skrývání|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+
+ []
+
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 224.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 225.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 228.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Overfull \hbox (16.29974pt too wide) in paragraph at lines 228--228
+\TU/lmr/m/n/12 dení duševního útoku při ar-gu-men-tačním/so-ciál-ním kon-fliktu. Urážky, výhružky,|
+ []
+
+
+Overfull \hbox (0.78418pt too wide) in paragraph at lines 228--229
+[]\TU/lmr/m/n/12 O ar-gu-men-tačních a so-ciál-ních kon-flik-tech se lze dočíst v sekci [][][][][].|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
+
+ []
+
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 230.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+
+ []
+
+
+
+[19]
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 241.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Overfull \hbox (14.10556pt too wide) in paragraph at lines 241--241
+[]\TU/lmr/m/sc/12 Překonání:Překonání \TU/lmr/m/n/12 po-mocí \TU/lmtt/b/n/12 Řemesel \TU/lmr/m/n/12 ne-jčastěji nachází využití při výzvách|
+ []
+
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 244.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 245.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 246.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 255.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 3138) in paragraph at lines 255--255
+[] $[][]$ \TU/lmr/m/n/12 Zde je
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 255--255
+\TU/lmr/m/n/12 maření ne-myšleno jako ak-tivní
+ []
+
+
+Overfull \hbox (26.87122pt too wide) in paragraph at lines 255--256
+\TU/lmr/m/n/12 pro-plížení se do \TU/lmr/bx/it/12 Těžce hlí-daného \TU/lmr/m/n/12 místa, proklouz-nout mezi strážemi, nezanechání|
+ []
+
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 256.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+
+[20]
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 257.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 258.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
+
+ []
+
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 267.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 268.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
+[] $[][]$ \TU/lmr/m/n/12 V
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--268
+\TU/lmr/m/n/12 takovém pří-padě je namístě
+ []
+
+
+Underfull \hbox (badness 6157) in paragraph at lines 268--268
+\TU/lmr/m/n/12 zvážit, zda-li by se postava
+ []
+
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 269.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 270.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 281.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+
+[21]
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 283.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 284.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 285.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Overfull \hbox (25.38158pt too wide) in paragraph at lines 285--286
+[]\TU/lmr/m/sc/12 Obrana:\TU/lmr/m/n/12 Po \TU/lmtt/b/n/12 Vůli \TU/lmr/m/n/12 typ-icky sáh-nete při \TU/lmr/m/sc/12 Obraně \TU/lmr/m/n/12 proti doved-nos-tem jako \TU/lmtt/b/n/12 Provokace|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+ []
+
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 294.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Overfull \hbox (21.3544pt too wide) in paragraph at lines 294--297
+[]\TU/lmr/m/sc/12 Překonání:\TU/lmr/m/n/12 Hody na \TU/lmr/m/sc/12 Překonání \TU/lmr/m/n/12 po-mocí \TU/lmtt/b/n/12 Vyšetřování \TU/lmr/m/n/12 jsou o hledání, zjišťování|
+ []
+
+
+Overfull \hbox (15.32295pt too wide) in paragraph at lines 294--297
+\TU/lmr/m/n/12 pokusy o nalezení před-mětů v míst-nosti atd. jsou všechno hody na \TU/lmtt/b/n/12 Vyšetřování\TU/lmr/m/n/12 . |
+ []
+
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 297.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Overfull \hbox (26.28554pt too wide) in paragraph at lines 297--297
+[]\TU/lmr/m/sc/12 Vytvoření výhody:\TU/lmr/m/n/12 Jednoduché použití \TU/lmtt/b/n/12 Vyšetřování \TU/lmr/m/n/12 pro \TU/lmr/m/sc/12 Vytvoření výhody|
+ []
+
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 298.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 299.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+
+
+[22]
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 308.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 311.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Overfull \hbox (9.86159pt too wide) in paragraph at lines 311--311
+[]\TU/lmr/m/sc/12 Vytvoření výhody:\TU/lmr/m/n/12 Vytváření výhod po-mocí \TU/lmtt/b/n/12 Vztahů \TU/lmr/m/n/12 je do jisté míry podobné|
+ []
+
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 312.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 313.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+
+ []
+
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 322.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 323.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Overfull \hbox (5.19354pt too wide) in paragraph at lines 323--324
+[]\TU/lmr/m/sc/12 Vytvoření výhody:\TU/lmr/m/n/12 Použití \TU/lmtt/b/n/12 Zlodějiny \TU/lmr/m/n/12 na \TU/lmr/m/sc/12 Vytvoření výhody \TU/lmr/m/n/12 je poměrně|
+ []
+
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 324.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 325.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+
+[23]) (./chapters/triky.tex
+
+[24]
+Chapter 5.
+
+LaTeX Warning: Hyper reference `sec:specialni-triky' on page 25 undefined on input line 18.
+
+
+LaTeX Warning: Reference `sec:specialni-triky' on page 25 undefined on input line 18.
+
+
+LaTeX Warning: Reference `sec:specialni-triky' on page 25 undefined on input line 18.
+
+
+LaTeX Warning: Reference `sec:specialni-triky' on page 25 undefined on input line 18.
+
+
+Overfull \hbox (25.80133pt too wide) in paragraph at lines 17--20
+\TU/lmr/m/n/12 nutí jiného triku. Tyto vz-tahy pak popisuje sekce níže věno-vaná rod-inám triků [][][][][]. |
+ []
+
+
+
+[25
+
+]
+Overfull \hbox (12.57597pt too wide) in paragraph at lines 33--35
+[]$[]$\TU/lmr/m/n/12 : Jakýko-liv výrobek získáný \TU/lmtt/b/n/12 Řemesly \TU/lmr/m/n/12 po-mocí \TU/lmr/m/sc/12 Vytvoření výhody|
+ []
+
+
+Overfull \hbox (57.56407pt too wide) in paragraph at lines 45--46
+[]\TU/lmr/m/n/12 ob-doba 2 po-sunového zásahu (jež je nutné pokrýt stre-sem či násled-kem) (viz $[]$) |
+ []
+
+
+Package zref-clever Warning: Reference format option 'Name-sg' undefined for
+(zref-clever)                type 'sidenote' on line 60.
+
+
+
+[26]
+Overfull \hbox (3.21205pt too wide) in paragraph at lines 88--90
+[]$[]$\TU/lmr/m/n/12 : Můžete použít doved-nost \TU/lmtt/b/n/12 Učenost \TU/lmr/m/n/12 dvakrát během jedné \TU/lmss/bx/n/12 Výzvy\TU/lmr/m/n/12 . |
+ []
+
+
+
+[27]
+Overfull \hbox (6.94891pt too wide) in paragraph at lines 126--129
+[]$[]$\TU/lmr/m/n/12 : [][]Můžete použít doved-nost \TU/lmtt/b/n/12 Boj beze zbraně\TU/lmr/m/n/12 , namísto \TU/lmtt/b/n/12 Provokace \TU/lmr/m/n/12 abyste|
+ []
+
+
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
+[] $[][]$ \TU/lmr/m/n/12 Poz-
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[29]
+Overfull \hbox (6.7201pt too wide) in paragraph at lines 217--220
+[]$[]$\TU/lmr/m/n/12 : [][]Získáváte bonus +2 při \TU/lmr/m/sc/12 Vytváření výhody \TU/lmr/m/n/12 po-mocí \TU/lmtt/b/n/12 Klamu \TU/lmr/m/n/12 proti někomu,|
+ []
+
+
+Overfull \hbox (4.53612pt too wide) in paragraph at lines 238--241
+[]$[]$\TU/lmr/m/n/12 : [][]Můžete použít doved-nost \TU/lmtt/b/n/12 Kondice \TU/lmr/m/n/12 k akci \TU/lmr/m/sc/12 Obrana \TU/lmr/m/n/12 proti \TU/lmtt/b/n/12 Boji beze zbraně|
+ []
+
+
+
+[30]
+Overfull \hbox (16.42009pt too wide) in paragraph at lines 272--275
+[]$[]$\TU/lmr/m/n/12 : [][]Můžete použít \TU/lmtt/b/n/12 Medicínu \TU/lmr/m/n/12 namísto \TU/lmtt/b/n/12 Vyšetřování \TU/lmr/m/n/12 nebo \TU/lmtt/b/n/12 Pozornosti|
+ []
+
+
+
+[31]
+
+[32]
+Overfull \hbox (33.47615pt too wide) in paragraph at lines 419--422
+[]$[]$\TU/lmr/m/n/12 : [][]: Po úspěšném \TU/lmr/m/sc/12 Vytvoření výhody \TU/lmr/m/n/12 po-mocí \TU/lmtt/b/n/12 Vyšetřování \TU/lmr/m/n/12 při odposlouchávání|
+ []
+
+
+
+[33]
+Overfull \hbox (0.32576pt too wide) in paragraph at lines 449--452
+[]$[]$\TU/lmr/m/n/12 : [][]Jestliže jste v oblasti, kde jste oblíbený, můžete použí-vat \TU/lmtt/b/n/12 Vztahy \TU/lmr/m/n/12 namísto|
+ []
+
+) (./chapters/strety_vyzvy_konflikty.tex
+
+[34]
+Chapter 6.
+
+Underfull \hbox (badness 3668) in paragraph at lines 28--28
+[] $[][]$ \TU/lmr/m/n/12 V pří-
+ []
+
+
+
+[35
+
+]
+Overfull \hbox (17.2249pt too wide) in paragraph at lines 32--33
+[]\TU/lmr/m/n/12 Jako \TU/lmss/bx/n/12 Výzvu \TU/lmr/m/n/12 se hodí ucho-pit situaci, která by na první pohled volala po akcích \TU/lmr/m/sc/12 Překonání\TU/lmr/m/n/12 ,|
+ []
+
+
+Underfull \hbox (badness 3668) in paragraph at lines 34--34
+[] $[][]$ \TU/lmr/m/n/12 V pří-
+ []
+
+
+
+[36]
+
+[37]
+
+LaTeX Font Warning: Font shape `TU/lmtt/bx/sc' undefined
+(Font)              using `TU/lmtt/bx/n' instead on input line 72.
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 72--72
+[] $[][]$ \TU/lmr/m/n/12 Jestliže
+ []
+
+
+Underfull \hbox (badness 3492) in paragraph at lines 72--72
+\TU/lmr/m/n/12 tý-mového snažení a proběhne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+\TU/lmr/m/n/12 neúspěšně, nemůže ve-doucí
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 72--72
+\TU/lmr/m/n/12 nevznikla), ale může se stále
+ []
+
+
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+[] $[][]$ \TU/lmr/m/n/12 Pro
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+\TU/lmr/m/n/12 hatery nekonečných smyček:
+ []
+
+
+Underfull \hbox (badness 4927) in paragraph at lines 109--109
+\TU/lmr/m/n/12 ap-likace Zlatého pravidla má
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--110
+
+ []
+
+
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
+[] $[][]$ \TU/lmr/m/n/12 OG
+ []
+
+
+
+[40]
+Overfull \hbox (2.76488pt too wide) in paragraph at lines 167--168
+[]\TU/lmr/m/n/12 ve fyz-ickém kon-fliktu je ini-cia-tiva rovna \TU/lmtt/b/n/12 Pozornosti\TU/lmr/m/n/12 , v pří-padě remízy pak \TU/lmtt/b/n/12 Mobilitě|
+ []
+
+
+
+[41]
+
+Package zref-clever Warning: Reference format option 'Name-sg' undefined for
+(zref-clever)                type 'sidenote' on line 181.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--182
+
+ []
+
+
+Underfull \vbox (badness 1205) has occurred while \output is active []
+
+
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+[] $[][]$ \TU/lmr/m/n/12 Poz-
+ []
+
+
+Underfull \hbox (badness 6625) in paragraph at lines 201--201
+\TU/lmr/m/n/12 namene-jme, že možnost tzv.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+\TU/lmr/m/n/12 oneshotu je vlastně dost
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+\TU/lmr/m/n/12 nepravděpodobná - za před-
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 201--201
+\TU/lmr/m/n/12 nebo-jového do-bro-druha, co se
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 201--201
+\TU/lmr/m/n/12 hod-nou jeho postavení s hod-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+\TU/lmr/m/n/12 pří-padě leg-enda oneshot-nula
+ []
+
+
+
+[43]
+
+Package zref-clever Warning: Reference format option 'Name-sg' undefined for
+(zref-clever)                type 'sidenote' on line 222.
+
+
+Package zref-clever Warning: Reference format option 'Name-sg' undefined for
+(zref-clever)                type 'sidenote' on line 222.
+
+
+Package zref-clever Warning: Reference format option 'Name-sg' undefined for
+(zref-clever)                type 'sidenote' on line 222.
+
+
+Package zref-clever Warning: Reference format option 'Name-sg' undefined for
+(zref-clever)                type 'sidenote' on line 222.
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 235--235
+\TU/lmr/m/n/12 vzato, v situ-acích jako do-bro-
+ []
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 235--235
+\TU/lmr/m/n/12 družství v podzemí, které je
+ []
+
+
+Underfull \hbox (badness 3240) in paragraph at lines 235--235
+\TU/lmr/m/n/12 stresy, pokud se vysloveně o
+ []
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 235--235
+\TU/lmr/m/n/12 jakýko-liv výz-nam pro příběh
+ []
+
+
+Underfull \hbox (badness 3492) in paragraph at lines 235--235
+\TU/lmr/m/n/12 omezena), nedává smysl, aby
+ []
+
+
+
+[44]) (./chapters/speciality.tex
+
+[45]
+Chapter 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+[] $[][]$ \TU/lmr/m/n/12 Pokud
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+[] $[][]$ \TU/lmr/m/n/12 Nekro-
+ []
+
+
+Underfull \hbox (badness 3128) in paragraph at lines 34--34
+\TU/lmr/m/n/12 man-cie na As-te-r-i-onu ex-is-tuje,
+ []
+
+
+Package zref-clever Warning: Reference format option 'Name-sg' undefined for
+(zref-clever)                type 'sidenote' on line 36.
+
+
+Overfull \hbox (7.88406pt too wide) in paragraph at lines 34--37
+\TU/lmr/m/n/12 Snad každý fan-tasy set-ting ob-sahuje ně-jaký prvek magie a As-te-r-ion rozhodně není výjimkou.|
+ []
+
+
+
+[46
+
+]) (./chapters/povolani.tex
+
+[47]
+Chapter 8.
+
+Overfull \hbox (12.1101pt too wide) in paragraph at lines 46--47
+\TU/lmr/m/n/12 na kterou si hází vždy, když ne-ex-is-tuje žádná vhod-nější (po-drob-něji viz dále). \TU/lmtt/b/n/12 Sesílací|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+[] $[][]$ \TU/lmr/m/n/12 K
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+\TU/lmr/m/n/12 použít lezeck-ých doved-ností
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+\TU/lmr/m/n/12 (tech-nolo-gie), poprosit Pána
+ []
+
+
+
+[48
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+
+ []
+
+
+
+[49]
+Overfull \hbox (1.98734pt too wide) in paragraph at lines 74--76
+\TU/lmr/m/n/12 as-pekt. Platí zde pravidla akce \TU/lmr/m/sc/12 Vytvoření výhody [][][][][] \TU/lmr/m/n/12 pro pří-pad vytváření|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--102
+
+ []
+
+
+Underfull \vbox (badness 2426) has occurred while \output is active []
+
+
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 108--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--121
+
+ []
+
+
+Overfull \hbox (1.6959pt too wide) in paragraph at lines 122--123
+[]$[]$\TU/lmr/m/n/12 : Knez ziskava moznost privolat si ze Sti-noveho sveta bozskeho|
+ []
+
+
+
+[51]
+
+
+
+
+
+
+Overfull \vbox (1.57005pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (1.57005pt too high) has occurred while \output is active []
+
+
+
+
+
+
+
+
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 280--283
+
+ []
+
+
+Underfull \vbox (badness 7415) has occurred while \output is active []
+
+
+
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 312--315
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--320
+
+ []
+
+
+
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+[] $[][]$ \TU/lmr/m/n/12 Strik-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+\TU/lmr/m/n/12 tně vzato tímto speciál-ním
+ []
+
+
+Underfull \hbox (badness 7151) in paragraph at lines 334--334
+\TU/lmr/m/n/12 způ-sobem může použít \TU/lmtt/b/n/12 Vůli
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 334--334
+\TU/lmr/m/n/12 i v jiných pří-padech, než jen
+ []
+
+
+Underfull \hbox (badness 1810) in paragraph at lines 334--334
+\TU/lmr/m/n/12 na \TU/lmr/m/sc/12 Obranu \TU/lmr/m/n/12 proti \TU/lmtt/b/n/12 Provokaci\TU/lmr/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+[] $[][]$ \TU/lmr/m/n/12 Pří-
+ []
+
+
+Underfull \hbox (badness 6675) in paragraph at lines 334--334
+\TU/lmr/m/n/12 padně použít vyvolání jiným
+ []
+
+
+Overfull \hbox (15.3855pt too wide) in paragraph at lines 338--341
+\TU/lmr/m/n/12 zbavit: běžná postava se stresu zbavuje ihned po kon-fliktu (resp. po dostatečném odpočinku),|
+ []
+
+
+Overfull \hbox (11.46762pt too wide) in paragraph at lines 350--353
+\TU/lmr/m/n/12 V typ-ickém pří-padě, kdy se berserker roz-zuří na zák-ladě kon-fliktu s nepřá-tel-skými postavami,|
+ []
+
+
+Overfull \hbox (11.84676pt too wide) in paragraph at lines 350--353
+\TU/lmr/m/n/12 vys-tavením ne-hostin-ným pod-mínkám (aldeny v džungli); pak ne-ex-is-tuje hmatatelný původce|
+ []
+
+
+
+[55]
+Overfull \hbox (3.01215pt too wide) in paragraph at lines 363--364
+\TU/lmr/m/n/12 toho ex-trém-ního (+8) o jednu úroveň (a ne-jnižší stres či následek pří-padně odstranit). |
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
+[] $[][]$ \TU/lmr/m/n/12 Tedy
+ []
+
+
+Underfull \hbox (badness 6725) in paragraph at lines 367--367
+\TU/lmr/m/n/12 napřík-lad za-škrt-nutí fyz-ick-ého
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
+[] $[][]$ \TU/lmr/m/n/12 Všim-
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 367--367
+\TU/lmr/m/n/12 něme si, že bez to-hoto triku
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 367--367
+\TU/lmr/m/n/12 (nikoli následky). Ovšem s
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 367--367
+\TU/lmr/m/n/12 vyvolání z fyz-ick-ého stresu, či
+ []
+
+
+Underfull \hbox (badness 3128) in paragraph at lines 367--367
+\TU/lmr/m/n/12 dokonce ``duševní následek'' a
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 367--367
+\TU/lmr/m/n/12 efek-tivně získá-vat výhody i z
+ []
+
+
+
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 373--376
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--384
+
+ []
+
+) (./chapters/predmety.tex
+
+[57]
+Chapter 9.
+
+Package zref-clever Warning: Reference format option 'Name-sg' undefined for
+(zref-clever)                type 'sidenote' on line 9.
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 14--14
+[] $[][]$ \TU/lmr/m/n/12 Dlouhý
+ []
+
+
+Underfull \hbox (badness 5711) in paragraph at lines 14--14
+\TU/lmr/m/n/12 jed-noruční lin-tirový meč, jež
+ []
+
+
+LaTeX Warning: Hyper reference `sec:zbrane' on page 58 undefined on input line 24.
+
+
+LaTeX Warning: Reference `sec:zbrane' on page 58 undefined on input line 24.
+
+
+LaTeX Warning: Reference `sec:zbrane' on page 58 undefined on input line 24.
+
+
+LaTeX Warning: Reference `sec:zbrane' on page 58 undefined on input line 24.
+
+
+Package zref-clever Warning: Reference format option 'Name-sg' undefined for
+(zref-clever)                type 'sidenote' on line 24.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[] $[][]$
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 47--47
+\TU/lmr/m/n/12 jestliže se obránce ubránil s
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+[] $[][]$
+ []
+
+
+Underfull \hbox (badness 5260) in paragraph at lines 50--50
+\TU/lmr/m/n/12 snížení o jedna výmě-nou za
+ []
+
+
+
+[58
+
+]
+
+[59]
+Underfull \hbox (badness 2735) in paragraph at lines 109--109
+\TU/lmr/m/n/12 li třeba, lze ro-zlišo-vat ko-rdy,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+[] $[][]$
+ []
+
+
+Underfull \hbox (badness 4518) in paragraph at lines 111--111
+\TU/lmr/m/n/12 Situ-ace beze zbroje odpovídá
+ []
+
+
+
+[60]
+Underfull \hbox (badness 2735) in paragraph at lines 136--136
+\TU/lmr/m/n/12 li třeba, lze ro-zlišo-vat ko-rdy,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[] $[][]$
+ []
+
+
+Underfull \hbox (badness 4518) in paragraph at lines 138--138
+\TU/lmr/m/n/12 Situ-ace beze zbroje odpovídá
+ []
+
+
+Overfull \hbox (0.17075pt too wide) in paragraph at lines 153--154
+\TU/lmr/m/n/12 V pří-padě \TU/lmr/m/it/12 Příběhového hraní \TU/lmr/m/n/12 pouze zbroj obránci přidává bonus pro jeho hody na \TU/lmr/m/sc/12 Obranu|
+ []
+
+
+Overfull \hbox (51.17213pt too wide) in paragraph at lines 158--165
+ [][] |
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[] $[][]$
+ []
+
+
+
+[61]
+
+[62]) (./chapters/postup.tex
+
+[63]
+
+./chapters/postup.tex:5: LaTeX Error: Float(s) lost.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \chapter
+            {Postup a zlepšování postav}
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Chapter 10.
+)
+
+[64
+
+]
+Appendix A.
+(./chapters/dodatky/uvod.tex) (./chapters/dodatky/sicco.tex
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+File: ./figures/prekonani-ikona.png Graphic file (type png)
+<use ./figures/prekonani-ikona.png>
+Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 21.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/vytvoreni-ikona.png Graphic file (type png)
+<use ./figures/vytvoreni-ikona.png>
+Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 22.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/utok-ikona.png Graphic file (type png)
+<use ./figures/utok-ikona.png>
+Package luatex.def Info: ./figures/utok-ikona.png  used on input line 23.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+File: ./figures/obrana-ikona.png Graphic file (type png)
+<use ./figures/obrana-ikona.png>
+Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 24.
+(luatex.def)             Requested size: 42.67912pt x 42.67862pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+
+ []
+
+
+
+[65
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
+
+ []
+
+) (./chapters/dodatky/netvorobijec.tex
+Overfull \hbox (1.45294pt too wide) in paragraph at lines 9--17
+\TU/lmr/m/n/12 doved-nosti se počí-tají na +1, pří-padně na ne-jnižší nutné úrovni) Lomyš: 31 (finty zdarma?)|
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[66]
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--78
+
+ []
+
+
+
+[67]
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
+
+ []
+
+
+
+[68]
+Underfull \hbox (badness 10000) in paragraph at lines 117--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--160
+
+ []
+
+
+
+[69]
+Underfull \hbox (badness 10000) in paragraph at lines 161--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--188
+
+ []
+
+
+
+[70]
+Underfull \hbox (badness 10000) in paragraph at lines 190--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
+
+ []
+
+
+
+[71]
+Underfull \hbox (badness 10000) in paragraph at lines 222--227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--236
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--244
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--255
+
+ []
+
+
+Underfull \vbox (badness 7722) has occurred while \output is active []
+
+
+
+[72]
+Underfull \hbox (badness 10000) in paragraph at lines 256--261
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--267
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--273
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--279
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--287
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--290
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
+
+
+[73]
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--319
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--328
+
+ []
+
+
+
+[74]
+Underfull \hbox (badness 10000) in paragraph at lines 329--331
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--341
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--360
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--371
+
+ []
+
+
+
+[75]
+Underfull \hbox (badness 10000) in paragraph at lines 372--380
+
+ []
+
+) (./chapters/dodatky/edenuvbratr.tex
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--37
+
+ []
+
+
+
+[76]
+Underfull \hbox (badness 10000) in paragraph at lines 38--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--70
+
+ []
+
+
+
+[77]
+Underfull \hbox (badness 10000) in paragraph at lines 71--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--112
+
+ []
+
+
+
+[78]
+Underfull \hbox (badness 10000) in paragraph at lines 113--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--157
+
+ []
+
+
+
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 160--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--167
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--190
+
+ []
+
+
+
+[80]
+Underfull \hbox (badness 10000) in paragraph at lines 192--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--203
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
+
+ []
+
+
+Overfull \hbox (13.69685pt too wide) in paragraph at lines 210--215
+\TU/lmr/m/n/12 Ten pak získává as-pekt Zrych-lený na scénu, díky kterému má vždy: bonus +2 při porovnávání|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
+
+ []
+
+) (./chapters/dodatky/subotam.tex
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+
+[81]
+Underfull \hbox (badness 10000) in paragraph at lines 18--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[82]
+Overfull \hbox (0.98413pt too wide) in paragraph at lines 61--64
+\TU/lmr/m/n/12 Popis: Sub-o-tam si obtiskne do mozku po-zorované po-hyby a získává tak možnost zkopírovat|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--96
+
+ []
+
+
+
+[83]
+Underfull \hbox (badness 10000) in paragraph at lines 100--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--108
+
+ []
+
+)
+
+LaTeX Warning: Empty bibliography on input line 149.
+
+
+
+[84]
+
+Package silence Warning: There were 16 warning(s) and 2 error(s).
+(silence)                I've killed 3 warning(s) and 0 error(s).
+
+(./build/main.aux (./build/frontmatter/title.aux))
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-19>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+
+\openout1 = main.run.xml
+)
+
+Here is how much of LuaTeX's memory you used:
+ 59998 strings out of 470133
+ 195519,2373549 words of node,token memory allocated
+ 48327 words of node memory still in use:
+   359 hlist, 75 vlist, 39 rule, 200 disc, 33 local_par, 75 math, 1049 glue, 469 kern, 107 penalty, 4015 glyph, 496 attribute, 83 glue_spec, 496 attribute_list, 4 write, 125 pdf_literal, 1 pdf_start_link, 1 pdf_end_link, 1 pdf_dest, 4 pdf_action, 34 pdf_colorstack nodes
+   avail lists: 1:5,2:3016,3:1293,4:254,5:1638,6:211,7:9375,8:3,9:2028,10:23,11:406
+ 83202 multiletter control sequences out of 65536+600000
+ 131 fonts using 9644927 bytes
+ 108i,10n,121p,2551b,1639s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman6-bold.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmonolt10-bold.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (88 pages, 1609324 bytes).
+
+PDF statistics: 1705 PDF objects out of 1728 (max. 8388607)
+ 1391 compressed objects within 14 object streams
+ 355 named destinations out of 1000 (max. 131072)
+ 1304 words of extra memory for PDF output out of 10000 (max. 100000000)
+

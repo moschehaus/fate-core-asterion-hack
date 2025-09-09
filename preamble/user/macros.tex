@@ -10,3 +10,17 @@
 \newcommand{\trk}[1]{\underline{\textit{#1}}} % Italic and underlined for \trk{}
 \newcommand{\akc}[1]{\textsc{#1}}            % Small caps for \akc{}
 \newcommand{\per}[1]{\textbf{\sffamily #1}}
+
+\ExplSyntaxOn
+
+% Define \policko{<number>}{<count>}
+\NewDocumentCommand \policko { m m }
+  {
+    \int_step_inline:nn { #2 }
+      {
+        \fbox{#1}\,
+      }
+  }
+
+\ExplSyntaxOff
+

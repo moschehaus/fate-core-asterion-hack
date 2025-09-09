@@ -7,10 +7,11 @@
 }
 
 %% Draw black "slugs" whenever a line overflows, so that we can spot it easily
+\usepackage{iftex}
 \ifWIP
     \overfullrule=1mm
     \ifluatex % only for luaLaTeX
-        % \usepackage{lua-visual-debug} % helper for space tweaking
+        %\usepackage{lua-visual-debug} % helper for space tweaking
     \fi
 \fi
 
