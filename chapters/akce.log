@@ -1,0 +1,2152 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.11.10)  3 DEC 2025 00:25
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**akce.tex
+(./akce.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2020/11/14 v2.2 Multi-file projects (class)
+Preamble taken from file `../main.tex'
+(/usr/share/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
+) (../main.tex (/usr/share/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@chapter=\count197
+\c@section=\count198
+\c@subsection=\count199
+\c@subsubsection=\count266
+\c@paragraph=\count267
+\c@subparagraph=\count268
+\c@figure=\count269
+\c@table=\count270
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (/usr/share/texmf-dist/tex/latex/subfiles/subfiles.sty
+Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
+) (../preamble/toggles.tex) (../preamble/main.tex (../preamble/data.tex) (../preamble/debug/commands.tex (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+) (/usr/share/texmf-dist/tex/latex/censor/censor.sty
+Package: censor 2023/06/05\ 4.3\ Provides capability for redaction of sensitive information
+ (/usr/share/texmf-dist/tex/latex/pbox/pbox.sty
+Package: pbox 2011/12/07 v1.2 Dynamic parboxes
+ (/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count271
+\calc@Bcount=\count272
+\calc@Adimen=\dimen142
+\calc@Bdimen=\dimen143
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count273
+\calc@Cskip=\skip53
+) (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\pb@xlen=\skip54
+)
+\censorruledepth=\skip55
+\censorruleheight=\skip56
+ (/usr/share/texmf-dist/tex/generic/tokcycle/tokcycle.sty (/usr/share/texmf-dist/tex/generic/tokcycle/tokcycle.tex
+\tc@tok=\toks17
+\tcdepth=\count274
+\cytoks=\toks18
+)
+Package: tokcycle 2021/08/25 V1.42 Cycle through and transform a stream of tokens
+))) (../preamble/debug/line-numbers.tex (/usr/share/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2025/01/29 line numbers on paragraphs v5.4
+ (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count275
+) (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+) (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+\linenopenalty=\count276
+\output=\toks20
+\linenoprevgraf=\count277
+\linenumbersep=\dimen144
+\linenumberwidth=\dimen145
+\c@linenumber=\count278
+\c@pagewiselinenumber=\count279
+\c@LN@truepage=\count280
+\c@internallinenumber=\count281
+\c@internallinenumbers=\count282
+\quotelinenumbersep=\dimen146
+\bframerule=\dimen147
+\bframesep=\dimen148
+\bframebox=\box52
+LaTeX Info: Redefining \\ on input line 3187.
+)) (../preamble/debug/silence.tex (/usr/share/texmf-dist/tex/latex/silence/silence.sty
+Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error messages
+\sl@Save=\count283
+\sl@StateNumber=\count284
+\sl@MessageCount=\count285
+\sl@Casualties=\count286
+\sl@Filter=\toks21
+\sl@Message=\toks22
+\sl@UnexpandedMessage=\toks23
+\sl@Mess@ge=\toks24
+\sl@WarningCount=\count287
+\sl@WarningNumber=\count288
+\sl@WarningCasualties=\count289
+\sl@TempBOW=\toks25
+\sl@BankOfWarnings=\toks26
+LaTeX Info: Redefining \GenericWarning on input line 433.
+\sl@ErrorCount=\count290
+\sl@ErrorNumber=\count291
+\sl@ErrorCasualties=\count292
+\sl@TempBOE=\toks27
+\sl@BankOfErrors=\toks28
+LaTeX Info: Redefining \GenericError on input line 601.
+)) (../preamble/general/colors.tex (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+) (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+ (/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen149
+\ar@mcellbox=\box53
+\extrarowheight=\dimen150
+\NC@list=\toks29
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box54
+)
+\everycr=\toks30
+\minrowclearance=\skip59
+\rownum=\count293
+)) (../preamble/general/floats.tex (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+)
+\Gin@req@height=\dimen151
+\Gin@req@width=\dimen152
+) (/usr/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+ (/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks31
+\XKV@tempa@toks=\toks32
+)
+\XKV@depth=\count294
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/share/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (/usr/share/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+
+(/usr/share/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box55
+)
+\tc@llx=\dimen153
+\tc@lly=\dimen154
+\tc@urx=\dimen155
+\tc@ury=\dimen156
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (/usr/share/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen157
+\adjbox@Height=\dimen158
+\adjbox@Depth=\dimen159
+\adjbox@Totalheight=\dimen160
+\adjbox@pwidth=\dimen161
+\adjbox@pheight=\dimen162
+\adjbox@pdepth=\dimen163
+\adjbox@ptotalheight=\dimen164
+ (/usr/share/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count295
+) (/usr/share/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box56
+\sift@deathcycles=\count296
+\@vwid@loff=\dimen165
+\@vwid@roff=\dimen166
+)) (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen167
+\lightrulewidth=\dimen168
+\cmidrulewidth=\dimen169
+\belowrulesep=\dimen170
+\belowbottomsep=\dimen171
+\aboverulesep=\dimen172
+\abovetopsep=\dimen173
+\cmidrulesep=\dimen174
+\cmidrulekern=\dimen175
+\defaultaddspace=\dimen176
+\@cmidla=\count297
+\@cmidlb=\count298
+\@aboverulesep=\dimen177
+\@belowrulesep=\dimen178
+\@thisruleclass=\count299
+\@lastruleclass=\count300
+\@thisrulewidth=\dimen179
+) (/usr/share/texmf-dist/tex/latex/tabularray/tabularray.sty (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
+ (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count301
+\l__pdf_internal_box=\box57
+))
+Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
+\l__tblr_a_int=\count302
+\l__tblr_c_int=\count303
+\l__tblr_r_int=\count304
+\l__tblr_d_dim=\dimen180
+\l__tblr_h_dim=\dimen181
+\l__tblr_o_dim=\dimen182
+\l__tblr_p_dim=\dimen183
+\l__tblr_q_dim=\dimen184
+\l__tblr_r_dim=\dimen185
+\l__tblr_s_dim=\dimen186
+\l__tblr_t_dim=\dimen187
+\l__tblr_v_dim=\dimen188
+\l__tblr_w_dim=\dimen189
+\l__tblr_a_box=\box58
+\l__tblr_b_box=\box59
+\l__tblr_c_box=\box60
+\l__tblr_d_box=\box61
+\g__tblr_table_count_int=\count305
+\c@colnum=\count306
+\c@rowcount=\count307
+\c@colcount=\count308
+\abovesep=\dimen190
+\belowsep=\dimen191
+\leftsep=\dimen192
+\rightsep=\dimen193
+\g_tblr_level_int=\count309
+\g__tblr_data_row_key_count_int=\count310
+\g__tblr_data_column_key_count_int=\count311
+\g__tblr_data_cell_key_count_int=\count312
+\g__tblr_array_int=\count313
+\l__tblr_key_count_int=\count314
+\l__tblr_key_quotient_int=\count315
+\l__tblr_key_quotient_two_int=\count316
+\l__tblr_key_remainder_int=\count317
+\g__tblr_data_str_value_count_int=\count318
+\rulewidth=\dimen194
+\l__tblr_strut_dp_dim=\dimen195
+\l__tblr_strut_ht_dim=\dimen196
+\g__tblr_cell_wd_dim=\dimen197
+\g__tblr_cell_ht_dim=\dimen198
+\g__tblr_cell_head_dim=\dimen199
+\g__tblr_cell_foot_dim=\dimen256
+\l__column_target_dim=\dimen257
+\l__tblr_caption_box=\box62
+\l__tblr_caption_left_box=\box63
+\l__tblr_row_head_box=\box64
+\l__tblr_row_foot_box=\box65
+\l__tblr_row_head_foot_dim=\dimen258
+\tablewidth=\dimen259
+\l__tblr_table_firsthead_box=\box66
+\l__tblr_table_middlehead_box=\box67
+\l__tblr_table_lasthead_box=\box68
+\l__tblr_table_firstfoot_box=\box69
+\l__tblr_table_middlefoot_box=\box70
+\l__tblr_table_lastfoot_box=\box71
+\l__tblr_remain_height_dim=\dimen260
+\l__tblr_long_from_int=\count319
+\l__tblr_long_to_int=\count320
+\l__tblr_curr_i_int=\count321
+\l__tblr_prev_i_int=\count322
+\l__tblr_table_page_int=\count323
+\l__tblr_table_head_box=\box72
+\l__tblr_table_foot_box=\box73
+\l__tblr_table_head_foot_dim=\dimen261
+\l__tblr_table_head_body_foot_dim=\dimen262
+\l__tblr_table_box=\box74
+\l__tblr_table_hlines_box=\box75
+\l__tblr_hline_box=\box76
+\l__tblr_row_box=\box77
+\l__tblr_col_o_wd_dim=\dimen263
+\l__tblr_col_b_wd_dim=\dimen264
+\l__tblr_hline_leftskip_dim=\dimen265
+\l__tblr_hline_rightskip_dim=\dimen266
+\l__tblr_row_ht_dim=\dimen267
+\l__tblr_row_dp_dim=\dimen268
+\l__tblr_row_abovesep_dim=\dimen269
+\l__tblr_row_belowsep_dim=\dimen270
+\l__tblr_row_vlines_box=\box78
+\l__tblr_vline_box=\box79
+\l__tblr_cell_box=\box80
+\l__row_upper_dim=\dimen271
+\l__row_lower_dim=\dimen272
+\l__row_vpace_dim=\dimen273
+\l__tblr_vline_aboveskip_dim=\dimen274
+\l__tblr_vline_belowskip_dim=\dimen275
+\l__tblr_cell_wd_dim=\dimen276
+\l__tblr_cell_ht_dim=\dimen277
+\l__tblr_diag_box=\box81
+) (/usr/share/texmf-dist/tex/latex/codehigh/codehigh.sty
+Package: codehigh 2025-02-21 v2025C Highlight codes and demos with l3regex and lpeg
+ (/usr/share/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+ (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (/usr/share/texmf-dist/tex/latex/ninecolors/ninecolors.sty
+Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
+ (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+))
+\l__cdhh_a_int=\count324
+\l__cdhh_b_int=\count325
+\l__cdhh_main_boxsep_dim=\dimen278
+\g__cdhh_code_box=\box82
+\g__cdhh_demo_box=\box83
+\l__cdhh_latex_rule_count_int=\count326
+\l__cdhh_latex/math_rule_count_int=\count327
+\l__cdhh_latex/table_rule_count_int=\count328
+\l__cdhh_latex/latex2_rule_count_int=\count329
+\l__cdhh_latex/latex3_rule_count_int=\count330
+\l__cdhh_item_count_int=\count331
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip60
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks33
+\ex@=\dimen279
+)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen280
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count332
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count333
+\leftroot@=\count334
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count335
+\DOTSCASE@=\count336
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box84
+\strutbox@=\box85
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen281
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count337
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count338
+\dotsspace@=\muskip17
+\c@parentequation=\count339
+\dspbrk@lvl=\count340
+\tag@help=\toks34
+\row@=\count341
+\column@=\count342
+\maxfields@=\count343
+\andhelp@=\toks35
+\eqnshift@=\dimen282
+\alignsep@=\dimen283
+\tagshift@=\dimen284
+\tagwidth@=\dimen285
+\totwidth@=\dimen286
+\lineht@=\dimen287
+\@envbody=\toks36
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks37
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+\@LN@amsmath@ams@eqpen=\count344
+ (/usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2025-02-27 v3.4.6 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count345
+\l__siunitx_number_exponent_fixed_int=\count346
+\l__siunitx_number_min_decimal_int=\count347
+\l__siunitx_number_min_integer_int=\count348
+\l__siunitx_number_round_precision_int=\count349
+\l__siunitx_number_lower_threshold_int=\count350
+\l__siunitx_number_upper_threshold_int=\count351
+\l__siunitx_number_group_first_int=\count352
+\l__siunitx_number_group_size_int=\count353
+\l__siunitx_number_group_minimum_int=\count354
+\l__siunitx_angle_tmp_dim=\dimen288
+\l__siunitx_angle_marker_box=\box86
+\l__siunitx_angle_unit_box=\box87
+\l__siunitx_compound_count_int=\count355
+ (/usr/share/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+ (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+\l__siunitx_table_tmp_box=\box88
+\l__siunitx_table_tmp_dim=\dimen289
+\l__siunitx_table_column_width_dim=\dimen290
+\l__siunitx_table_integer_box=\box89
+\l__siunitx_table_decimal_box=\box90
+\l__siunitx_table_uncert_box=\box91
+\l__siunitx_table_before_box=\box92
+\l__siunitx_table_after_box=\box93
+\l__siunitx_table_before_dim=\dimen291
+\l__siunitx_table_carry_dim=\dimen292
+\l__siunitx_unit_tmp_int=\count356
+\l__siunitx_unit_position_int=\count357
+\l__siunitx_unit_total_int=\count358
+) (/usr/share/texmf-dist/tex/latex/floatrow/floatrow.sty
+Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
+ (/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen293
+\captionmargin=\dimen294
+\caption@leftmargin=\dimen295
+\caption@rightmargin=\dimen296
+\caption@width=\dimen297
+\caption@indent=\dimen298
+\caption@parindent=\dimen299
+\caption@hangindent=\dimen300
+Package caption Info: Standard document class detected.
+)
+\c@float@type=\count359
+\float@exts=\toks38
+\float@box=\box94
+\@floatcapt=\box95
+Package floatrow Info: Modified float package code loaded on input line 455.
+Package floatrow Info: Modified rotfloat package code loaded on input line 473.
+\FR@everyfloat=\toks39
+\flrow@foot=\insert252
+\FB@wd=\dimen301
+\FBo@wd=\dimen302
+\FBc@wd=\dimen303
+\FBo@ht=\skip63
+\FBc@ht=\skip64
+\FBf@ht=\skip65
+\FBo@max=\skip66
+\FBc@max=\skip67
+\FBf@max=\skip68
+\c@FBl@b=\count360
+\floatbox@depth=\count361
+\c@FRobj=\count362
+\c@FRsobj=\count363
+\Xhsize=\skip69
+\sXhsize=\skip70
+\Zhsize=\skip71
+\sZhsize=\skip72
+\flrow@rowbox=\box96
+\FR@Zunitlength=\dimen304
+\c@FBcnt=\count364
+\FPOScnt=\count365
+\LTleft=\skip73
+\LTright=\skip74
+\LTleft=\skip75
+\LTright=\skip76
+\flrow@types=\toks40
+) (/usr/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+\c@caption@flags=\count366
+\c@continuedfloat=\count367
+Package caption Info: float package is loaded.
+Package caption Info: floatrow package is loaded.
+Package caption Info: floatrow package is loaded.
+) (/usr/share/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count368
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count369
+)
+\floatfootruleindent=\skip77
+) (../preamble/general/hyperref.tex (/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+ (/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count370
+) (/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen305
+\Hy@linkcounter=\count371
+\Hy@pagecounter=\count372
+ (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count373
+ (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count374
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen306
+ (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count375
+\Field@Width=\dimen307
+\Fld@charsize=\dimen308
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count376
+\c@Item=\count377
+\c@Hfootnote=\count378
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+ (/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count379
+\c@bookmark@seq@number=\count380
+ (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip78
+) (/usr/share/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+ (/usr/share/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
+\BKM@id=\count381
+)) (/usr/share/texmf-dist/tex/latex/zref/zref-titleref.sty
+Package: zref-titleref 2023-09-14 v2.35 Module titleref for zref (HO)
+ (/usr/share/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2023-09-14 v2.35 Module base for zref (HO)
+
+(/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+Package zref Info: New property: title on input line 58.
+) (/usr/share/texmf-dist/tex/latex/zref-clever/zref-clever.sty
+Package: zref-clever 2024-11-28 v0.5.1 Clever LaTeX cross-references based on zref
+ (/usr/share/texmf-dist/tex/latex/zref/zref-user.sty
+Package: zref-user 2023-09-14 v2.35 Module user for zref (HO)
+) (/usr/share/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2023-09-14 v2.35 Module abspage for zref (HO)
+\c@abspage=\count382
+Package zref Info: New property: abspage on input line 67.
+) (/usr/share/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+)
+Package zref Info: New property: zc@counter on input line 61.
+Package zref Info: New property: thecounter on input line 63.
+Package zref Info: New property: zc@type on input line 73.
+Package zref Info: New property: zc@cntval on input line 88.
+Package zref Info: New property: zc@pgval on input line 103.
+Package zref Info: New property: zc@enclval on input line 151.
+Package zref Info: New property: zc@enclcnt on input line 157.
+\g__zrefclever_page_format_int=\count383
+Package zref Info: New property: zc@pgfmt on input line 169.
+\l__zrefclever_tmpa_int=\count384
+\l__zrefclever_sort_prior_a_int=\count385
+\l__zrefclever_sort_prior_b_int=\count386
+\l__zrefclever_type_count_int=\count387
+\l__zrefclever_label_count_int=\count388
+\l__zrefclever_ref_count_int=\count389
+\l__zrefclever_range_count_int=\count390
+\l__zrefclever_range_same_count_int=\count391
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 25.
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 25.
+) (../preamble/misc/macros.tex) (../preamble/misc/packages-macros.tex (/usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2024/10/22 version 6.4.1 text color boxes
+ (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks41
+\pgfutil@tempdima=\dimen309
+\pgfutil@tempdimb=\dimen310
+) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box97
+) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks42
+\pgfkeys@temptoks=\toks43
+ (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks44
+))
+\pgf@x=\dimen311
+\pgf@y=\dimen312
+\pgf@xa=\dimen313
+\pgf@ya=\dimen314
+\pgf@xb=\dimen315
+\pgf@yb=\dimen316
+\pgf@xc=\dimen317
+\pgf@yc=\dimen318
+\pgf@xd=\dimen319
+\pgf@yd=\dimen320
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count392
+\c@pgf@countb=\count393
+\c@pgf@countc=\count394
+\c@pgf@countd=\count395
+\t@pgf@toka=\toks45
+\t@pgf@tokb=\toks46
+\t@pgf@tokc=\toks47
+\pgf@sys@id@count=\count396
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count397
+\pgfsyssoftpath@bigbuffer@items=\count398
+) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen321
+\pgfmath@count=\count399
+\pgfmath@box=\box98
+\pgfmath@toks=\toks48
+\pgfmath@stack@operand=\toks49
+\pgfmath@stack@operation=\toks50
+) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count400
+)) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen322
+\pgf@picmaxx=\dimen323
+\pgf@picminy=\dimen324
+\pgf@picmaxy=\dimen325
+\pgf@pathminx=\dimen326
+\pgf@pathmaxx=\dimen327
+\pgf@pathminy=\dimen328
+\pgf@pathmaxy=\dimen329
+\pgf@xx=\dimen330
+\pgf@xy=\dimen331
+\pgf@yx=\dimen332
+\pgf@yy=\dimen333
+\pgf@zx=\dimen334
+\pgf@zy=\dimen335
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen336
+\pgf@path@lasty=\dimen337
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen338
+\pgf@shorten@start@additional=\dimen339
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box99
+\pgf@hbox=\box100
+\pgf@layerbox@main=\box101
+\pgf@picture@serial@count=\count401
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen340
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen341
+\pgf@pt@y=\dimen342
+\pgf@pt@temp=\dimen343
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen344
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen345
+\pgf@sys@shading@range@num=\count402
+\pgf@shadingcount=\count403
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box102
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box103
+) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen346
+\pgf@nodesepend=\dimen347
+) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen348
+\pgffor@skip=\dimen349
+\pgffor@stack=\toks51
+\pgffor@toks=\toks52
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count404
+\pgfplotmarksize=\dimen350
+)
+\tikz@lastx=\dimen351
+\tikz@lasty=\dimen352
+\tikz@lastxsaved=\dimen353
+\tikz@lastysaved=\dimen354
+\tikz@lastmovetox=\dimen355
+\tikz@lastmovetoy=\dimen356
+\tikzleveldistance=\dimen357
+\tikzsiblingdistance=\dimen358
+\tikz@figbox=\box104
+\tikz@figbox@bg=\box105
+\tikz@tempbox=\box106
+\tikz@tempbox@bg=\box107
+\tikztreelevel=\count405
+\tikznumberofchildren=\count406
+\tikznumberofcurrentchild=\count407
+\tikz@fig@count=\count408
+ (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count409
+\pgfmatrixcurrentcolumn=\count410
+\pgf@matrix@numberofcolumns=\count411
+)
+\tikz@expandcount=\count412
+ (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks53
+\verbatim@line=\toks54
+\verbatim@in@stream=\read3
+) (/usr/share/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box108
+\tcb@upperbox=\box109
+\tcb@lowerbox=\box110
+\tcb@phantombox=\box111
+\c@tcbbreakpart=\count413
+\c@tcblayer=\count414
+\c@tcolorbox@number=\count415
+\l__tcobox_tmpa_box=\box112
+\l__tcobox_tmpa_dim=\dimen359
+\tcb@temp=\box113
+\tcb@temp=\box114
+\tcb@temp=\box115
+\tcb@temp=\box116
+)) (../preamble/misc/tikz.tex (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen360
+\pgfarrowlength=\dimen361
+\pgfarrowwidth=\dimen362
+\pgfarrowlinewidth=\dimen363
+) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/tikz-cd/tikzlibrarycd.code.tex (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen364
+\pgfdecoratedremainingdistance=\dimen365
+\pgfdecoratedinputsegmentcompleteddistance=\dimen366
+\pgfdecoratedinputsegmentremainingdistance=\dimen367
+\pgf@decorate@distancetomove=\dimen368
+\pgf@decorate@repeatstate=\count416
+\pgfdecorationsegmentamplitude=\dimen369
+\pgfdecorationsegmentlength=\dimen370
+)
+\tikz@lib@dec@box=\box117
+) (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (../preamble/misc/inkscape.tex (/usr/share/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+) (/usr/share/texmf-dist/tex/latex/filemod/filemod.sty
+Package: filemod 2011/09/19 v1.2 Get and compare file modification times
+ (/usr/share/texmf-dist/tex/latex/filemod/filemod-expmin.sty
+Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times (expandable; minimal)
+))) (../preamble/layout/geometry.tex (/usr/share/texmf-dist/tex/latex/sidenotes/sidenotes.sty (/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+)
+Package: sidenotes 2024/09/12 v1.20 Rich text in the margin for LaTeX
+ (/usr/share/texmf-dist/tex/latex/marginnote/marginnote.sty
+Package: marginnote 2018/08/09 1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count417
+) (/usr/share/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count418
+\cp@tempcnt=\count419
+LaTeX Info: Redefining \checkoddpage on input line 59.
+)
+\c@sidenote=\count420
+\@sidenotes@marginfigurebox=\box118
+\@sidenotes@margintablebox=\box119
+) (/usr/share/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
+\c@tracingmulticols=\count421
+\mult@box=\box120
+\multicol@leftmargin=\dimen371
+\c@unbalance=\count422
+\c@collectmore=\count423
+\doublecol@number=\count424
+\multicoltolerance=\count425
+\multicolpretolerance=\count426
+\full@width=\dimen372
+\page@free=\dimen373
+\premulticols=\dimen374
+\postmulticols=\dimen375
+\multicolsep=\skip79
+\multicolbaselineskip=\skip80
+\partial@page=\box121
+\last@line=\box122
+\mc@boxedresult=\box123
+\maxbalancingoverflow=\dimen376
+\mult@rightbox=\box124
+\mult@grightbox=\box125
+\mult@firstbox=\box126
+\mult@gfirstbox=\box127
+\@tempa=\box128
+\@tempa=\box129
+\@tempa=\box130
+\@tempa=\box131
+\@tempa=\box132
+\@tempa=\box133
+\@tempa=\box134
+\@tempa=\box135
+\@tempa=\box136
+\@tempa=\box137
+\@tempa=\box138
+\@tempa=\box139
+\@tempa=\box140
+\@tempa=\box141
+\@tempa=\box142
+\@tempa=\box143
+\@tempa=\box144
+\@tempa=\box145
+\@tempa=\box146
+\@tempa=\box147
+\@tempa=\box148
+\@tempa=\box149
+\@tempa=\box150
+\@tempa=\box151
+\@tempa=\box152
+\@tempa=\box153
+\@tempa=\box154
+\@tempa=\box155
+\@tempa=\box156
+\@tempa=\box157
+\@tempa=\box158
+\@tempa=\box159
+\@tempa=\box160
+\@tempa=\box161
+\@tempa=\box162
+\@tempa=\box163
+\c@minrows=\count427
+\c@columnbadness=\count428
+\c@finalcolumnbadness=\count429
+\last@try=\dimen377
+\multicolovershoot=\dimen378
+\multicolundershoot=\dimen379
+\mult@nat@firstbox=\box164
+\colbreak@box=\box165
+\mc@col@check@num=\count430
+) (/usr/share/texmf-dist/tex/latex/morefloats/morefloats.sty
+Package: morefloats 2025/01/28 v1.1a Raise limit of unprocessed floats (HMM)
+Package morefloats Info: Maximum number of possible floats asked for: 45
+(morefloats)             (i.e. 27 more floats).
+(morefloats)             LaTeX might run out of memory before this
+(morefloats)             (in which case it will notify you).
+) (/usr/share/texmf-dist/tex/latex/marginfix/marginfix.sty
+Package: marginfix 2020/05/06 v1.2 Fix Margin Paragraphs
+\Mfx@inject@insert=\insert251
+\Mfx@marginbox=\box166
+\Mfx@marginpos@min=\dimen380
+\Mfx@marginpos@max=\dimen381
+\Mfx@marginspace=\dimen382
+\Mfx@marginheight=\dimen383
+\Mfx@piece@content=\box167
+\Mfx@piece@count=\count431
+\Mfx@mparshift=\dimen384
+\marginheightadjustment=\dimen385
+\marginposadjustment=\dimen386
+\Mfx@strutheight=\dimen387
+) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count432
+\Gm@cntv=\count433
+\c@Gm@tempcnt=\count434
+\Gm@bindingoffset=\dimen388
+\Gm@wd@mp=\dimen389
+\Gm@odd@mp=\dimen390
+\Gm@even@mp=\dimen391
+\Gm@layoutwidth=\dimen392
+\Gm@layoutheight=\dimen393
+\Gm@layouthoffset=\dimen394
+\Gm@layoutvoffset=\dimen395
+\Gm@dimlist=\toks55
+)
+\overhang=\skip81
+ (/usr/share/texmf-dist/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2025/02/09 v3.10 Displaying the values of LaTeX counters (NT,VB,NE)
+ (/usr/share/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+ (/usr/share/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count435
+))
+\c@padzeroesN=\count436
+\fc@tmpcatcode=\count437
+\@DT@modctr=\count438
+\@ordinalctr=\count439
+\@orgargctr=\count440
+\@strctr=\count441
+\@tmpstrctr=\count442
+\@DT@loopN=\count443
+\@DT@X=\count444
+) (/usr/share/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip82
+\RaggedLeftLeftskip=\skip83
+\RaggedRightLeftskip=\skip84
+\CenteringRightskip=\skip85
+\RaggedLeftRightskip=\skip86
+\RaggedRightRightskip=\skip87
+\CenteringParfillskip=\skip88
+\RaggedLeftParfillskip=\skip89
+\RaggedRightParfillskip=\skip90
+\JustifyingParfillskip=\skip91
+\CenteringParindent=\skip92
+\RaggedLeftParindent=\skip93
+\RaggedRightParindent=\skip94
+\JustifyingParindent=\skip95
+)) (../preamble/layout/numbering.tex) (../preamble/layout/headers.tex (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+\f@nch@headwidth=\skip96
+\f@nch@offset@elh=\skip97
+\f@nch@offset@erh=\skip98
+\f@nch@offset@olh=\skip99
+\f@nch@offset@orh=\skip100
+\f@nch@offset@elf=\skip101
+\f@nch@offset@erf=\skip102
+\f@nch@offset@olf=\skip103
+\f@nch@offset@orf=\skip104
+\f@nch@height=\skip105
+\f@nch@footalignment=\skip106
+\f@nch@widthL=\skip107
+\f@nch@widthC=\skip108
+\f@nch@widthR=\skip109
+\@temptokenb=\toks56
+) (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box168
+\beforetitleunit=\skip110
+\aftertitleunit=\skip111
+\ttl@plus=\dimen396
+\ttl@minus=\dimen397
+\ttl@toksa=\toks57
+\titlewidth=\dimen398
+\titlewidthlast=\dimen399
+\titlewidthfirst=\dimen400
+)) (../preamble/layout/titles.tex) (../preamble/layout/toc.tex (/usr/share/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2025/01/04 v2.17 TOC entries
+\ttl@leftsep=\dimen401
+)
+(/usr/share/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+)) (../preamble/references/biblatex.tex (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
+ (/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count445
+ (/usr/share/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count446
+\c@listtotal=\count447
+\c@listcount=\count448
+\c@liststart=\count449
+\c@liststop=\count450
+\c@citecount=\count451
+\c@citetotal=\count452
+\c@multicitecount=\count453
+\c@multicitetotal=\count454
+\c@instcount=\count455
+\c@maxnames=\count456
+\c@minnames=\count457
+\c@maxitems=\count458
+\c@minitems=\count459
+\c@citecounter=\count460
+\c@maxcitecounter=\count461
+\c@savedcitecounter=\count462
+\c@uniquelist=\count463
+\c@uniquename=\count464
+\c@refsection=\count465
+\c@refsegment=\count466
+\c@maxextratitle=\count467
+\c@maxextratitleyear=\count468
+\c@maxextraname=\count469
+\c@maxextradate=\count470
+\c@maxextraalpha=\count471
+\c@abbrvpenalty=\count472
+\c@highnamepenalty=\count473
+\c@lownamepenalty=\count474
+\c@maxparens=\count475
+\c@parenlevel=\count476
+\blx@tempcnta=\count477
+\blx@tempcntb=\count478
+\blx@tempcntc=\count479
+\c@blx@maxsection=\count480
+\blx@maxsegment@0=\count481
+\blx@notetype=\count482
+\blx@parenlevel@text=\count483
+\blx@parenlevel@foot=\count484
+\blx@sectionciteorder@0=\count485
+\blx@sectionciteorderinternal@0=\count486
+\blx@entrysetcounter=\count487
+\blx@biblioinstance=\count488
+\labelnumberwidth=\skip112
+\labelalphawidth=\skip113
+\biblabelsep=\skip114
+\bibitemsep=\skip115
+\bibnamesep=\skip116
+\bibinitsep=\skip117
+\bibparsep=\skip118
+\bibhang=\skip119
+\blx@bcfin=\read4
+\blx@bcfout=\write4
+\blx@langwohyphens=\language5
+\c@mincomprange=\count489
+\c@maxcomprange=\count490
+\c@mincompwidth=\count491
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'preamble/references/biblatex-extra-fields.dbx' found.
+ (../preamble/references/biblatex-extra-fields.dbx)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count492
+\c@savedafterword=\count493
+\c@annotator=\count494
+\c@savedannotator=\count495
+\c@author=\count496
+\c@savedauthor=\count497
+\c@bookauthor=\count498
+\c@savedbookauthor=\count499
+\c@commentator=\count500
+\c@savedcommentator=\count501
+\c@editor=\count502
+\c@savededitor=\count503
+\c@editora=\count504
+\c@savededitora=\count505
+\c@editorb=\count506
+\c@savededitorb=\count507
+\c@editorc=\count508
+\c@savededitorc=\count509
+\c@foreword=\count510
+\c@savedforeword=\count511
+\c@holder=\count512
+\c@savedholder=\count513
+\c@introduction=\count514
+\c@savedintroduction=\count515
+\c@namea=\count516
+\c@savednamea=\count517
+\c@nameb=\count518
+\c@savednameb=\count519
+\c@namec=\count520
+\c@savednamec=\count521
+\c@translator=\count522
+\c@savedtranslator=\count523
+\c@shortauthor=\count524
+\c@savedshortauthor=\count525
+\c@shorteditor=\count526
+\c@savedshorteditor=\count527
+\c@labelname=\count528
+\c@savedlabelname=\count529
+\c@institution=\count530
+\c@savedinstitution=\count531
+\c@lista=\count532
+\c@savedlista=\count533
+\c@listb=\count534
+\c@savedlistb=\count535
+\c@listc=\count536
+\c@savedlistc=\count537
+\c@listd=\count538
+\c@savedlistd=\count539
+\c@liste=\count540
+\c@savedliste=\count541
+\c@listf=\count542
+\c@savedlistf=\count543
+\c@location=\count544
+\c@savedlocation=\count545
+\c@organization=\count546
+\c@savedorganization=\count547
+\c@origlocation=\count548
+\c@savedoriglocation=\count549
+\c@origpublisher=\count550
+\c@savedorigpublisher=\count551
+\c@publisher=\count552
+\c@savedpublisher=\count553
+\c@language=\count554
+\c@savedlanguage=\count555
+\c@origlanguage=\count556
+\c@savedoriglanguage=\count557
+\c@pageref=\count558
+\c@savedpageref=\count559
+\shorthandwidth=\skip120
+\shortjournalwidth=\skip121
+\shortserieswidth=\skip122
+\shorttitlewidth=\skip123
+\shortauthorwidth=\skip124
+\shorteditorwidth=\skip125
+\locallabelnumberwidth=\skip126
+\locallabelalphawidth=\skip127
+\localshorthandwidth=\skip128
+\localshortjournalwidth=\skip129
+\localshortserieswidth=\skip130
+\localshorttitlewidth=\skip131
+\localshortauthorwidth=\skip132
+\localshorteditorwidth=\skip133
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+\c@textcitecount=\count560
+\c@textcitetotal=\count561
+\c@textcitemaxnames=\count562
+\c@biburlbigbreakpenalty=\count563
+\c@biburlbreakpenalty=\count564
+\c@biburlnumpenalty=\count565
+\c@biburlucpenalty=\count566
+\c@biburllcpenalty=\count567
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count568
+)
+Package biblatex Info: Trying to load bibliography style 'ext-numeric-verb'...
+Package biblatex Info: ... file 'ext-numeric-verb.bbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex-ext/ext-numeric-verb.bbx
+File: ext-numeric-verb.bbx 2024/03/24 v0.18 extended biblatex numeric-verb bibliography style (MW)
+Package biblatex Info: Trying to load bibliography style 'ext-standard'...
+Package biblatex Info: ... file 'ext-standard.bbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex-ext/ext-standard.bbx
+File: ext-standard.bbx 2024/03/24 v0.18 extended biblatex standard style (MW)
+Package biblatex Info: Trying to load auxiliary code for ext-biblatex...
+Package biblatex Info: ... file 'ext-biblatex-aux.def' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex-ext/ext-biblatex-aux.def
+File: ext-biblatex-aux.def 2024/03/24 v0.18 auxiliaries for extended biblatex citation style (MW)
+)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count569
+\c@bbx:relatedtotal=\count570
+)
+\extbl@this@introcitewidth=\skip134
+\introcitewidth=\skip135
+\introcitesep=\skip136
+Package biblatex Info: Delimiter 'innametitledelim' in context 'bib' already defined, overwriting.
+Package biblatex Info: Delimiter 'innametitledelim' in context 'biblist' already defined, overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'numeric-verb'...
+Package biblatex Info: ... file 'numeric-verb.bbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/bbx/numeric-verb.bbx
+File: numeric-verb.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+)))
+Package biblatex Info: Trying to load citation style 'ext-numeric-verb'...
+Package biblatex Info: ... file 'ext-numeric-verb.cbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex-ext/ext-numeric-verb.cbx
+File: ext-numeric-verb.cbx 2024/03/24 v0.18 extended biblatex numeric-verb citation style (MW)
+Package biblatex Info: Trying to load citation style 'numeric-verb'...
+Package biblatex Info: ... file 'numeric-verb.cbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/cbx/numeric-verb.cbx
+File: numeric-verb.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2025-01-18 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+)) (../preamble/references/fields.tex) (../preamble/references/cite.tex) (../preamble/references/style.tex
+Package biblatex Info: Delimiter 'editortypedelim' in context '' already defined, overwriting on input line 24.
+) (../preamble/references/doi-eprint-url.tex) (../preamble/references/backref.tex)) (../preamble/math/packages.tex (/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
+ (/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count571
+\l_MT_multwidth_dim=\dimen402
+\origjot=\skip137
+\l_MT_shortvdotswithinadjustabove_dim=\dimen403
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen404
+\l_MT_above_intertext_sep=\dimen405
+\l_MT_below_intertext_sep=\dimen406
+\l_MT_above_shortintertext_sep=\dimen407
+\l_MT_below_shortintertext_sep=\dimen408
+\xmathstrut@box=\box169
+\xmathstrut@dim=\dimen409
+) (/usr/share/texmf-dist/tex/latex/scalerel/scalerel.sty
+Package: scalerel 2016/12/29 v1.8 Routines for constrained scaling and stretching of objects, relative to a reference object or in absolute terms
+\thesrwidth=\skip138
+\thesrheight=\skip139
+\srblobheight=\skip140
+\srblobdepth=\skip141
+\mnxsrwidth=\skip142
+\LMex=\skip143
+\LMpt=\skip144
+) (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (/usr/share/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (/usr/share/texmf-dist/tex/latex/physics/physics.sty
+Package: physics 
+) (/usr/share/texmf-dist/tex/latex/tensind/tensind.sty
+Package: tensind 1998/05/01 v1.1 Tensorial Indexes
+\tsi@dimen=\dimen410
+\primes=\dimen411
+) (/usr/share/texmf-dist/tex/latex/mathfixs/mathfixs.sty
+Package: mathfixs 2024/11/18 v1.12 various fixes for math mode
+) (/usr/share/texmf-dist/tex/latex/delimset/delimset.sty
+Package: delimset 2025/02/27 v2.2 convenient size control for delimiter sets
+\dlm@size=\skip145
+\delimsize=\skip146
+\dlm@reg@lvl=\count572
+)) (../preamble/math/fonts.tex
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> T1/cmss/sbc/n on input line 5.
+LaTeX Font Info:    Overwriting math alphabet `\mathsfit' in version `bold'
+(Font)                  T1/cmss/m/sl --> T1/cmss/b/sl on input line 10.
+\c@mv@sans=\count573
+LaTeX Font Info:    Overwriting symbol font `operators' in version `sans'
+(Font)                  OT1/cmr/m/n --> OT1/cmbr/m/n on input line 18.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `sans'
+(Font)                  OML/cmm/m/it --> OML/cmbrm/m/it on input line 19.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `sans'
+(Font)                  OMS/cmsy/m/n --> OMS/cmbrs/m/n on input line 20.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `sans'
+(Font)                  OMX/cmex/m/n --> OMX/iwona/m/n on input line 21.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `sans'
+(Font)                  OT1/cmr/m/it --> OT1/cmbr/m/sl on input line 22.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `sans'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 23.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `sans'
+(Font)                  OT1/cmr/bx/n --> OT1/cmbr/bx/n on input line 24.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `sans'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtl/m/n on input line 25.
+\c@mv@boldsans=\count574
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldsans'
+(Font)                  OT1/cmr/m/n --> OT1/cmbr/b/n on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldsans'
+(Font)                  OML/cmm/m/it --> OML/cmbrm/b/it on input line 30.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `boldsans'
+(Font)                  OMX/cmex/m/n --> OMX/iwona/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldsans'
+(Font)                  OT1/cmr/m/it --> OT1/cmbr/b/sl on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldsans'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/sbc/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldsans'
+(Font)                  > OT1/cmbr/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldsans'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtl/b/n on input line 35.
+\symsfletters=\mathgroup9
+\symsflettersbold=\mathgroup10
+\symstmry=\mathgroup11
+) (../preamble/math/macros.tex
+LaTeX Font Info:    Redeclaring math symbol \setminus on input line 204.
+ (/usr/share/texmf-dist/tex/latex/ytableau/ytableau.sty
+Package: ytableau 2021/06/12 v1.4 Many-featured Young tableaux and Young diagrams
+\tableaux@YT=\box170
+\thistableau@YT=\box171
+\refhtdp@YT=\box172
+\toks@YT=\toks58
+\opttoksa@YT=\toks59
+\opttoksb@YT=\toks60
+\boxdim@YT=\dimen412
+\tableauwd@YT=\dimen413
+\count@YT=\count575
+ (/usr/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks61
+\pgfopts@list@add@b@toks=\toks62
+))
+\argumentbox=\box173
+)
+(../preamble/math/spacing.tex
+\halfhphantomlength=\skip147
+) (../preamble/environments/init.tex (/usr/share/texmf-dist/tex/latex/keytheorems/keytheorems.sty
+Package: keytheorems 2025-01-22 v0.2.5 l3keys interface to amsthm
+ (/usr/share/texmf-dist/tex/latex/oberdiek/aliascnt.sty
+Package: aliascnt 2018/09/07 v1.5 Alias counters (HO)
+) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks63
+\thm@bodyfont=\toks64
+\thm@headfont=\toks65
+\thm@notefont=\toks66
+\thm@headpunct=\toks67
+\thm@preskip=\skip148
+\thm@postskip=\skip149
+\thm@headsep=\skip150
+\dth@everypar=\toks68
+)
+\l__keythms_tmpa_dim=\dimen414
+\l__keythms_thm_currparindent_dim=\dimen415
+\l__keythms_thm_currparskip_dim=\dimen416
+\l__keythms_thm_tcbstate_int=\count576
+\c@keythms_restate_dummyctr=\count577
+\c@keythms_continues_dummyctr=\count578
+\c@keythms_unnumbered_dummyctr=\count579
+\c@keythms_manualnum_dummyctr=\count580
+\l__keythms_thm_leftmargin_dim=\dimen417
+\l__keythms_thm_rightmargin_dim=\dimen418
+\keythms@listof@chaptervspace@dim=\dimen419
+\l__keythms_listof_indent_dim=\dimen420
+\l__keythms_listof_numwidth_dim=\dimen421
+\g_keythms_listof_prevchapter_int=\count581
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.4.1'
+(/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+ (/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+) (/usr/share/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box174
+)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.4.1'
+)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.4.1'
+(/usr/share/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box175
+\tcb@totalupperbox=\box176
+\tcb@totallowerbox=\box177
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.4.1'
+)
+\depthofj=\skip151
+) (../preamble/environments/theorem-like.tex) (../preamble/environments/remark-like.tex
+\proofsmallsquare=\box178
+LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/share/texmf-dist/tex/latex/cmbright/omlcmbrm.fd
+File: omlcmbrm.fd 2005/04/13 v8.1 (WaS)
+) (/usr/share/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)) (../preamble/environments/todo-like.tex) (../preamble/environments/akce.tex (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip152
+\enit@outerparindent=\dimen422
+\enit@toks=\toks69
+\enit@inbox=\box179
+\enit@count@id=\count582
+\enitdp@description=\count583
+)) (../preamble/environments/moje.tex) (../preamble/hacks/custom-reference-boxes.tex) (../preamble/hacks/fix-qed.tex) (../preamble/hacks/fix-hyperref.tex) (../preamble/hacks/floatrow-parskip.tex) (../preamble/user/main.tex (../preamble/user/macros.tex (/usr/share/texmf-dist/tex/generic/hologo/hologo.sty
+Package: hologo 2021-11-16 v1.15 A logo collection with bookmark support (HO)
+)) (../preamble/user/math.tex)))))
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 2.
+\@quotelevel=\count584
+\@quotereset=\count585
+ (./akce.aux)
+\openout1 = `akce.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 2.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 2.
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count586
+\scratchdimen=\dimen423
+\scratchbox=\box180
+\nofMPsegments=\count587
+\nofMParguments=\count588
+\everyMPshowfont=\toks70
+\MPscratchCnt=\count589
+\MPscratchDim=\dimen424
+\MPnumerator=\count590
+\makeMPintoPDFobject=\count591
+\everyMPtoPDFconversion=\toks71
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) (/usr/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 2.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen425
+\caption@adjustwidth@linewidth=\dimen426
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 2.
+ (/usr/share/texmf-dist/tex/latex/zref/zref-hyperref.sty
+Package: zref-hyperref 2023-09-14 v2.35 Module hyperref for zref (HO)
+Package zref Info: New property: anchor on input line 56.
+) (/usr/share/texmf-dist/tex/latex/zref-clever/zref-clever-english.lang)
+
+Package zref-clever Info: Loaded 'english' language file.
+
+\c@zc@appendix=\count592
+Package zref Info: New property: subeq on input line 2.
+
+Package zref-clever Info: Loaded support for 'amsmath' package.
+
+
+Package zref-clever Info: Loaded support for 'mathtools' package.
+
+Package zref Info: New property: subref on input line 2.
+\@sidenotes@extrawidth=\skip153
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(42.0pt, 320.0pt, 235.50787pt)
+* v-part:(T,H,B)=(72.0pt, 650.0pt, 123.04684pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=320.0pt
+* \textheight=650.0pt
+* \oddsidemargin=-30.26999pt
+* \evensidemargin=-30.26999pt
+* \topmargin=-37.26999pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=40.0pt
+* \marginparwidth=180.0pt
+* \marginparsep=20.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texmf-dist/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2016/01/12
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `akce.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'akce.bbl' not found.
+
+No file akce.bbl.
+Package biblatex Info: Reference section=0 on input line 2.
+Package biblatex Info: Reference segment=0 on input line 2.
+Chapter 1.
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <28> not available
+(Font)              size <24.88> substituted on input line 4.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/n' in size <20> not available
+(Font)              size <20.74> substituted on input line 4.
+
+
+./akce.tex:8: LaTeX Error: File `swing' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 	\includegraphics[width=0.95\textwidth]{swing}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (10.06741pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/n/12 Kl^^S^^P^^Tcem k uni-verz^^Salnosti Fate Core je klasi-fikace ve^^Tsker^^Sych ^^Tcinnost^^S^^P|
+ []
+
+
+Overfull \hbox (7.8216pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/12 postava d^^Tel^^Sa n^^Teco, co je samoz^^Trejm^^Se nebo u ^^Tceho^^Tz nen^^S^^P (ne)^^Susp^^Tech|
+ []
+
+(/usr/share/texmf-dist/tex/latex/cmbright/ot1cmbr.fd
+File: ot1cmbr.fd 2005/04/13 v8.1 (WaS)
+)
+LaTeX Font Info:    Font shape `OT1/cmbr/b/n' in size <12> not available
+(Font)              Font shape `OT1/cmbr/bx/n' tried instead on input line 19.
+ (/usr/share/texmf-dist/tex/latex/iwona/omxiwona.fd
+File: omxiwona.fd 2008/07/22 v0.995 font definition file for OMX/iwona (MW)
+)
+
+./akce.tex:36: LaTeX Error: File `prekonani-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ...ak aspekt \asp{Nedůvěřivý} a další.}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.48552pt too wide) in paragraph at lines 36--36
+\OT1/cmr/m/n/12 ^^Tsifry. V ^^Tsir^^Ts^^S^^Pm smyslu slova p^^Trekon^^San^^S^^P je pak uv^^Te^^Triteln^^Se,|
+ []
+
+
+Overfull \hbox (21.05672pt too wide) in paragraph at lines 36--36
+\OT1/cmr/m/n/12 ^^Tze sem spadaj^^S^^P i ^^Tcinnosti jako vyh-led^^Sav^^San^^S^^P (p^^Trekon^^Sav^^San^^S^^P|
+ []
+
+
+
+[1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (7.63858pt too wide) in paragraph at lines 36--37
+[]\OT1/cmr/m/n/12 Pomoc^^S^^P akce \OT1/cmr/m/sc/12 P[]rekon[]an[]^^P \OT1/cmr/m/n/12 se lze zbavo-vat ex-is-tuj^^S^^Pc^^S^^Pch|
+ []
+
+
+./akce.tex:37: LaTeX Error: File `vytvoreni-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 ..., že se \asp{Lehko naštve} a další). }
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (1.64792pt too wide) in paragraph at lines 37--38
+[]\OT1/cmr/m/sc/12 Vytvo[]ren[]^^P v[]yhody:[]\OT1/cmr/m/n/12 Akce \OT1/cmr/m/sc/12 Vytvo[]ren[]^^P v[]yhody|
+ []
+
+
+Overfull \hbox (19.95406pt too wide) in paragraph at lines 37--38
+\OT1/cmr/bx/it/12 Usv^^Ted^^Tcuj^^S^^Pc^^S^^P d^^Wukaz\OT1/cmr/m/n/12 , rozhovorem zjis-tit, ^^Tze str^^Sa^^Tzn^^Semu|
+ []
+
+
+Overfull \hbox (17.46648pt too wide) in paragraph at lines 37--38
+\OT1/cmr/m/n/12 vyvol^^San^^S^^P na ji^^Tz ex-is-tuj^^S^^Pc^^S^^P as-pekty (p^^Tripravit si ne^^Tcekan^^Sy|
+ []
+
+
+Overfull \hbox (5.13753pt too wide) in paragraph at lines 37--38
+\OT1/cmr/m/n/12 ^^Sutok v m^^S^^Pstnosti, kde je \OT1/cmr/bx/it/12 V^^Tsude tma\OT1/cmr/m/n/12 , trochu n^^Tekoho|
+ []
+
+
+Overfull \hbox (5.5686pt too wide) in paragraph at lines 37--38
+\OT1/cmr/m/n/12 vypro-voko-vat a vyu^^Tz^^S^^Pt, ^^Tze se \OT1/cmr/bx/it/12 Lehko na^^Tstve \OT1/cmr/m/n/12 a dal^^Ts^^S^^P). |
+ []
+
+
+./akce.tex:38: LaTeX Error: File `utok-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...it, rozlítostnit, deprimovat, rozhodit. }
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (6.07965pt too wide) in paragraph at lines 38--39
+[][]\OT1/cmr/m/sc/12 Utok: \OT1/cmr/m/n/12 Akce []\OT1/cmr/m/sc/12 Utok \OT1/cmr/m/n/12 je p^^Tr^^S^^Pmo^^Tcar^^Sa - zp^^Wusobit nep^^Tr^^S^^Pteli|
+ []
+
+
+./akce.tex:39: LaTeX Error: File `obrana-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ... v libovolném množství. \sidenotemark }
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (5.41634pt too wide) in paragraph at lines 39--40
+\OT1/cmr/m/n/12 svoje akce \OT1/cmr/m/sc/12 Vytvo[]ren[]^^P v[]yhody i []Utok\OT1/cmr/m/n/12 . V^^Tsimn^^Tete|
+ []
+
+
+Underfull \hbox (badness 5490) in paragraph at lines 42--42
+\OT1/cmr/m/n/12 v^^Syhody je velk^^Sy po-sun oproti
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 43--43
+\OT1/cmr/m/n/12 ale velmi urych-luje a us-nad^^Tnuje
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 43--43
+\OT1/cmr/m/n/12 kon-flikty, nebo[]t ned^^Sav^^Sa pros-tor
+ []
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <12> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 50.
+
+
+
+[2]
+
+./akce.tex:64: LaTeX Error: File `prekonani-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 ...ážku či odstraní existující aspekt.}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./akce.tex:65: LaTeX Error: File `vytvoreni-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 ...volné vyvolání na stávající aspekt.}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./akce.tex:66: LaTeX Error: File `utok-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 ...Postava úspěšně protivníka zasáhne.}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./akce.tex:67: LaTeX Error: File `obrana-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 ...�nit se (tj. překazit) akci nepřítele.}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./akce.tex:76: LaTeX Error: File `prekonani-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 ...Rychlost}, \asp{Vítr v plachtách} apod.}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (2.1147pt too wide) in paragraph at lines 76--77
+\OT1/cmr/bx/it/12 ment p^^Trekvapen^^S^^P\OT1/cmr/m/n/12 , \OT1/cmr/bx/it/12 Rychlost\OT1/cmr/m/n/12 , \OT1/cmr/bx/it/12 V^^S^^Ptr v placht^^Sach|
+ []
+
+
+./akce.tex:77: LaTeX Error: File `vytvoreni-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 ...� aspekt vyvolat vícekrát na jeden hod)}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (16.15677pt too wide) in paragraph at lines 77--78
+[]\OT1/cmr/m/n/12 Ve v^^Tsech p^^Tr^^S^^Ppadech postava z^^S^^Psk^^Sav^^Sa dv^^Te voln^^Sa vyvol^^San^^S^^P|
+ []
+
+
+
+[3{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+./akce.tex:78: LaTeX Error: File `utok-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...í - \asp{Úsměv štěstěny, Amok} atd.}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./akce.tex:79: LaTeX Error: File `obrana-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 ...teřina odpočinku, Dokonalá obrana} aj.}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (19.42294pt too wide) in paragraph at lines 79--80
+[]\OT1/cmr/m/n/12 Obr^^Sance nav^^S^^Pc z^^S^^Psk^^Sav^^Sa pos^^S^^Plen^^S^^P - \OT1/cmr/bx/it/12 Vte^^Trina odpo^^Tcinku,|
+ []
+
+
+./akce.tex:88: LaTeX Error: File `prekonani-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 ... vybavení, o nějaké přijde a další.}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (17.92342pt too wide) in paragraph at lines 88--89
+\OT1/cmr/m/n/12 jin^^Seho atd., ^^Tci n^^Tejakou drob-nou kom-p-likaci pro postavu|
+ []
+
+
+./akce.tex:89: LaTeX Error: File `vytvoreni-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ...co úspěch - získá volné vyvolání.}}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (8.28pt too wide) in paragraph at lines 89--90
+\OT1/cmr/m/n/12 pekt vytvo^^Tr^^S^^P (ob-jev^^S^^P), ale za drob-nou cenu. Nicm^^Sen^^Te,|
+ []
+
+
+./akce.tex:90: LaTeX Error: File `utok-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ..., ale získává posílení.\sidenotemark}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./akce.tex:91: LaTeX Error: File `obrana-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 ...�níka, před kterým se postava brání.}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 7273) in paragraph at lines 93--93
+[]$[]$ \OT1/cmr/m/n/12 D^^S^^Pky to-muto jsou kon-flikty
+ []
+
+
+./akce.tex:98: LaTeX Error: File `prekonani-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 ...í, postava přijde o kus vybavení apod.}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (6.3041pt too wide) in paragraph at lines 98--99
+\OT1/cmr/m/n/12 zp^^Wusob^^S^^P zran^^Ten^^S^^P, postava p^^Trijde o kus vy-baven^^S^^P apod. |
+ []
+
+
+./akce.tex:99: LaTeX Error: File `vytvoreni-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 ...zemi}, z něhož bude čerpat protivník.}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+
+[4]
+
+./akce.tex:100: LaTeX Error: File `utok-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.100   \iconitem{utok-ikona}{Útok se nezdařil.}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./akce.tex:101: LaTeX Error: File `obrana-ikona' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101 ...k uspěl (případně uspěl se stylem).}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (0.58147pt too wide) in paragraph at lines 101--102
+[]\OT1/cmr/m/n/12 Obrana nezda^^Trila, tj. ^^Suto^^Tcn^^S^^Pk usp^^Tel (p^^Tr^^S^^Ppadn^^Te usp^^Tel|
+ []
+
+
+Overfull \hbox (16.42592pt too wide) in paragraph at lines 104--105
+[]\OT1/cmr/m/n/12 Za pov^^Tsimnut^^S^^P stoj^^S^^P, ^^Tze v^^Sysledky akce \OT1/cmr/m/sc/12 Obrana \OT1/cmr/m/n/12 zr-cadl^^S^^P v^^Sysledky|
+ []
+
+
+
+[5]
+
+[6]
+
+Package silence Warning: There were 7 warning(s) and 21 error(s).
+(silence)                I've killed 3 warning(s) and 0 error(s).
+
+(./akce.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                akce
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'akce.run.xml'.
+\openout1 = `akce.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 54312 strings out of 475137
+ 1192320 string characters out of 5765917
+ 2023919 words of memory out of 5000000
+ 76321 multiletter control sequences out of 15000+600000
+ 582786 words of font info for 120 fonts, out of 8000000 for 9000
+ 24 hyphenation exceptions out of 8191
+ 128i,12n,140p,877b,1624s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on akce.pdf (6 pages, 127513 bytes).
+PDF statistics:
+ 155 PDF objects out of 1000 (max. 8388607)
+ 110 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+

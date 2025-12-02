@@ -1,7 +1,4 @@
 %! TEX program = lualatex
-
-\newcommand*{\TeXturedVERSION}{1.4.0} %% TeXtured 2025-06-17
-
 \documentclass[12pt,a4paper]{report} % single-side
 \usepackage{subfiles}
 %% Toggles
@@ -25,7 +22,8 @@
 \begin{document}
 
 \frontmatter
-\include{frontmatter/title}
+\include{chapters/title}
+
 \contentsandlists
 
 \mainmatter
@@ -34,34 +32,15 @@
 
 \subfile{chapters/uvod}
 
-\begin{comment}
-\begin{center}
-  \includegraphics[width=\textwidth]{jezero}
-  \captionof{figure}{\href{https://davidramos.ca/wp-content/uploads/2021/04/cyn-1024x576.png}{source}}
-\end{center}
-\end{comment}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ASPEKTY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subfile{chapters/aspekty}
 
-\begin{comment}
-\begin{center}
-  \includegraphics[width=\textwidth]{jules}
-  \captionof{figure}{\href{https://aukceaukci.s3.amazonaws.com/aukceaukci/production/files/2024/02/06/10/15/12/906b839a-538e-4f31-bbcc-131d423cb646/1.webp}{source}}
-\end{center}
-\end{comment}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%AKCE%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subfile{chapters/akce}
-
-\begin{comment}
-\begin{center}
-  \includegraphics[width=\textwidth]{swing}
-  \captionof{figure}{\href{https://pbs.twimg.com/media/EGcmJ2vU0AIqTU9?format=jpg&name=large}{source}}
-\end{center}
-\end{comment}
 
 
 
@@ -69,56 +48,23 @@
 
 \subfile{chapters/dovednosti}
 
-\begin{comment}
-\begin{center}
-  \includegraphics[width=0.75\textwidth]{chobotnice}
-  \captionof{figure}{\href{https://www.humanart.cz/user/2527/art/st/2527-1324900216-2.jpg}{source}}
-\end{center}
-\end{comment}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%TRIKY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subfile{chapters/triky}
 
-\begin{comment}
-\begin{center}
-  \includegraphics[width=0.75\textwidth]{ryba}
-  \captionof{figure}{\href{https://cz.pinterest.com/pin/750623462885443700/}{source}}
-\end{center}
-\end{comment}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%STRETY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subfile{chapters/strety_vyzvy_konflikty}
-
-\begin{comment}
-\begin{center}
-  \includegraphics[width=0.5\textwidth]{zaba}
-  \captionof{figure}{\href{https://www.pinterest.com/pin/484418503638647556/}{source}}
-\end{center}
-\end{comment}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%SPECIALITY%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subfile{chapters/speciality}
 
-\begin{comment}
-\begin{center}
-  \includegraphics[width=\textwidth]{carodejka}
-  \captionof{figure}{\href{https://petrakubaskova.cz/wp-content/uploads/2024/07/elixir-cze.png}{source}}
-\end{center}
-\end{comment}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% POVOLÁNÍ%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subfile{chapters/povolani}
-
-\begin{comment}
-\begin{center}
-  \includegraphics[width=\textwidth]{carodejka}
-  \captionof{figure}{\href{https://petrakubaskova.cz/wp-content/uploads/2024/07/elixir-cze.png}{source}}
-\end{center}
-\end{comment}
 
 \subfile{chapters/predmety}
 
@@ -137,20 +83,6 @@
 \subfile{chapters/dodatky/edenuvbratr}
 \subfile{chapters/dodatky/subotam}
 
-
-keacas
-asfasfas
-fasfsa
-Ahoj ahoj ahoj
-
-ashoj
-
-
 \references
-\begin{itemize}
-	\item testovaci
-		\item
-
-\end{itemize}
 
 \end{document}

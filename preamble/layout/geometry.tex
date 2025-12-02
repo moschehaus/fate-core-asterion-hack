@@ -1,69 +1,102 @@
-%%% === Core page setup ===
-
-\usepackage{geometry}
-\usepackage{mparhack}
-\usepackage{marginfix}
-\usepackage{pict2e}
+%%% Page dimensions
+%% single-side (electronic) -> use `\documentclass[12pt,a4paper]{report}`
+%% two-sided (for printing) -> use `\documentclass[12pt,a4paper,twoside,openright]{report}`
 \usepackage{sidenotes}
 \usepackage{multicol}
-%%% Force sidenotes to wrap exactly at marginparwidth
-
-%%% Handle binding offset for twoside
+\captionsetup{font=footnotesize, skip=4pt}
+\usepackage[maxfloats=45]{morefloats}
+\usepackage{marginfix}
+\usepackage{geometry} % flexible interface for adjusting page layout/dimensions
 \makeatletter
-\if@twoside
-	\setlength\Gm@bindingoffset{15mm}
-\fi
+\if@twoside%
+    \setlength\Gm@bindingoffset{15mm} % binding offset for two-sided printing
+\fi%
 \makeatother
-
-%%% Base geometry (normal mode)
+\begin{comment}
 \geometry{
-	textwidth=145mm,
-	textheight=250mm,
-	hmarginratio=1:1,
-	vmarginratio=3:4,
-	includehead,
-	headheight=2.5em,
-	headsep=0mm,
-	marginparwidth=45mm, % default note width
-	marginparsep=5mm     % space between text and note
+    width=145mm,
+    height=250mm,
+    hmarginratio=1:1,   % space ratio between left and right margins
+    vmarginratio=3:4,   % space ratio between top and bottom margins
+    includehead,        % include header in total height
+    headheight=2.5em,   % height of the header (includes space below the rule)
+    headsep=0mm,        % no extra space between header and text
+    % showframe,          % for DEBUG: helper lines for adjusting layout
+}
+\end{comment}
+\geometry{
+	paperwidth=210mm,
+	paperheight=297mm,
+	left=42pt,
+	top=72pt,
+	textwidth=320pt,
+	marginparsep=20pt,
+	marginparwidth=180pt,
+	textheight=650pt,
+	footskip=40pt,
 }
 
-%%% === Extra margin mode (clean placement) ===
-\ifWIP\ifEXTRAMARGIN
-
-  \geometry{
-    paperwidth=260mm,
-    paperheight=297mm,
-    textwidth=160mm,
-    textheight=250mm,
-    layoutoffset=0mm,
-    marginparsep=10mm,
-    marginparwidth=60mm,
-    includemp
+\newlength{\overhang}
+\setlength{\overhang}{\marginparwidth}
+\addtolength{\overhang}{\marginparsep}
+%
+\newenvironment{fullwidth}
+  {\ifthenelse{\boolean{@twoside}}%
+     {\begin{adjustwidth*}{}{-\overhang}}%
+     {\begin{adjustwidth}{}{-\overhang}}%
+  }%
+  {\ifthenelse{\boolean{@twoside}}%
+    {\end{adjustwidth*}}%
+    {\end{adjustwidth}}%
   }
 
 
-  \renewcommand*{\marginfont}{\footnotesize\color{gray}\RaggedRight}
+\RequirePackage{fmtcount}
+\RequirePackage{ragged2e} % \RaggedRight works better than \raggedright
+\newcommand{\marginparstyle}{\footnotesize} % initialize style with start value
+\long\def\@ympar#1{% redefine margin par to avoid too many macros in the document
+  \@savemarbox\@marbox{\marginparstyle#1}% marginparstyle is a prefix to the marginpar text now
+  \global\setbox\@currbox\copy\@marbox % the rest of the definition is taken from original LaTeX
+  \@xympar}
+\renewcommand*{\marginfont}{\marginparstyle}
 
-
-  % Patch marginpar placement to shift notes into extra margin:
-  \makeatletter
-  \let\orig@marginparreset\@marginparreset
-  \def\@marginparreset{%
-    \orig@marginparreset
-    \setlength\@tempdima{210mm}%
-    \addtolength\@tempdima{-\textwidth}%
-    \addtolength\@tempdima{-\marginparsep}%
-    \hskip\@tempdima%
+\newcommand\newthought[1]{%
+   \addvspace{1.0\baselineskip plus 0.5ex minus 0.2ex}%
+   \noindent\textsc{#1}%
+}%
+\ExplSyntaxOn
+\NewDocumentCommand \sidecite { o o m }
+{ 
+  \IfNoValueOrEmptyTF{#1}
+  {
+    \IfNoValueOrEmptyTF{#2}
+    {
+      \sidenote{\fullcite{#3}}
+    }
+    {
+      \sidenote{\fullcite[#2]{#3}}
+    }
   }
-  \makeatother
+  {
+    \IfNoValueOrEmptyTF{#2}
+    {
+      \sidenote{\fullcite[#1]{#3}}
+    }
+    {
+      \sidenote{\fullcite[#1][#2]{#3}}
+    }
+  }
+}
+\ExplSyntaxOff
 
-%  \AddToHook{shipout/background}{%
-    %\color{black!10}\linethickness{0.4pt}%
-    %\put(210mm,0){\line(0,-1){297mm}}%
-%  }
+\usepackage{caption}
+\captionsetup{labelfont={sf,bf,footnotesize}}
+\DeclareCaptionStyle{marginfigure}[]{labelfont={sf,bf,footnotesize}, font=footnotesize, justification=justified}
+\DeclareCaptionStyle{sidecaption}[]{labelfont={sf,bf,footnotesize}, font=footnotesize, justification=justified, singlelinecheck=off}
+\DeclareCaptionStyle{widefigure}[]{labelfont={sf,bf,footnotesize}, font=footnotesize}
 
-\fi\fi
+%
+%% try to make text on all pages have the same height (default for `twoside`)
 
-  
 \flushbottom
+

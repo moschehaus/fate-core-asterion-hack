@@ -1,9 +1,11 @@
 %% Chapter without number, but included in header and TOC
+\begin{comment}
 \NewDocumentCommand{\chapternotnumbered}{m}{
     \chapter*{#1}
     \markboth{#1}{#1}                   % use chapter title in header
     \addcontentsline{toc}{chapter}{#1}  % include chapter in TOC
 }
+\end{comment}
 
 %%% Chapter and section formatting
 %% `clearempty` option removes page numbers from empty pages when using `\cleardoublepage`
@@ -24,6 +26,7 @@
 %%% Chapter title formatting
 %% No extra space above and below chapter headings, big number/letter behind chapter title
 %% inspired by https://tex.stackexchange.com/a/690632
+\begin{comment}
 \NewDocumentCommand{\chaphead}{s O{} m}{
     \vspace*{-25pt}% reduce vertical space before the title
     {\setlength{\parindent}{0pt}\raggedright
@@ -37,6 +40,7 @@
         \vspace{20pt}% extra vertical space after the title
     }
 }
+\end{comment}
 %% -> modifying /usr/share/texmf-dist/tex/latex/base/report.cls
 \makeatletter
 \def\@makechapterhead#1{\chaphead[\thechapter]{#1}}                % for numbered Chapters simply use their number
