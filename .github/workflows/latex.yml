@@ -24,6 +24,7 @@ jobs:
         run: |
           mkdir -p build/chapters/dodatky
           mkdir -p build/preamble/{debug,environments,general,hacks,layout,math,misc,references,user}
+      
      
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
@@ -38,6 +39,10 @@ jobs:
         with:
           name: PDF
           path: build/*.pdf
+      
+      - name: Copy index.html to build directory
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        run: cp index.html build/
       
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
