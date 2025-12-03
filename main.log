@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.10.2)  3 DEC 2025 13:23
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.10.2)  3 DEC 2025 13:28
  system commands enabled.
 **main.tex
 (./main.tex
@@ -5302,20 +5302,20 @@ Overfull \hbox (4.23589pt too wide) in paragraph at lines 149--150
  []
 
 
-Overfull \hbox (186.41621pt too wide) in paragraph at lines 164--171
+Overfull \hbox (186.41621pt too wide) in paragraph at lines 166--173
  [][] |
  []
 
 
 
 [91]
-Overfull \hbox (16.63522pt too wide) in paragraph at lines 223--224
+Overfull \hbox (16.63522pt too wide) in paragraph at lines 225--226
 []\TU/lmr/bx/n/12 Vý-drž: \TU/lmr/m/n/12 (\TU/lmr/m/it/12 stresy\TU/lmr/m/n/1
 2 :) [][][][][][][][] |
  []
 
 
-Overfull \hbox (40.45964pt too wide) in paragraph at lines 231--232
+Overfull \hbox (40.45964pt too wide) in paragraph at lines 233--234
 []\TU/lmr/bx/n/12 Vý-drž: \TU/lmr/m/n/12 (\TU/lmr/m/it/12 stresy\TU/lmr/m/n/1
 2 :) [][][][][][][][][] |
  []
@@ -5323,19 +5323,19 @@ Overfull \hbox (40.45964pt too wide) in paragraph at lines 231--232
 
 
 [92]
-Overfull \hbox (64.28406pt too wide) in paragraph at lines 239--240
+Overfull \hbox (64.28406pt too wide) in paragraph at lines 241--242
 []\TU/lmr/bx/n/12 Vý-drž: \TU/lmr/m/n/12 (\TU/lmr/m/it/12 stresy\TU/lmr/m/n/1
 2 :) [][][][][][][][][][] |
  []
 
 
-Overfull \hbox (88.10847pt too wide) in paragraph at lines 247--248
+Overfull \hbox (88.10847pt too wide) in paragraph at lines 249--250
 []\TU/lmr/bx/n/12 Vý-drž: \TU/lmr/m/n/12 (\TU/lmr/m/it/12 stresy\TU/lmr/m/n/1
 2 :) [][][][][][][][][][][] |
  []
 
 
-Overfull \hbox (111.93289pt too wide) in paragraph at lines 256--257
+Overfull \hbox (111.93289pt too wide) in paragraph at lines 258--259
 []\TU/lmr/bx/n/12 Vý-drž: \TU/lmr/m/n/12 (\TU/lmr/m/it/12 stresy\TU/lmr/m/n/1
 2 :) [][][][][][][][][][][][] |
  []
@@ -6160,7 +6160,7 @@ Here is how much of LuaTeX's memory you used:
  kern, 122 penalty, 4911 glyph, 783 attribute, 98 glue_spec, 783 attribute_list,
  3 write, 273 pdf_literal, 3 pdf_start_link, 3 pdf_end_link, 10 pdf_action, 46 p
 df_colorstack nodes
-   avail lists: 2:2650,3:1193,4:229,5:1425,6:172,7:8392,8:5,9:1614,10:16,11:384
+   avail lists: 2:2688,3:1193,4:229,5:1425,6:172,7:8392,8:5,9:1614,10:16,11:384
  77393 multiletter control sequences out of 65536+600000
  157 fonts using 11398207 bytes
  108i,12n,121p,2551b,1760s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -6181,7 +6181,7 @@ exmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></opt/texlive/texdir/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/texdir/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy6.pfb></opt/texlive/texdir/texmf-dist/fonts/t
 ype1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (123 pages, 2919768 bytes).
+Output written on main.pdf (123 pages, 2919854 bytes).
 
 PDF statistics: 1882 PDF objects out of 2073 (max. 8388607)
  1524 compressed objects within 16 object streams
