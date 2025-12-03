@@ -1,0 +1,191 @@
+\contentsline {chapter}{Obsah}{i}{chapter*.1}%
+\contentsline {chapter}{\numberline {1}Úvod}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Proč vznikají tato pravidla}{2}{section*.3}%
+\contentsline {section}{\numberline {1.2}Smysl hraní aneb kdy používat mechaniku}{3}{section*.4}%
+\contentsline {section}{\numberline {1.3}Slovník pojmů a značení}{4}{section*.5}%
+\contentsline {chapter}{\numberline {2}Aspekty a body osudu}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Aspekty, narativ a příběhová pravomoc}{5}{section*.6}%
+\contentsline {subsection}{Jak vypadá dobrý aspekt}{6}{subsection*.7}%
+\contentsline {section}{\numberline {2.2}Body osudu a obnova}{7}{section*.8}%
+\contentsline {subsection}{Vyvolání aspektu}{8}{subsection*.9}%
+\contentsline {subsection}{Vynucování aspektů}{9}{subsection*.10}%
+\contentsline {chapter}{\numberline {3}Akce a výsledky}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Čtyři akce}{11}{section*.11}%
+\contentsline {section}{\numberline {3.2}Čtyři výsledky}{13}{section*.12}%
+\contentsline {subsection}{Úspěch}{13}{subsection*.13}%
+\contentsline {subsection}{Úspěch se stylem}{14}{subsection*.14}%
+\contentsline {subsection}{Remíza}{15}{subsection*.15}%
+\contentsline {subsection}{Neúspěch}{15}{subsection*.16}%
+\contentsline {chapter}{\numberline {4}Základní dovednosti}{17}{chapter.4}%
+\contentsline {subsection}{Seznam základních dovedností}{17}{subsection*.17}%
+\contentsline {section}{\numberline {4.1}Boj beze zbraně}{18}{section*.18}%
+\contentsline {section}{\numberline {4.2}Boj na dálku}{19}{section*.19}%
+\contentsline {section}{\numberline {4.3}Boj se zbraní}{20}{section*.20}%
+\contentsline {section}{\numberline {4.4}Empatie}{21}{section*.21}%
+\contentsline {section}{\numberline {4.5}Jezdectví}{23}{section*.22}%
+\contentsline {section}{\numberline {4.6}Klam}{24}{section*.23}%
+\contentsline {section}{\numberline {4.7}Kondice}{25}{section*.24}%
+\contentsline {section}{\numberline {4.8}Kontakty}{26}{section*.25}%
+\contentsline {section}{\numberline {4.9}Medicína}{27}{section*.26}%
+\contentsline {section}{\numberline {4.10}Mobilita}{29}{section*.27}%
+\contentsline {section}{\numberline {4.11}Pozornost}{30}{section*.28}%
+\contentsline {section}{\numberline {4.12}Provokace}{31}{section*.29}%
+\contentsline {section}{\numberline {4.13}Řemesla}{32}{section*.30}%
+\contentsline {section}{\numberline {4.14}Skrývání}{34}{section*.31}%
+\contentsline {section}{\numberline {4.15}Učenost}{35}{section*.32}%
+\contentsline {section}{\numberline {4.16}Vůle}{36}{section*.33}%
+\contentsline {section}{\numberline {4.17}Vyšetřování}{37}{section*.34}%
+\contentsline {section}{\numberline {4.18}Vztahy}{38}{section*.35}%
+\contentsline {section}{\numberline {4.19}Zlodějina}{39}{section*.36}%
+\contentsline {chapter}{\numberline {5}Triky}{41}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Co a k čemu je trik}{41}{section*.37}%
+\contentsline {section}{\numberline {5.2}Efekty triků}{41}{section*.38}%
+\contentsline {subsection}{Přidání bonusu k akci}{42}{subsection*.39}%
+\contentsline {subsection}{Přidání nové akce k dovednosti}{43}{subsection*.40}%
+\contentsline {subsection}{Vytvoření výjimky z pravidel}{44}{subsection*.41}%
+\contentsline {section}{\numberline {5.3}Rodiny triků}{44}{section*.42}%
+\contentsline {subsection}{Skládaní efektů (``do hloubky'')}{45}{subsection*.43}%
+\contentsline {subsection}{Větvení efektů (``do šíře'')}{45}{subsection*.44}%
+\contentsline {section}{\numberline {5.4}Základní seznam triků}{45}{section*.45}%
+\contentsline {subsection}{Boj beze zbraně}{45}{subsection*.46}%
+\contentsline {subsection}{Boj na dálku}{46}{subsection*.47}%
+\contentsline {subsection}{Boj se zbraní}{47}{subsection*.48}%
+\contentsline {subsection}{Empatie}{47}{subsection*.49}%
+\contentsline {subsection}{Jezdectví}{48}{subsection*.51}%
+\contentsline {subsection}{Klam}{48}{subsection*.52}%
+\contentsline {subsection}{Kondice}{48}{subsection*.53}%
+\contentsline {subsection}{Kontakty}{49}{subsection*.54}%
+\contentsline {subsection}{Medicína}{49}{subsection*.55}%
+\contentsline {subsection}{Mobilita}{49}{subsection*.56}%
+\contentsline {subsection}{Pozornost}{50}{subsection*.57}%
+\contentsline {subsection}{Provokace}{50}{subsection*.58}%
+\contentsline {subsection}{Řemesla}{50}{subsection*.59}%
+\contentsline {subsection}{Skrývání}{51}{subsection*.60}%
+\contentsline {subsection}{Učenost}{51}{subsection*.61}%
+\contentsline {subsection}{Vůle}{52}{subsection*.62}%
+\contentsline {subsection}{Vyšetřování}{52}{subsection*.63}%
+\contentsline {subsection}{Vztahy}{53}{subsection*.64}%
+\contentsline {subsection}{Zlodějina}{53}{subsection*.65}%
+\contentsline {chapter}{\numberline {6}Střety, výzvy a konflikty}{54}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Jeden hod nebo peripetie?}{54}{section*.66}%
+\contentsline {section}{\numberline {6.2}Výzvy}{55}{section*.67}%
+\contentsline {subsection}{Výhody ve výzvách}{56}{subsection*.68}%
+\contentsline {subsection}{Příklad výzvy}{56}{subsection*.69}%
+\contentsline {section}{\numberline {6.3}Střety}{57}{section*.70}%
+\contentsline {subsection}{Výhody ve střetech}{58}{subsection*.71}%
+\contentsline {subsection}{Příklad střetu}{58}{subsection*.72}%
+\contentsline {section}{\numberline {6.4}Konflikty}{60}{section*.73}%
+\contentsline {section}{\numberline {6.5}Fyzické konflikty}{60}{section*.74}%
+\contentsline {subsection}{Obecná pravidla konfliktů}{60}{subsection*.75}%
+\contentsline {subsubsection}{Vsuvka: Střeto-konflikty a výzvy v konfliktech}{60}{subsection*.75}%
+\contentsline {subsubsection}{Určení stran}{61}{sidenote.28}%
+\contentsline {subsubsection}{Aspekty scény}{62}{sidenote.28}%
+\contentsline {subsubsection}{Zóny a pohyb}{62}{sidenote.28}%
+\contentsline {subsubsection}{Průběh kola}{63}{sidenote.29}%
+\contentsline {subsubsection}{Iniciativa}{63}{Item.21}%
+\contentsline {subsection}{Stres a následky}{64}{subsection*.76}%
+\contentsline {subsubsection}{Stres}{65}{subsection*.76}%
+\contentsline {subsubsection}{Následky}{65}{subsection*.76}%
+\contentsline {subsubsection}{Vyřazení a smrt}{66}{sidenote.30}%
+\contentsline {subsubsection}{Odstoupení}{67}{sidenote.31}%
+\contentsline {subsection}{Příklad jedné výměny}{67}{subsection*.77}%
+\contentsline {section}{\numberline {6.6}Duševní a sociální konflikty}{67}{section*.78}%
+\contentsline {section}{\numberline {6.7}Magické konflikty}{68}{section*.79}%
+\contentsline {section}{\numberline {6.8}Zotavování se ze zranění}{68}{section*.80}%
+\contentsline {subsection}{Zotavování se ze stresu}{68}{subsection*.81}%
+\contentsline {subsection}{Zotavování se z následků}{68}{subsection*.82}%
+\contentsline {chapter}{\numberline {7}Speciality}{70}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Vytváření specialit}{70}{section*.83}%
+\contentsline {subsection}{Jak speciality souvisí s herním prostředím}{71}{subsection*.84}%
+\contentsline {subsection}{Co speciality dělají}{71}{subsection*.85}%
+\contentsline {subsection}{Jak speciality souvisí s postavami}{71}{subsection*.86}%
+\contentsline {subsection}{Svolení a cena}{72}{subsection*.87}%
+\contentsline {subsection}{Fateový fraktál}{72}{subsection*.88}%
+\contentsline {section}{\numberline {7.2}Magie}{72}{section*.89}%
+\contentsline {chapter}{\numberline {8}``Povolání''}{74}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Povolání ve Fate Core}{74}{section*.91}%
+\contentsline {section}{\numberline {8.2}Povolání bez svolení}{74}{section*.92}%
+\contentsline {subsection}{Bojovník}{74}{subsection*.93}%
+\contentsline {subsection}{Střelec}{74}{subsection*.94}%
+\contentsline {subsection}{Zloděj}{74}{subsection*.95}%
+\contentsline {subsection}{Hraničář}{74}{subsection*.96}%
+\contentsline {subsection}{Sicco}{74}{subsection*.97}%
+\contentsline {section}{\numberline {8.3}Povolání se svolením}{74}{section*.98}%
+\contentsline {subsection}{Čaroděj}{74}{subsection*.99}%
+\contentsline {subsection}{Alchymista}{78}{subsection*.100}%
+\contentsline {subsection}{Theurg}{78}{subsection*.101}%
+\contentsline {subsection}{Kněz}{78}{subsection*.102}%
+\contentsline {subsubsection}{Zázraky}{78}{subsection*.102}%
+\contentsline {subsubsection}{Alcaril}{79}{example.8.2}%
+\contentsline {subsubsection}{Aurion}{79}{example.8.2}%
+\contentsline {subsubsection}{Bongir}{79}{example.8.2}%
+\contentsline {subsubsection}{Dunril}{79}{example.8.2}%
+\contentsline {subsubsection}{Estel}{79}{example.8.2}%
+\contentsline {subsubsection}{Faeron}{79}{example.8.2}%
+\contentsline {subsubsection}{Finwalur}{79}{example.8.2}%
+\contentsline {subsubsection}{Obřady}{80}{example.8.2}%
+\contentsline {subsubsection}{Gor}{81}{example.8.2}%
+\contentsline {subsubsection}{Lamius}{81}{example.8.2}%
+\contentsline {subsubsection}{Mauril}{81}{example.8.2}%
+\contentsline {subsubsection}{Mern}{81}{example.8.2}%
+\contentsline {subsubsection}{Mirtal}{81}{example.8.2}%
+\contentsline {subsubsection}{Rianna}{81}{example.8.2}%
+\contentsline {subsubsection}{Siaron}{81}{example.8.2}%
+\contentsline {subsubsection}{Siomén}{81}{example.8.2}%
+\contentsline {subsubsection}{Sirril}{81}{example.8.2}%
+\contentsline {subsubsection}{Tarfein}{81}{example.8.2}%
+\contentsline {subsubsection}{Dreskan}{81}{example.8.2}%
+\contentsline {subsubsection}{Gwi}{81}{example.8.2}%
+\contentsline {subsubsection}{Inaka}{81}{example.8.2}%
+\contentsline {subsubsection}{Meabor}{81}{example.8.2}%
+\contentsline {subsubsection}{Ndangawa}{81}{example.8.2}%
+\contentsline {subsubsection}{Sandol Kah}{81}{example.8.2}%
+\contentsline {subsubsection}{Sarapis}{81}{example.8.2}%
+\contentsline {subsubsection}{Šin}{81}{example.8.2}%
+\contentsline {subsubsection}{Temná kápě}{81}{example.8.2}%
+\contentsline {subsubsection}{Ynnar Rút}{81}{example.8.2}%
+\contentsline {subsection}{Druid}{81}{subsection*.103}%
+\contentsline {subsection}{Berserker}{82}{subsection*.104}%
+\contentsline {subsection}{Netvorobijec}{82}{subsection*.105}%
+\contentsline {subsection}{Subotamský mnich}{86}{subsection*.106}%
+\contentsline {subsection}{Edenův bratr}{86}{subsection*.107}%
+\contentsline {chapter}{\numberline {9}Předměty jako speciality}{87}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Zbraně a zbroje}{87}{section*.108}%
+\contentsline {subsection}{Zbraně}{88}{subsection*.109}%
+\contentsline {subsubsection}{Jednoruční krátké zbraně}{89}{sidenote.44}%
+\contentsline {subsubsection}{Jednoruční dlouhé zbraně}{89}{sidenote.44}%
+\contentsline {subsubsection}{Obouruční zbraně}{90}{sidenote.46}%
+\contentsline {subsection}{Střelné zbraně}{91}{subsection*.111}%
+\contentsline {subsection}{Zbroje}{91}{subsection*.112}%
+\contentsline {section}{\numberline {9.2}Alchymistické předměty}{93}{section*.114}%
+\contentsline {section}{\numberline {9.3}Magické vybavení}{93}{section*.115}%
+\contentsline {chapter}{\numberline {10}Postup a zlepšování postav}{94}{chapter.10}%
+\contentsline {chapter}{\numberline {A}Dodatky}{95}{appendix.A}%
+\contentsline {section}{\numberline {A.1}K čemu jsou dodatky}{95}{section*.116}%
+\contentsline {section}{\numberline {A.2}Sicco}{95}{section*.117}%
+\contentsline {subsection}{Speciální dovednosti}{95}{subsection*.118}%
+\contentsline {subsubsection}{Etiketa}{95}{subsection*.118}%
+\contentsline {subsubsection}{Falšování}{95}{subsection*.118}%
+\contentsline {subsection}{Speciality}{96}{subsection*.119}%
+\contentsline {section}{\numberline {A.3}Netvorobijec}{97}{section*.120}%
+\contentsline {subsection}{Gammathorax}{98}{subsection*.121}%
+\contentsline {subsection}{Deltacranium}{100}{subsection*.122}%
+\contentsline {subsection}{Manus magikus II/II/II}{102}{subsection*.123}%
+\contentsline {subsection}{Lebeňák}{105}{subsection*.124}%
+\contentsline {subsection}{Válečnické speciality}{105}{subsection*.125}%
+\contentsline {subsection}{Obecné speciality}{106}{subsection*.126}%
+\contentsline {subsection}{Bylinkářství (N)}{106}{subsection*.127}%
+\contentsline {section}{\numberline {A.4}Edenův bratr}{109}{section*.128}%
+\contentsline {subsection}{Mechanismus kouzel}{109}{subsection*.129}%
+\contentsline {subsection}{Válečnické věci + Posílení}{110}{subsection*.130}%
+\contentsline {subsection}{Znamení}{112}{subsection*.131}%
+\contentsline {subsection}{Rychlá smrt}{115}{subsection*.132}%
+\contentsline {section}{\numberline {A.5}Subotamský mnich}{116}{section*.133}%
+\contentsline {subsection}{Válečnické speciality}{116}{subsection*.134}%
+\contentsline {subsection}{Zázraky}{117}{subsection*.135}%
+\contentsline {subsubsection}{Mechanismus zázraků}{117}{subsection*.135}%
+\contentsline {subsubsection}{Krátkodobé modlitby (5)}{118}{subsection*.135}%
+\contentsline {subsubsection}{Krátkodobé obřady (4)}{118}{subsection*.135}%
+\contentsline {subsubsection}{Dlouhodobé modlitby (3)}{118}{subsection*.135}%
+\contentsline {subsubsection}{Dlouhodobé obřady (2)}{119}{subsection*.135}%
+\contentsfinish 
