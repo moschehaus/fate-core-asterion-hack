@@ -20,12 +20,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       
+      - name: Create build directories
+        run: |
+          mkdir -p build/chapters/dodatky
+          mkdir -p build/preamble/{debug,environments,general,hacks,layout,math,misc,references,user}
+      
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
           root_file: main.tex
           compiler: latexmk
-          args: -pdf -lualatex -shell-escape -synctex=1 -interaction=nonstopmode -file-line-error -outdir=build
+          args: -pdf
           working_directory: .
           
       - name: Upload PDF artifact
