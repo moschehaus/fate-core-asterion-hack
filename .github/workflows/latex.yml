@@ -1,39 +1,43 @@
-name: Build LuaLaTeX 
+name: Build LaTeX document
 
 on:
   push:
+    branches: [ main, master ]
     paths:
-      - '**/*.tex'
-      - '.latexmkrc'
-      - 'preamble/**'
-      - 'chapters/**'
+      - '**.tex'
+      - '**.bib'
       - 'figures/**'
+      - 'preamble/**'
   pull_request:
-    paths:
-      - '**/*.tex'
+    branches: [ main, master ]
+  workflow_dispatch:
 
 jobs:
-  build:
+  build_latex:
     runs-on: ubuntu-latest
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Compile LaTeX (latexmk + LuaLaTeX)
-        uses: xu-cheng/latex-action@v4
+      
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v3
         with:
           root_file: main.tex
-          latexmk_use_lualatex: true
-          # allow --shell-escape
-          latexmk_shell_escape: true
-          # pass extra latexmk / engine args 
-          args: -synctex=1 -interaction=nonstopmode -file-line-error
-          # build in the directory of the root file (root is repo root here)
-          work_in_root_file_dir: true
-
+          compiler: latexmk
+          args: -pdf -lualatex -shell-escape -synctex=1 -interaction=nonstopmode -file-line-error -outdir=build
+          working_directory: .
+          
       - name: Upload PDF artifact
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v4
         with:
-          name: main-pdf
-          path: build/main.pdf
-
+          name: PDF
+          path: build/*.pdf
+          
+      - name: Release PDF (on tag push)
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v1
+        with:
+          files: build/*.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
