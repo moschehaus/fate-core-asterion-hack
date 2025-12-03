@@ -42,7 +42,10 @@ jobs:
       
       - name: Copy index.html to build directory
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
-        run: cp index.html build/
+        run: | 
+          cp index.html build/
+          BUILD_DATE=$(date +'%d. %m. %Y')
+          sed "s/YYYY-MM-DD/${BUILD_DATE}/g" index.html > build/index.html
       
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
