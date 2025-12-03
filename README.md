@@ -1,8 +1,31 @@
-# Zlodejske veci
+# Nevymysleno & nenapsano
+
+## Povolani
+
+### Knez
+- [x] alfa verze v pravidlech
+- [ ] uvest priklady
+- [ ] dopsat pomocniky
+
+
+### Alchymista
+
+### Theurg
+
+## Vylepsovani postav
+- [x] neco jako pyramida funguje... 
+- [ ] ale neni rozbita?
+
+
+----
+
+# Vymysleno, ale nenapsano
+
+## Zlodejske veci
 - stilet funguje vlastne jako palcat (ale ma mensi durabilitu)
 - durabilita hazecich veci se neresi
 
-## Skrceni
+### Skrceni
 - lze zapocist jakmile se vytvori vyhoda
 - s existujicim aspektem muze utocnik hazet na utok dratem, k tomu ma na aspekt jedno volne vyvolani
 - skrtici drat ma hodnoceni zbrane +3 a ignoruje zbroj
@@ -12,23 +35,23 @@
 
 Lze mit trik "Jako kliste", ktery napr. posunuje pocet uspesnych hodu na skrcnei na 2
 
-# Strelne zbrane
+## Strelne zbrane
 - strelne zbrane nemaji durabilitu
 - namisto toho je pouzivani omezeno strelivem - to je vlastne durabilita
 - hledani sipek a sipu je forma "opravovani zbrane"
 
-# Materialy
+## Materialy
 
-## Lintir
+### Lintir
 - NAPROSTO NEZNICITELNY
 - lze do nej hodne moc zaklit
 - zbrane z linitru maji pasivne trik *Zlom zbran*, ktery jim dava +2 pri utoku do zbrane
 
-## Garen
+### Garen
 - po ocarovani NAPROSTO NEZNICITELNY
 - je mozne do nej zaklit velmi silneho demona
 
-## Atorske stribro
+### Atorske stribro
 - je lehke
 - je to stribro
 - pevnostne cca ocel
