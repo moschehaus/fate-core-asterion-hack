@@ -1,0 +1,39 @@
+name: Build LuaLaTeX 
+
+on:
+  push:
+    paths:
+      - '**/*.tex'
+      - '.latexmkrc'
+      - 'preamble/**'
+      - 'chapters/**'
+      - 'figures/**'
+  pull_request:
+    paths:
+      - '**/*.tex'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Compile LaTeX (latexmk + LuaLaTeX)
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: main.tex
+          latexmk_use_lualatex: true
+          # allow --shell-escape
+          latexmk_shell_escape: true
+          # pass extra latexmk / engine args 
+          args: -synctex=1 -interaction=nonstopmode -file-line-error
+          # build in the directory of the root file (root is repo root here)
+          work_in_root_file_dir: true
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v5
+        with:
+          name: main-pdf
+          path: build/main.pdf
+
