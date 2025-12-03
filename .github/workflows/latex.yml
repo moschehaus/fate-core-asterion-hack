@@ -24,7 +24,7 @@ jobs:
         run: |
           mkdir -p build/chapters/dodatky
           mkdir -p build/preamble/{debug,environments,general,hacks,layout,math,misc,references,user}
-      
+     
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v3
         with:
@@ -38,6 +38,15 @@ jobs:
         with:
           name: PDF
           path: build/*.pdf
+      
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          destination_dir: .
+          keep_files: false
           
       - name: Release PDF (on tag push)
         if: startsWith(github.ref, 'refs/tags/')
