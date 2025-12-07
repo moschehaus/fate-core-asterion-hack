@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.10.2)  3 DEC 2025 15:07
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.10.2)  7 DEC 2025 18:04
  system commands enabled.
 **main.tex
 (./main.tex
@@ -2103,9 +2103,9 @@ Overfull \hbox (12.66005pt too wide) in paragraph at lines 99--104
 
 
 [2]
-Overfull \hbox (11.07007pt too wide) in paragraph at lines 179--183
- []|[]\TU/lmr/m/n/10 Mech-a-nis-mus kouzel[]| []109[] • |[]Válečnické věci
- + Posílení[]| []110[] |
+Overfull \hbox (11.07007pt too wide) in paragraph at lines 182--186
+ []|[]\TU/lmr/m/n/10 Mech-a-nis-mus kouzel[]| []110[] • |[]Válečnické věci
+ + Posílení[]| []111[] |
  []
 
 )
@@ -2115,7 +2115,7 @@ Overfull \hbox (11.07007pt too wide) in paragraph at lines 179--183
 
 
 [3] (./chapters/uvod.tex
-<./figures/jezero.png, id=632, 770.88pt x 433.62pt>
+<./figures/jezero.png, id=640, 770.88pt x 433.62pt>
 File: ./figures/jezero.png Graphic file (type png)
 <use ./figures/jezero.png>
 Package luatex.def Info: ./figures/jezero.png  used on input line 6.
@@ -2395,7 +2395,7 @@ Overfull \hbox (8.14096pt too wide) in paragraph at lines 19--20
 (ne)úspěch|
  []
 
-<./figures/prekonani-ikona.png, id=709, 144.54pt x 144.54pt>
+<./figures/prekonani-ikona.png, id=717, 144.54pt x 144.54pt>
 File: ./figures/prekonani-ikona.png Graphic file (type png)
 <use ./figures/prekonani-ikona.png>
 Package luatex.def Info: ./figures/prekonani-ikona.png  used on input line 38.
@@ -2417,7 +2417,7 @@ Overfull \hbox (18.94562pt too wide) in paragraph at lines 38--38
 [11
 
 ]
-<./figures/vytvoreni-ikona.png, id=722, 144.54pt x 144.54pt>
+<./figures/vytvoreni-ikona.png, id=730, 144.54pt x 144.54pt>
 File: ./figures/vytvoreni-ikona.png Graphic file (type png)
 <use ./figures/vytvoreni-ikona.png>
 Package luatex.def Info: ./figures/vytvoreni-ikona.png  used on input line 39.
@@ -2452,7 +2452,7 @@ Overfull \hbox (4.74637pt too wide) in paragraph at lines 39--40
 ší). |
  []
 
-<./figures/utok-ikona.png, id=723, 144.54pt x 144.54pt>
+<./figures/utok-ikona.png, id=731, 144.54pt x 144.54pt>
 File: ./figures/utok-ikona.png Graphic file (type png)
 <use ./figures/utok-ikona.png>
 Package luatex.def Info: ./figures/utok-ikona.png  used on input line 40.
@@ -2463,7 +2463,7 @@ Overfull \hbox (6.53764pt too wide) in paragraph at lines 40--41
 12 je pří-močará - způ-so-bit nepříteli|
  []
 
-<./figures/obrana-ikona.png, id=724, 144.54pt x 144.54pt>
+<./figures/obrana-ikona.png, id=732, 144.54pt x 144.54pt>
 File: ./figures/obrana-ikona.png Graphic file (type png)
 <use ./figures/obrana-ikona.png>
 Package luatex.def Info: ./figures/obrana-ikona.png  used on input line 41.
@@ -4816,7 +4816,7 @@ Package zref-clever Warning: Reference format option 'Name-sg' undefined for
 [70
 
 ]) (./chapters/povolani.tex
-<./figures/carodejka.png, id=1081, 475.7775pt x 679.78969pt>
+<./figures/carodejka.png, id=1089, 475.7775pt x 679.78969pt>
 File: ./figures/carodejka.png Graphic file (type png)
 <use ./figures/carodejka.png>
 Package luatex.def Info: ./figures/carodejka.png  used on input line 7.
@@ -5241,108 +5241,128 @@ Underfull \hbox (badness 7540) in paragraph at lines 54--54
 
 
 [88]
-Overfull \hbox (125.2769pt too wide) in paragraph at lines 76--77
+Overfull \hbox (125.2769pt too wide) in paragraph at lines 72--73
 []\TU/lmr/bx/n/12 Vý-drž: \TU/lmr/m/n/12 (\TU/lmr/m/it/12 následky\TU/lmr/m/
 n/12 ): [][][][][][][][][][][][] |
  []
 
 
-Overfull \hbox (125.2769pt too wide) in paragraph at lines 84--85
+Overfull \hbox (125.2769pt too wide) in paragraph at lines 80--81
 []\TU/lmr/bx/n/12 Vý-drž: \TU/lmr/m/n/12 (\TU/lmr/m/it/12 následky\TU/lmr/m/
 n/12 ): [][][][][][][][][][][][] |
  []
 
 
-Overfull \hbox (125.2769pt too wide) in paragraph at lines 103--104
+Overfull \hbox (125.2769pt too wide) in paragraph at lines 99--100
 []\TU/lmr/bx/n/12 Vý-drž: \TU/lmr/m/n/12 (\TU/lmr/m/it/12 následky\TU/lmr/m/
 n/12 ): [][][][][][][][][][][][] |
+ []
+
+
+Overfull \hbox (53.80365pt too wide) in paragraph at lines 107--108
+[]\TU/lmr/bx/n/12 Vý-drž: \TU/lmr/m/n/12 (\TU/lmr/m/it/12 následky\TU/lmr/m/
+n/12 ): [][][][][][][][][] |
  []
 
 
 
 [89]
-Overfull \hbox (53.80365pt too wide) in paragraph at lines 111--112
-[]\TU/lmr/bx/n/12 Vý-drž: \TU/lmr/m/n/12 (\TU/lmr/m/it/12 následky\TU/lmr/m/
-n/12 ): [][][][][][][][][] |
- []
-
-
-Underfull \hbox (badness 1077) in paragraph at lines 116--116
+Underfull \hbox (badness 1077) in paragraph at lines 112--112
 []$[][]$ \TU/lmr/m/n/12 Situ-ace beze zbroje odpovídá
  []
 
 
-Overfull \hbox (125.2769pt too wide) in paragraph at lines 131--132
+Overfull \hbox (125.2769pt too wide) in paragraph at lines 127--128
 []\TU/lmr/bx/n/12 Vý-drž: \TU/lmr/m/n/12 (\TU/lmr/m/it/12 následky\TU/lmr/m/
 n/12 ): [][][][][][][][][][][][] |
  []
 
 
-Overfull \hbox (53.80365pt too wide) in paragraph at lines 139--140
+Overfull \hbox (53.80365pt too wide) in paragraph at lines 135--136
 []\TU/lmr/bx/n/12 Vý-drž: \TU/lmr/m/n/12 (\TU/lmr/m/it/12 následky\TU/lmr/m/
 n/12 ): [][][][][][][][][] |
  []
 
 
-
-[90]
-Underfull \hbox (badness 1077) in paragraph at lines 144--144
+Underfull \hbox (badness 1077) in paragraph at lines 140--140
 []$[][]$ \TU/lmr/m/n/12 Situ-ace beze zbroje odpovídá
  []
 
 
-Overfull \hbox (24.61322pt too wide) in paragraph at lines 149--150
+Overfull \hbox (24.61322pt too wide) in paragraph at lines 145--146
 []\TU/lmr/bx/n/12 Vlast-nosti: \TU/lmr/m/n/12 Hod-no-cení zbraně: +3. $[]$|
  []
 
 
-Overfull \hbox (4.23589pt too wide) in paragraph at lines 149--150
+Overfull \hbox (4.23589pt too wide) in paragraph at lines 145--146
 \TU/lmr/m/n/12 torech před-stavu-jící \TU/lmr/bx/it/12 Držím si ho od těla
  \TU/lmr/m/n/12 a podobné|
  []
 
 
-Overfull \hbox (186.41621pt too wide) in paragraph at lines 166--173
- [][] |
+
+[90]
+Overfull \hbox (4.27611pt too wide) in paragraph at lines 152--153
+\TU/lmr/m/n/12 nedává do-brý smysl: []kupřík-ladu[] luk je nap-nut při 
+útoku pokaždé|
+ []
+
+
+Overfull \hbox (11.44548pt too wide) in paragraph at lines 154--155
+\TU/lmr/m/n/12 nakres-lit čtverečky před-stavu-jící dos-tupné stře-livo. To je pom
+ěrně|
+ []
+
+
+Overfull \hbox (18.31204pt too wide) in paragraph at lines 156--157
+[]\TU/lmr/m/it/12 ”Opravování střel-ných zbraní” \TU/lmr/m/n/12 pak t
+éž nelze brát zcela doslovně:|
  []
 
 
 
 [91]
-Overfull \hbox (16.63522pt too wide) in paragraph at lines 225--226
-[]\TU/lmr/bx/n/12 Vý-drž: \TU/lmr/m/n/12 (\TU/lmr/m/it/12 stresy\TU/lmr/m/n/1
-2 :) [][][][][][][][] |
- []
-
-
-Overfull \hbox (40.45964pt too wide) in paragraph at lines 233--234
-[]\TU/lmr/bx/n/12 Vý-drž: \TU/lmr/m/n/12 (\TU/lmr/m/it/12 stresy\TU/lmr/m/n/1
-2 :) [][][][][][][][][] |
+Overfull \hbox (186.41621pt too wide) in paragraph at lines 207--214
+ [][] |
  []
 
 
 
 [92]
-Overfull \hbox (64.28406pt too wide) in paragraph at lines 241--242
+Overfull \hbox (16.63522pt too wide) in paragraph at lines 266--267
+[]\TU/lmr/bx/n/12 Vý-drž: \TU/lmr/m/n/12 (\TU/lmr/m/it/12 stresy\TU/lmr/m/n/1
+2 :) [][][][][][][][] |
+ []
+
+
+
+[93]
+Overfull \hbox (40.45964pt too wide) in paragraph at lines 274--275
+[]\TU/lmr/bx/n/12 Vý-drž: \TU/lmr/m/n/12 (\TU/lmr/m/it/12 stresy\TU/lmr/m/n/1
+2 :) [][][][][][][][][] |
+ []
+
+
+Overfull \hbox (64.28406pt too wide) in paragraph at lines 282--283
 []\TU/lmr/bx/n/12 Vý-drž: \TU/lmr/m/n/12 (\TU/lmr/m/it/12 stresy\TU/lmr/m/n/1
 2 :) [][][][][][][][][][] |
  []
 
 
-Overfull \hbox (88.10847pt too wide) in paragraph at lines 249--250
+Overfull \hbox (88.10847pt too wide) in paragraph at lines 290--291
 []\TU/lmr/bx/n/12 Vý-drž: \TU/lmr/m/n/12 (\TU/lmr/m/it/12 stresy\TU/lmr/m/n/1
 2 :) [][][][][][][][][][][] |
  []
 
 
-Overfull \hbox (111.93289pt too wide) in paragraph at lines 258--259
+Overfull \hbox (111.93289pt too wide) in paragraph at lines 299--300
 []\TU/lmr/bx/n/12 Vý-drž: \TU/lmr/m/n/12 (\TU/lmr/m/it/12 stresy\TU/lmr/m/n/1
 2 :) [][][][][][][][][][][][] |
  []
 
+) (./chapters/postup.tex
 
-
-[93]) (./chapters/postup.tex
+[94]
 Chapter 10.
 
 Overfull \hbox (122.10378pt too wide) in paragraph at lines 4--4
@@ -5351,7 +5371,7 @@ Overfull \hbox (122.10378pt too wide) in paragraph at lines 4--4
 
 )
 
-[94
+[95
 
 ]
 Appendix A.
@@ -5393,7 +5413,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
 
 
-[95
+[96
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 41--43
@@ -5423,7 +5443,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--54
 
 
 
-[96]
+[97]
 Underfull \hbox (badness 10000) in paragraph at lines 56--58
 
  []
@@ -5452,7 +5472,7 @@ ec nestvůr,|
 
 
 
-[97]
+[98]
 Overfull \hbox (6.8508pt too wide) in paragraph at lines 37--56
 []\TU/lmr/m/n/12 DOVED-NOSTI (24 pyra-mida) válečník lomyš+4 mršt-nost+3|
  []
@@ -5498,7 +5518,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--78
 
 
 
-[98]
+[99]
 Underfull \hbox (badness 10000) in paragraph at lines 80--85
 
  []
@@ -5521,7 +5541,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--103
 
 
 
-[99]
+[100]
 Underfull \hbox (badness 10000) in paragraph at lines 105--110
 
  []
@@ -5544,7 +5564,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--129
 
 
 
-[100]
+[101]
 Underfull \hbox (badness 10000) in paragraph at lines 131--136
 
  []
@@ -5583,7 +5603,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--166
 
 
 
-[101]
+[102]
 Underfull \hbox (badness 10000) in paragraph at lines 168--173
 
  []
@@ -5601,7 +5621,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 182--188
 
 
 
-[102]
+[103]
 Underfull \hbox (badness 10000) in paragraph at lines 190--195
 
  []
@@ -5635,7 +5655,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--209
 
 
 
-[103]
+[104]
 Underfull \hbox (badness 10000) in paragraph at lines 210--218
 
  []
@@ -5675,7 +5695,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 228--236
 
 
 
-[104]
+[105]
 Overfull \hbox (11.48544pt too wide) in paragraph at lines 241--244
 \TU/lmr/m/n/12 nahrazena Lebeňákem. Lebeňák umožňuje Lopříšovi nezprost
 řed-|
@@ -5720,7 +5740,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 263--267
 
 
 
-[105]
+[106]
 Underfull \hbox (badness 10000) in paragraph at lines 269--273
 
  []
@@ -5757,7 +5777,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 298--299
 
 
 
-[106]
+[107]
 Underfull \hbox (badness 10000) in paragraph at lines 300--309
 
  []
@@ -5774,7 +5794,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 320--328
 
 
 
-[107]
+[108]
 Underfull \hbox (badness 10000) in paragraph at lines 329--331
 
  []
@@ -5808,7 +5828,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 351--360
 
 
 
-[108]
+[109]
 Underfull \hbox (badness 10000) in paragraph at lines 362--371
 
  []
@@ -5831,7 +5851,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
 
 
-[109]
+[110]
 Overfull \hbox (13.08234pt too wide) in paragraph at lines 23--29
 \TU/lmr/m/n/12 Postava dokáže určit parame-try, prin-cip zbraně/zbroje. Obt
 ížnost|
@@ -5865,7 +5885,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--51
 
 
 
-[110]
+[111]
 Underfull \hbox (badness 10000) in paragraph at lines 52--57
 
  []
@@ -5895,7 +5915,7 @@ Underfull \vbox (badness 4752) has occurred while \output is active []
 
 
 
-[111]
+[112]
 Underfull \hbox (badness 10000) in paragraph at lines 88--91
 
  []
@@ -5922,7 +5942,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--116
 
 
 
-[112]
+[113]
 Underfull \hbox (badness 10000) in paragraph at lines 117--125
 
  []
@@ -5944,7 +5964,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--145
 
 
 
-[113]
+[114]
 Underfull \hbox (badness 10000) in paragraph at lines 146--157
 
  []
@@ -5971,7 +5991,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--181
 
 
 
-[114]
+[115]
 Underfull \hbox (badness 10000) in paragraph at lines 182--190
 
  []
@@ -6004,7 +6024,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--209
 
 
 
-[115]
+[116]
 Underfull \hbox (badness 10000) in paragraph at lines 210--215
 
  []
@@ -6037,7 +6057,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--22
 
 
 
-[116]
+[117]
 Underfull \hbox (badness 10000) in paragraph at lines 24--28
 
  []
@@ -6064,7 +6084,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
 
 
-[117]
+[118]
 Underfull \hbox (badness 10000) in paragraph at lines 61--64
 
  []
@@ -6097,7 +6117,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--91
 
 
 
-[118]
+[119]
 Underfull \hbox (badness 10000) in paragraph at lines 92--96
 
  []
@@ -6126,13 +6146,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--108
 
 )
 
-LaTeX Warning: Empty bibliography on input line 86.
+[120]
 
+[121
 
+]
 
-[119]
-
-Package silence Warning: There were 16 warning(s) and 0 error(s).
+Package silence Warning: There were 15 warning(s) and 0 error(s).
 (silence)                I've killed 3 warning(s) and 0 error(s).
 
 (./build/main.aux (./build/chapters/title.aux))
@@ -6153,17 +6173,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 60453 strings out of 476291
- 156408,2373549 words of node,token memory allocated
- 58768 words of node memory still in use:
-   414 hlist, 80 vlist, 15 rule, 260 disc, 37 local_par, 91 math, 1192 glue, 517
- kern, 122 penalty, 4911 glyph, 783 attribute, 98 glue_spec, 783 attribute_list,
- 3 write, 273 pdf_literal, 3 pdf_start_link, 3 pdf_end_link, 10 pdf_action, 46 p
-df_colorstack nodes
-   avail lists: 2:2688,3:1193,4:229,5:1425,6:172,7:8392,8:5,9:1614,10:16,11:384
- 77393 multiletter control sequences out of 65536+600000
- 157 fonts using 11398207 bytes
- 108i,12n,121p,2551b,1760s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60711 strings out of 476291
+ 195519,2373549 words of node,token memory allocated
+ 59092 words of node memory still in use:
+   415 hlist, 80 vlist, 15 rule, 259 disc, 37 local_par, 91 math, 1203 glue, 515
+ kern, 122 penalty, 4946 glyph, 784 attribute, 100 glue_spec, 784 attribute_list
+, 3 write, 273 pdf_literal, 3 pdf_start_link, 3 pdf_end_link, 10 pdf_action, 46 
+pdf_colorstack nodes
+   avail lists: 1:2,2:2460,3:1193,4:229,5:1580,6:171,7:8349,8:5,9:1828,10:16,11:
+385
+ 77644 multiletter control sequences out of 65536+600000
+ 158 fonts using 11524295 bytes
+ 108i,12n,121p,2551b,2972s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/texdir/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></
 opt/texlive/texdir/texmf-dist/fonts/opentype/public/lm/lmroman6-bold.otf></opt/t
 exlive/texdir/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf></opt/texl
@@ -6181,10 +6202,10 @@ exmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></opt/texlive/texdir/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/texdir/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy6.pfb></opt/texlive/texdir/texmf-dist/fonts/t
 ype1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (123 pages, 2919879 bytes).
+Output written on main.pdf (125 pages, 2926144 bytes).
 
-PDF statistics: 1882 PDF objects out of 2073 (max. 8388607)
- 1524 compressed objects within 16 object streams
- 393 named destinations out of 1000 (max. 131072)
- 1312 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1913 PDF objects out of 2073 (max. 8388607)
+ 1551 compressed objects within 16 object streams
+ 400 named destinations out of 1000 (max. 131072)
+ 1328 words of extra memory for PDF output out of 10000 (max. 100000000)
 

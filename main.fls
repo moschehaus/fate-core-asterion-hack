@@ -406,6 +406,7 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 OUTPUT build/main.bcf
 INPUT ./build/main.bbl
 INPUT ./build/main.bbl
+INPUT /opt/texlive/texdir/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc
 OUTPUT build/chapters/title.aux
 INPUT ./chapters/title.tex
 INPUT /opt/texlive/texdir/texmf-var/luatex-cache/generic/fonts/otl/lmroman17-regular.luc
@@ -511,7 +512,6 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/iwona/omxiwona.fd
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/nowacki/iwona/ex-iwonab.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/nowacki/iwona/ex-iwonab.tfm
 INPUT /opt/texlive/texdir/texmf-dist/fonts/tfm/nowacki/iwona/ex-iwonab.tfm
-INPUT /opt/texlive/texdir/texmf-var/luatex-cache/generic/fonts/otl/lmmono12-regular.luc
 INPUT /opt/texlive/texdir/texmf-var/luatex-cache/generic/fonts/otl/lmmonolt10-bold.luc
 INPUT /opt/texlive/texdir/texmf-var/luatex-cache/generic/fonts/otl/lmromancaps10-regular.luc
 INPUT ./chapters/aspekty.tex
@@ -752,6 +752,7 @@ INPUT ./chapters/dodatky/edenuvbratr.tex
 INPUT ./chapters/dodatky/edenuvbratr.tex
 INPUT ./chapters/dodatky/subotam.tex
 INPUT ./chapters/dodatky/subotam.tex
+INPUT /opt/texlive/texdir/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc
 INPUT ./build/main.aux
 INPUT ./build/chapters/title.aux
 INPUT ./build/main.run.xml

@@ -16,5 +16,35 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{stasiakDraciDoupeFate}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=bbc4c58a689bb62f01c02bfc8db461c4}{%
+           family={Stasiak},
+           familyi={S\bibinitperiod},
+           given={Michal\bibnamedelima Mnějéša},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Evil Hat Production}%
+      }
+      \strng{namehash}{bbc4c58a689bb62f01c02bfc8db461c4}
+      \strng{fullhash}{bbc4c58a689bb62f01c02bfc8db461c4}
+      \strng{fullhashraw}{bbc4c58a689bb62f01c02bfc8db461c4}
+      \strng{bibnamehash}{bbc4c58a689bb62f01c02bfc8db461c4}
+      \strng{authorbibnamehash}{bbc4c58a689bb62f01c02bfc8db461c4}
+      \strng{authornamehash}{bbc4c58a689bb62f01c02bfc8db461c4}
+      \strng{authorfullhash}{bbc4c58a689bb62f01c02bfc8db461c4}
+      \strng{authorfullhashraw}{bbc4c58a689bb62f01c02bfc8db461c4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dračí Doupě - {{Fate}}}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
