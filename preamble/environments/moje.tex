@@ -1,6 +1,26 @@
 %% Define new environments with custom styles
 \NewTodoLike{Pravidlo}{gray!15}       % Light gray background
-\NewTodoLike{Predmet}{blue!10}        % Light blue background
+
+\NewTColorBox{pravidlo}{o}{  
+    todolike,  
+    colback=gray!15,            % Lighter blood-red  
+    colframe=gray!70!black,     % Darker border  
+    title={Pravidlo\IfValueT{#1}{ \textmd{(#1)}}.}  
+}
+
+\NewTColorBox{predmet}{o}{  
+    todolike,  
+    colback=blue!10,            % Lighter blood-red  
+    colframe=blue!70!black,     % Darker border  
+    title={Předmět\IfValueT{#1}{ \textmd{(#1)}}.}  
+}
+\NewTColorBox{povolani}{o}{  
+    todolike,  
+    colback=yellow!15,            % Lighter blood-red  
+    colframe=yellow!70!black,     % Darker border  
+    title={Povolání\IfValueT{#1}{ \textmd{(#1)}}.}  
+}
+
 
 \definecolor{bloodred}{RGB}{150, 0, 0}  
 
@@ -12,4 +32,3 @@
     title={Realistické hraní\IfValueT{#1}{ \textmd{(#1)}}.}  
 }
 
-\NewTodoLike{Povolani}{yellow!15}
