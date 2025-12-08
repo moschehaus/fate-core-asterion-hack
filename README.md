@@ -56,3 +56,11 @@ Lze mit trik "Jako kliste", ktery napr. posunuje pocet uspesnych hodu na skrcnei
 - je to stribro
 - pevnostne cca ocel
 - lze do nej neco zaklit
+
+## Triky
+
+### Stitonos
+- [ ] u Myce v hlasovce
+
+### Odzbrojeni
+    - [ ] sjednotit predstavu
