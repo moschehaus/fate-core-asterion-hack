@@ -116,34 +116,34 @@
 \contentsline {subsection}{Theurg}{78}{subsection*.101}%
 \contentsline {subsection}{Kněz}{78}{subsection*.102}%
 \contentsline {subsubsection}{Zázraky}{78}{subsection*.102}%
-\contentsline {subsubsection}{Alcaril}{79}{example.8.2}%
-\contentsline {subsubsection}{Aurion}{79}{example.8.2}%
-\contentsline {subsubsection}{Bongir}{79}{example.8.2}%
-\contentsline {subsubsection}{Dunril}{79}{example.8.2}%
-\contentsline {subsubsection}{Estel}{79}{example.8.2}%
-\contentsline {subsubsection}{Faeron}{79}{example.8.2}%
-\contentsline {subsubsection}{Finwalur}{79}{example.8.2}%
-\contentsline {subsubsection}{Obřady}{80}{example.8.2}%
-\contentsline {subsubsection}{Gor}{81}{example.8.2}%
-\contentsline {subsubsection}{Lamius}{81}{example.8.2}%
-\contentsline {subsubsection}{Mauril}{81}{example.8.2}%
-\contentsline {subsubsection}{Mern}{81}{example.8.2}%
-\contentsline {subsubsection}{Mirtal}{81}{example.8.2}%
-\contentsline {subsubsection}{Rianna}{81}{example.8.2}%
-\contentsline {subsubsection}{Siaron}{81}{example.8.2}%
-\contentsline {subsubsection}{Siomén}{81}{example.8.2}%
-\contentsline {subsubsection}{Sirril}{81}{example.8.2}%
-\contentsline {subsubsection}{Tarfein}{81}{example.8.2}%
-\contentsline {subsubsection}{Dreskan}{81}{example.8.2}%
-\contentsline {subsubsection}{Gwi}{81}{example.8.2}%
-\contentsline {subsubsection}{Inaka}{81}{example.8.2}%
-\contentsline {subsubsection}{Meabor}{81}{example.8.2}%
-\contentsline {subsubsection}{Ndangawa}{81}{example.8.2}%
-\contentsline {subsubsection}{Sandol Kah}{81}{example.8.2}%
-\contentsline {subsubsection}{Sarapis}{81}{example.8.2}%
-\contentsline {subsubsection}{Šin}{81}{example.8.2}%
-\contentsline {subsubsection}{Temná kápě}{81}{example.8.2}%
-\contentsline {subsubsection}{Ynnar Rút}{81}{example.8.2}%
+\contentsline {subsubsection}{Alcaril}{79}{příklad.8.2}%
+\contentsline {subsubsection}{Aurion}{79}{příklad.8.2}%
+\contentsline {subsubsection}{Bongir}{79}{příklad.8.2}%
+\contentsline {subsubsection}{Dunril}{79}{příklad.8.2}%
+\contentsline {subsubsection}{Estel}{79}{příklad.8.2}%
+\contentsline {subsubsection}{Faeron}{79}{příklad.8.2}%
+\contentsline {subsubsection}{Finwalur}{79}{příklad.8.2}%
+\contentsline {subsubsection}{Obřady}{80}{příklad.8.2}%
+\contentsline {subsubsection}{Gor}{81}{příklad.8.2}%
+\contentsline {subsubsection}{Lamius}{81}{příklad.8.2}%
+\contentsline {subsubsection}{Mauril}{81}{příklad.8.2}%
+\contentsline {subsubsection}{Mern}{81}{příklad.8.2}%
+\contentsline {subsubsection}{Mirtal}{81}{příklad.8.2}%
+\contentsline {subsubsection}{Rianna}{81}{příklad.8.2}%
+\contentsline {subsubsection}{Siaron}{81}{příklad.8.2}%
+\contentsline {subsubsection}{Siomén}{81}{příklad.8.2}%
+\contentsline {subsubsection}{Sirril}{81}{příklad.8.2}%
+\contentsline {subsubsection}{Tarfein}{81}{příklad.8.2}%
+\contentsline {subsubsection}{Dreskan}{81}{příklad.8.2}%
+\contentsline {subsubsection}{Gwi}{81}{příklad.8.2}%
+\contentsline {subsubsection}{Inaka}{81}{příklad.8.2}%
+\contentsline {subsubsection}{Meabor}{81}{příklad.8.2}%
+\contentsline {subsubsection}{Ndangawa}{81}{příklad.8.2}%
+\contentsline {subsubsection}{Sandol Kah}{81}{příklad.8.2}%
+\contentsline {subsubsection}{Sarapis}{81}{příklad.8.2}%
+\contentsline {subsubsection}{Šin}{81}{příklad.8.2}%
+\contentsline {subsubsection}{Temná kápě}{81}{příklad.8.2}%
+\contentsline {subsubsection}{Ynnar Rút}{81}{příklad.8.2}%
 \contentsline {subsection}{Druid}{81}{subsection*.103}%
 \contentsline {subsection}{Berserker}{82}{subsection*.104}%
 \contentsline {subsection}{Netvorobijec}{82}{subsection*.105}%
@@ -156,40 +156,40 @@
 \contentsline {subsubsection}{Jednoruční dlouhé zbraně}{89}{sidenote.44}%
 \contentsline {subsubsection}{Obouruční zbraně}{90}{sidenote.46}%
 \contentsline {subsection}{Střelné zbraně}{91}{subsection*.111}%
-\contentsline {subsection}{Speciální zbraně}{91}{subsection*.112}%
-\contentsline {subsubsection}{Zbraně ze zvláštních materiálů}{91}{subsection*.112}%
-\contentsline {subsubsection}{Zbraně hrdlořezů}{92}{subsection*.112}%
-\contentsline {subsection}{Zbroje}{92}{subsection*.113}%
-\contentsline {section}{\numberline {9.2}Alchymistické předměty}{94}{section*.115}%
-\contentsline {section}{\numberline {9.3}Magické vybavení}{94}{section*.116}%
-\contentsline {chapter}{\numberline {10}Postup a zlepšování postav}{95}{chapter.10}%
-\contentsline {chapter}{\numberline {A}Dodatky}{96}{appendix.A}%
-\contentsline {section}{\numberline {A.1}K čemu jsou dodatky}{96}{section*.117}%
-\contentsline {section}{\numberline {A.2}Sicco}{96}{section*.118}%
-\contentsline {subsection}{Speciální dovednosti}{96}{subsection*.119}%
-\contentsline {subsubsection}{Etiketa}{96}{subsection*.119}%
-\contentsline {subsubsection}{Falšování}{96}{subsection*.119}%
-\contentsline {subsection}{Speciality}{97}{subsection*.120}%
-\contentsline {section}{\numberline {A.3}Netvorobijec}{98}{section*.121}%
-\contentsline {subsection}{Gammathorax}{99}{subsection*.122}%
-\contentsline {subsection}{Deltacranium}{101}{subsection*.123}%
-\contentsline {subsection}{Manus magikus II/II/II}{103}{subsection*.124}%
-\contentsline {subsection}{Lebeňák}{106}{subsection*.125}%
-\contentsline {subsection}{Válečnické speciality}{106}{subsection*.126}%
-\contentsline {subsection}{Obecné speciality}{107}{subsection*.127}%
-\contentsline {subsection}{Bylinkářství (N)}{107}{subsection*.128}%
-\contentsline {section}{\numberline {A.4}Edenův bratr}{110}{section*.129}%
-\contentsline {subsection}{Mechanismus kouzel}{110}{subsection*.130}%
-\contentsline {subsection}{Válečnické věci + Posílení}{111}{subsection*.131}%
-\contentsline {subsection}{Znamení}{113}{subsection*.132}%
-\contentsline {subsection}{Rychlá smrt}{116}{subsection*.133}%
-\contentsline {section}{\numberline {A.5}Subotamský mnich}{117}{section*.134}%
-\contentsline {subsection}{Válečnické speciality}{117}{subsection*.135}%
-\contentsline {subsection}{Zázraky}{118}{subsection*.136}%
-\contentsline {subsubsection}{Mechanismus zázraků}{118}{subsection*.136}%
-\contentsline {subsubsection}{Krátkodobé modlitby (5)}{119}{subsection*.136}%
-\contentsline {subsubsection}{Krátkodobé obřady (4)}{119}{subsection*.136}%
-\contentsline {subsubsection}{Dlouhodobé modlitby (3)}{119}{subsection*.136}%
-\contentsline {subsubsection}{Dlouhodobé obřady (2)}{120}{subsection*.136}%
-\contentsline {chapter}{References}{121}{appendix*.137}%
+\contentsline {subsection}{Speciální zbraně}{92}{subsection*.112}%
+\contentsline {subsubsection}{Zbraně ze zvláštních materiálů}{92}{subsection*.112}%
+\contentsline {subsubsection}{Zbraně hrdlořezů}{93}{subsection*.112}%
+\contentsline {subsection}{Zbroje}{93}{subsection*.113}%
+\contentsline {section}{\numberline {9.2}Alchymistické předměty}{96}{section*.115}%
+\contentsline {section}{\numberline {9.3}Magické vybavení}{96}{section*.116}%
+\contentsline {chapter}{\numberline {10}Postup a zlepšování postav}{97}{chapter.10}%
+\contentsline {chapter}{\numberline {A}Dodatky}{98}{appendix.A}%
+\contentsline {section}{\numberline {A.1}K čemu jsou dodatky}{98}{section*.117}%
+\contentsline {section}{\numberline {A.2}Sicco}{98}{section*.118}%
+\contentsline {subsection}{Speciální dovednosti}{98}{subsection*.119}%
+\contentsline {subsubsection}{Etiketa}{98}{subsection*.119}%
+\contentsline {subsubsection}{Falšování}{98}{subsection*.119}%
+\contentsline {subsection}{Speciality}{99}{subsection*.120}%
+\contentsline {section}{\numberline {A.3}Netvorobijec}{100}{section*.121}%
+\contentsline {subsection}{Gammathorax}{101}{subsection*.122}%
+\contentsline {subsection}{Deltacranium}{103}{subsection*.123}%
+\contentsline {subsection}{Manus magikus II/II/II}{105}{subsection*.124}%
+\contentsline {subsection}{Lebeňák}{108}{subsection*.125}%
+\contentsline {subsection}{Válečnické speciality}{108}{subsection*.126}%
+\contentsline {subsection}{Obecné speciality}{109}{subsection*.127}%
+\contentsline {subsection}{Bylinkářství (N)}{109}{subsection*.128}%
+\contentsline {section}{\numberline {A.4}Edenův bratr}{112}{section*.129}%
+\contentsline {subsection}{Mechanismus kouzel}{112}{subsection*.130}%
+\contentsline {subsection}{Válečnické věci + Posílení}{113}{subsection*.131}%
+\contentsline {subsection}{Znamení}{115}{subsection*.132}%
+\contentsline {subsection}{Rychlá smrt}{118}{subsection*.133}%
+\contentsline {section}{\numberline {A.5}Subotamský mnich}{119}{section*.134}%
+\contentsline {subsection}{Válečnické speciality}{119}{subsection*.135}%
+\contentsline {subsection}{Zázraky}{120}{subsection*.136}%
+\contentsline {subsubsection}{Mechanismus zázraků}{120}{subsection*.136}%
+\contentsline {subsubsection}{Krátkodobé modlitby (5)}{121}{subsection*.136}%
+\contentsline {subsubsection}{Krátkodobé obřady (4)}{121}{subsection*.136}%
+\contentsline {subsubsection}{Dlouhodobé modlitby (3)}{121}{subsection*.136}%
+\contentsline {subsubsection}{Dlouhodobé obřady (2)}{122}{subsection*.136}%
+\contentsline {chapter}{References}{123}{appendix*.137}%
 \contentsfinish 
