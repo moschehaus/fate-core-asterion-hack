@@ -36,9 +36,15 @@
 Lze mit trik "Jako kliste", ktery napr. posunuje pocet uspesnych hodu na skrcnei na 2
 
 ## Strelne zbrane
-- strelne zbrane nemaji durabilitu
-- namisto toho je pouzivani omezeno strelivem - to je vlastne durabilita
-- hledani sipek a sipu je forma "opravovani zbrane"
+- [ ] strelne zbrane nemaji durabilitu
+- [ ] namisto toho je pouzivani omezeno strelivem - to je vlastne durabilita
+- [ ]  hledani sipek a sipu je forma "opravovani zbrane"
+
+## Specialni zbrane
+- [ ] flusacka
+- [ ] sart
+- [ ] mahensky bic
+- [ ] perilonske ostri
 
 ## Materialy
 
