@@ -152,44 +152,44 @@
 \contentsline {chapter}{\numberline {9}Předměty jako speciality}{87}{chapter.9}%
 \contentsline {section}{\numberline {9.1}Zbraně a zbroje}{87}{section*.108}%
 \contentsline {subsection}{Zbraně}{88}{subsection*.109}%
-\contentsline {subsubsection}{Jednoruční krátké zbraně}{89}{sidenote.44}%
+\contentsline {subsubsection}{Jednoruční krátké zbraně}{88}{sidenote.44}%
 \contentsline {subsubsection}{Jednoruční dlouhé zbraně}{89}{sidenote.44}%
 \contentsline {subsubsection}{Obouruční zbraně}{90}{sidenote.46}%
 \contentsline {subsection}{Střelné zbraně}{91}{subsection*.111}%
-\contentsline {subsection}{Speciální zbraně}{92}{subsection*.112}%
-\contentsline {subsubsection}{Zbraně ze zvláštních materiálů}{92}{subsection*.112}%
-\contentsline {subsubsection}{Zbraně hrdlořezů}{93}{subsection*.112}%
-\contentsline {subsection}{Zbroje}{93}{subsection*.113}%
-\contentsline {section}{\numberline {9.2}Alchymistické předměty}{96}{section*.115}%
-\contentsline {section}{\numberline {9.3}Magické vybavení}{96}{section*.116}%
-\contentsline {chapter}{\numberline {10}Postup a zlepšování postav}{97}{chapter.10}%
-\contentsline {chapter}{\numberline {A}Dodatky}{98}{appendix.A}%
-\contentsline {section}{\numberline {A.1}K čemu jsou dodatky}{98}{section*.117}%
-\contentsline {section}{\numberline {A.2}Sicco}{98}{section*.118}%
-\contentsline {subsection}{Speciální dovednosti}{98}{subsection*.119}%
-\contentsline {subsubsection}{Etiketa}{98}{subsection*.119}%
-\contentsline {subsubsection}{Falšování}{98}{subsection*.119}%
-\contentsline {subsection}{Speciality}{99}{subsection*.120}%
-\contentsline {section}{\numberline {A.3}Netvorobijec}{100}{section*.121}%
-\contentsline {subsection}{Gammathorax}{101}{subsection*.122}%
-\contentsline {subsection}{Deltacranium}{103}{subsection*.123}%
-\contentsline {subsection}{Manus magikus II/II/II}{105}{subsection*.124}%
-\contentsline {subsection}{Lebeňák}{108}{subsection*.125}%
-\contentsline {subsection}{Válečnické speciality}{108}{subsection*.126}%
-\contentsline {subsection}{Obecné speciality}{109}{subsection*.127}%
-\contentsline {subsection}{Bylinkářství (N)}{109}{subsection*.128}%
-\contentsline {section}{\numberline {A.4}Edenův bratr}{112}{section*.129}%
-\contentsline {subsection}{Mechanismus kouzel}{112}{subsection*.130}%
-\contentsline {subsection}{Válečnické věci + Posílení}{113}{subsection*.131}%
-\contentsline {subsection}{Znamení}{115}{subsection*.132}%
-\contentsline {subsection}{Rychlá smrt}{118}{subsection*.133}%
-\contentsline {section}{\numberline {A.5}Subotamský mnich}{119}{section*.134}%
-\contentsline {subsection}{Válečnické speciality}{119}{subsection*.135}%
-\contentsline {subsection}{Zázraky}{120}{subsection*.136}%
-\contentsline {subsubsection}{Mechanismus zázraků}{120}{subsection*.136}%
-\contentsline {subsubsection}{Krátkodobé modlitby (5)}{121}{subsection*.136}%
-\contentsline {subsubsection}{Krátkodobé obřady (4)}{121}{subsection*.136}%
-\contentsline {subsubsection}{Dlouhodobé modlitby (3)}{121}{subsection*.136}%
-\contentsline {subsubsection}{Dlouhodobé obřady (2)}{122}{subsection*.136}%
-\contentsline {chapter}{References}{123}{appendix*.137}%
+\contentsline {subsection}{Speciální zbraně}{94}{subsection*.112}%
+\contentsline {subsubsection}{Zbraně ze zvláštních materiálů}{94}{subsection*.112}%
+\contentsline {subsubsection}{Zbraně hrdlořezů}{94}{subsection*.112}%
+\contentsline {subsection}{Zbroje}{95}{subsection*.113}%
+\contentsline {section}{\numberline {9.2}Alchymistické předměty}{97}{section*.115}%
+\contentsline {section}{\numberline {9.3}Magické vybavení}{97}{section*.116}%
+\contentsline {chapter}{\numberline {10}Postup a zlepšování postav}{98}{chapter.10}%
+\contentsline {chapter}{\numberline {A}Dodatky}{99}{appendix.A}%
+\contentsline {section}{\numberline {A.1}K čemu jsou dodatky}{99}{section*.117}%
+\contentsline {section}{\numberline {A.2}Sicco}{99}{section*.118}%
+\contentsline {subsection}{Speciální dovednosti}{99}{subsection*.119}%
+\contentsline {subsubsection}{Etiketa}{99}{subsection*.119}%
+\contentsline {subsubsection}{Falšování}{99}{subsection*.119}%
+\contentsline {subsection}{Speciality}{100}{subsection*.120}%
+\contentsline {section}{\numberline {A.3}Netvorobijec}{101}{section*.121}%
+\contentsline {subsection}{Gammathorax}{102}{subsection*.122}%
+\contentsline {subsection}{Deltacranium}{104}{subsection*.123}%
+\contentsline {subsection}{Manus magikus II/II/II}{106}{subsection*.124}%
+\contentsline {subsection}{Lebeňák}{109}{subsection*.125}%
+\contentsline {subsection}{Válečnické speciality}{109}{subsection*.126}%
+\contentsline {subsection}{Obecné speciality}{110}{subsection*.127}%
+\contentsline {subsection}{Bylinkářství (N)}{110}{subsection*.128}%
+\contentsline {section}{\numberline {A.4}Edenův bratr}{113}{section*.129}%
+\contentsline {subsection}{Mechanismus kouzel}{113}{subsection*.130}%
+\contentsline {subsection}{Válečnické věci + Posílení}{114}{subsection*.131}%
+\contentsline {subsection}{Znamení}{116}{subsection*.132}%
+\contentsline {subsection}{Rychlá smrt}{119}{subsection*.133}%
+\contentsline {section}{\numberline {A.5}Subotamský mnich}{120}{section*.134}%
+\contentsline {subsection}{Válečnické speciality}{120}{subsection*.135}%
+\contentsline {subsection}{Zázraky}{121}{subsection*.136}%
+\contentsline {subsubsection}{Mechanismus zázraků}{121}{subsection*.136}%
+\contentsline {subsubsection}{Krátkodobé modlitby (5)}{122}{subsection*.136}%
+\contentsline {subsubsection}{Krátkodobé obřady (4)}{122}{subsection*.136}%
+\contentsline {subsubsection}{Dlouhodobé modlitby (3)}{122}{subsection*.136}%
+\contentsline {subsubsection}{Dlouhodobé obřady (2)}{123}{subsection*.136}%
+\contentsline {chapter}{References}{124}{appendix*.137}%
 \contentsfinish 
