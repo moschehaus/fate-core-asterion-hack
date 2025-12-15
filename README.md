@@ -3,14 +3,16 @@
 ## Povolani
 
 ### Knez
-- [x] alfa verze v pravidlech
+- [] alfa verze v pravidlech
 - [ ] uvest priklady
 - [ ] dopsat pomocniky
 
 
 ### Alchymista
+- alchymie je zvlastni dovednost?
 
 ### Theurg
+- theurgie je zvlastni dovednost?
 
 ## Vylepsovani postav
 - [x] neco jako pyramida funguje... 
@@ -20,6 +22,9 @@
 ----
 
 # Vymysleno, ale nenapsano
+
+## Durabilita zbrani
+- pridat vsem jednorucnim zbranim +2 
 
 ## Zlodejske veci
 - stilet funguje vlastne jako palcat (ale ma mensi durabilitu)
