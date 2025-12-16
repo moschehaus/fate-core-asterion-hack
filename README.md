@@ -1,5 +1,8 @@
 # Nevymysleno & nenapsano
 
+# Cenik
+- [ ] zjistit od Vajca, jestli jej ma
+
 ## Povolani
 
 ### Knez
