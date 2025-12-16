@@ -23,6 +23,17 @@
 
 # Vymysleno, ale nenapsano
 
+## Dovednosti
+- pridani dvou novych *Magicke predmety* a *Improvizovany boj*
+
+### Magicke predmety
+- funguje vlastne jako remesla, ale pro magicke veci: vyrabeni, maniuplace, oprava
+- nahrazuje alchymii, theurgii
+
+### Improvizovany boj
+- pokryva situace v konfliktu, kdy se pouzivaji atypicke veci jako zbrane
+- hazeni lucernou, *nahrobkem*, utok zidli, *prkynkem* apod.
+- pouzito namisto obskurni *Pozornosti, Kondice, Mobility*; mohou ale existovat triky, se kterymi by to slo
 ## Durabilita zbrani
 - pridat vsem jednorucnim zbranim +2 
 
