@@ -1,21 +1,26 @@
 # Nevymysleno & nenapsano
 
 # Cenik
-- [ ] zjistit od Vajca, jestli jej ma
+- [x] zjistit od Vajca, jestli jej ma: *ma*
+- [ ] zahrnout sezonni/ regionalni tarif: v Zeleznych Dolech je draha ryba a levny lintir
 
 ## Povolani
 
 ### Knez
-- [] alfa verze v pravidlech
+- [x] alfa verze v pravidlech
 - [ ] uvest priklady
 - [ ] dopsat pomocniky
 
 
 ### Alchymista
-- alchymie je zvlastni dovednost?
+- alchymi *neni* zvlastni dovednost
+- [x] alchymie je soucasti dovednosti *Magicke predmety*
+- [ ] napsat pokrocile triky na *Magicke predmety* (**Mistr nejakych lektvaru** apod.)
 
 ### Theurg
-- theurgie je zvlastni dovednost?
+- theurgie *neni* zvlastni dovednost
+- [x] theurgie je soucasti dovednosti *Magicke predmety*
+- [ ] napsat pokrocile triky na *Magicke predmety* (**Demonologie** apod.)
 
 ## Vylepsovani postav
 - [x] neco jako pyramida funguje... 
@@ -37,8 +42,9 @@
 - pokryva situace v konfliktu, kdy se pouzivaji atypicke veci jako zbrane
 - hazeni lucernou, *nahrobkem*, utok zidli, *prkynkem* apod.
 - pouzito namisto obskurni *Pozornosti, Kondice, Mobility*; mohou ale existovat triky, se kterymi by to slo
+
 ## Durabilita zbrani
-- pridat vsem jednorucnim zbranim +2 
+- [ ] pridat vsem jednorucnim zbranim +2 
 
 ## Zlodejske veci
 - stilet funguje vlastne jako palcat (ale ma mensi durabilitu)
@@ -88,4 +94,4 @@ Lze mit trik "Jako kliste", ktery napr. posunuje pocet uspesnych hodu na skrcnei
 - [ ] u Myce v hlasovce
 
 ### Odzbrojeni
-    - [ ] sjednotit predstavu
+- [ ] sjednotit predstavu
