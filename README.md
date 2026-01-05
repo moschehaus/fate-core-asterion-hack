@@ -14,7 +14,7 @@
 
 
 ### Alchymista
-- alchymi *neni* zvlastni dovednost
+- alchymie *neni* zvlastni dovednost
 - [x] alchymie je soucasti dovednosti *Magicke predmety*
 - [ ] napsat pokrocile triky na *Magicke predmety* (**Mistr nejakych lektvaru** apod.)
 
