@@ -3,6 +3,7 @@
 # Cenik
 - [x] zjistit od Vajca, jestli jej ma: *ma*
 - [ ] zahrnout sezonni/ regionalni tarif: v Zeleznych Dolech je draha ryba a levny lintir
+- [ ] uploadnout ho na rozumne misto..
 
 ## Povolani
 
